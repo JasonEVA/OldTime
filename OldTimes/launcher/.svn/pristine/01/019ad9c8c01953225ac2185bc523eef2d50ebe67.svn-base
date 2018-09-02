@@ -1,0 +1,19 @@
+//
+//  LogHeader.pch
+//  launcher
+//
+//  Created by Dee on 16/7/11.
+//  Copyright © 2016年 William Zhang. All rights reserved.
+//
+
+#ifndef LogHeader_pch
+#define LogHeader_pch
+
+#ifdef DEBUG
+#define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+
+#endif /* LogHeader_pch */

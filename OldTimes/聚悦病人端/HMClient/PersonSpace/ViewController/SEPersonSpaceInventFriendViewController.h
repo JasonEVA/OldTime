@@ -1,0 +1,15 @@
+//
+//  SEPersonSpaceInventFriendViewController.h
+//  HMClient
+//
+//  Created by yinquan on 2017/7/12.
+//  Copyright © 2017年 YinQ. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface SEPersonSpaceInventFriendViewController : UIViewController
+
++ (void) show;
+
+@end

@@ -1,0 +1,72 @@
+//
+//  PrefixHeader.pch
+//  HMClient
+//
+//  Created by yinqaun on 16/4/18.
+//  Copyright © 2016年 YinQ. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define ISIOS7 [[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0f
+#define ISIOS8 [[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0f
+
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+
+#define DeviceHomePageImg_Width 300.0/375.0*ScreenWidth
+#define DeviceHomePageImg_Height 260.0/667.0*ScreenHeight
+
+#define OBJWidth(orgwidth) orgwidth/375.0*ScreenWidth
+#define ObjWidth(kWidth) kWidth/375.0*ScreenWidth
+#define ObjHeight(kHeight)  kHeight / 667.0 * ScreenHeight
+
+#define kPickerViewHeight @(180)
+
+#define kIOSDeviceTokenKey      @"deviceToken"
+
+#define UMSDK_IsOn 1
+#define enter
+
+#define im_doctorPatientGroupTag @"DOCTOR_USER_GROUP"   // 医患群聊天tag
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "AFNetworking.h"
+#import "ZJKViewInc.h"
+
+#import "MJExtension.h"
+#import "PlantformConfig.h"
+#import "NSObject+JsonExtension.h"
+#import "NSString+Encoding.h"
+
+#import "PaymentInc.h"
+
+#import "TaskManager.h"
+
+
+#import "CommonFuncs.h"
+#import "PlantformConfig.h"
+#import "NSAttributedString+EX.h"
+#import "UserInfo.h"
+
+#import "HMViewControllerManager.h"
+#import "ChatIMConfigure.h"
+#import "DateTools.h"
+#import <AlipaySDK/AlipaySDK.h>
+
+#import "RemoteNoticationHelper.h"
+#import "ByteHexString.h"
+
+//用户数据统计部分
+//#import <UMMobClick/MobClick.h>
+#import "ActionStatutManager.h"
+
+#import "NSURL+QueryToDictionary.h"
+#import "HMViewControllerRouterHelper.h"
+
+// 日志
+#import "ATLog.h"
+
+#endif /* PrefixHeader_pch */

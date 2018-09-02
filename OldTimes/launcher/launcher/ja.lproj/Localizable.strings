@@ -1,0 +1,923 @@
+/*
+ Localizable.strings
+ launcher
+ 
+ Created by William Zhang on 15/7/30.
+ Copyright (c) 2015年 William Zhang. All rights reserved.
+ */
+
+
+// 通用
+"None"    = "なし";
+"Title"   = "タイトル";
+"Content" = "内容";
+"Start"   = "開始";
+"Stop"    = "終了";
+"Confirm" = "確定";
+"Delete"  = "削除";                          // DELETE
+"Close"   = "閉じる";
+
+"Delete_Success" = "削除しました";// DELETESUCCESS
+"Delete_Fail"    = "削除できませんでした";// FAILDELETE
+"Cancel_Success" = "取消成功";// CALCEL_SUCCESS
+"Send_Success"   = "提交成功";// SEND_SECCESS
+
+"Upload_Error" = "メッセージの送信に失敗しました";
+"Input_Error" = "%@を入力してください";
+
+"Permission_Error" = "権限がありません";
+
+"sender_Success" = "送信されました";
+/**************** HomeClass ****************************/
+// Tabbar
+"HomeTabbar_Message" = "チャット";         // HOMETABBAR_MESSAGE
+"HomeTabbar_Application" = "アプリ";     // HOMETABBAR_APPLICATION
+"HomeTabbar_Contact" = "連絡先";       // HOMETABBAR_CONTACT
+"HomeTabbar_UserInfo" = "マイページ";         // HOMETABBAR_USERINFO
+
+/**************** LoginClass ****************************/
+// 登陆界面
+"LoginClass_Title" = "ログイン";               // LOGINCLASS_TITLE
+"LoginClass_Name" = "メールアドレス";              // LOGINCLASS_NAME
+"LoginClass_PassWord" = "パスワード";            // LOGINCLASS_PASSWORD
+"LoginClass_Remember" = "パスワードを記憶する";         // LOGINCLASS_REMERBER
+"LoginClass_Error1" = "ユーザー名を入力してください";        // LOGINCLASS_ERROR1
+"LoginClass_Error2" = "パスワードを入力してください";          // LOGINCLASS_ERROR2
+"LoginClass_Logining" = "ログインしています...";           //
+
+"LoginClass_Forget" = "パスワードを忘れた場合";
+"LoginClass_ApplyTrial" = "登録";
+"LoginClass_Description" = "チームコラボレーションツール";
+"LoginClass_EnterValidCode" = "输入验证码";
+
+// 手势界面
+"GestureLogin_Forget"        = "パターンを忘れた場合";// GESTURELOGIN_FORGET
+"GestureLogin_OtherWay"      = "指紋認証でロック解除";// GESTURELOGIN_OTHERWAY
+"GestureLogin_Wrong"         = "パスワードが正しくありません。あと%ld回入力できます";//GESTURELOGIN_WRONG
+"GestureLogin_Wrong2"        = "パスワード入力画面に切り替わります。ロック解除パターンを設定し直してください";//GESTURELOGIN_WRONG2
+"GestureLogin_Title"         = "ロック解除パターンを設定する";// GESTURELOGIN_TITLE
+"GestureLogin_Prompt"        = "ロック解除パターンを描いてください";// GESTURELOGIN_PROMPT
+"GestureLogin_Prompt1"       = "最低４つの点をつないでください";// GESTURELOGIN_PROMPT1
+"GestureLogin_Prompt2"       = "ロック解除パターンを再度描いてください";// GESTURELOGIN_PROMPT2
+"GestureLogin_Prompt3"       = "ロック解除パターンが記録されました";// GESTURELOGIN_PROMPT3
+"GrestureLogin_Prompt4"      = "一回目のパターンと違います";// GESTURELOGIN_PROMPT4
+"GestureLogin_Prompt5"       = "ロック解除パターンを再度描いてください";
+"Fingerprint_Identification" = "指紋認証";//FINGERPRINT_IDENTIFICATION
+
+
+"ErrorOther" = "サーバーに接続できませんでした。ネット環境をご確認の上お試しください";         // ERROROTHER
+
+"register_account"                     = "チームをつくる";
+"register_email_register"              = "メールで登録";
+"register_nextStep"                    = "次へ";
+"register_email_error"                 = "正しいメールアドレスを入力してください";
+"register_email"                       = "メールアドレスを入力してください";
+"register_password_error"              = "パスワードを入力してください";
+"register_teamName_error"              = "チーム名を入力してください";
+"register_teamDomain_error"            = "チームのURLを入力してください";
+"register_name_error"                  = "お名前を入力してください";
+"register_registered"                  = "すでに登録されています";
+"register_login_now"                   = "ログイン";
+"register_email_change"                = "メールを変更";
+"register_email_find"                  = "メールでリセット";
+"register_login_back"                  = "ログインへ";
+"register_email_find_send"             = "パスワードのリセット";
+"register_email_find_send_description" = "パスワードリセットのメールを送信しました。メールをご確認んください。";
+"register_email_find_resend"           = "再送信";
+"register_team_create"                 = "チームをつくる";
+"register_password_set"                = "パスワードを設定";
+"register_info_confirm"                = "入力情報の確認";
+"register_team_address"                = "チームのURL";
+"register_team_name"                   = "チーム名";
+"register_password"                    = "パスワード";
+
+"register_term1" = "ユーザー規約とプライバシーポリシーに同意";
+"register_term2" = "メールでサービスのニュースを受け取る";
+
+"register_term1_sub1" = "ユーザー規約";
+"register_term1_sub2" = "プライバシーポリシー";
+
+/***************应用*****************/
+"Application"          = "アプリ";
+"Application_Calendar" = "スケジュール";
+"Application_Apply"    = "申請";
+"Applcation_Mission"   = "タスク";
+"Application_Attendance" = "考勤";
+
+"Application_Calendar_notify" = "日程通知";
+"Application_Apply_notify"    = "申請通知";
+"Application_Mission_notify"  = "タスク通知";
+"Application_Unfinished"      = "Todo";
+
+"Quick_new_chat"     = "新規チャット";
+"Quick_new_task"     = "新規タスク";
+"Quick_new_schedule" = "新規スケジュール";
+"Quick_QRCode"       = "QRコード読み取り";
+"Quick_Apply"        = "新建审批";
+"Quick_Meeting"      = "新建会议";
+
+/********************新任务****************************/
+"NewMission_Show_Finish"                       ="显示已处理";
+"NewMission_Show_UnFinish"                     ="显示未处理";
+"NewMission_Select_Start_Time"                 ="開始時間";
+"NewMissionS_elect_End_Time"                   ="終了時間";
+"NewMission_Delete_Project"                    ="プロジェクトを削除";
+"NewMission_OneDay"                            ="なし";
+"NewMission_UnSet"                             ="いつか";
+"NewMission_Menu"                              ="menu";
+"NewMission_Add_Mission"                       ="新規タスク";
+"NewMission_Cancel_Login"                      ="取消登录";
+"NewMission_CanNot_Empty"                      ="该输入框不能为空";
+"NewMission_Main_Mission"                      ="親タスク";
+"NewMission_Add_One_Mission"                   ="プロジェクトを追加";
+"NewMission_All_Mission"                       ="全てのタスク";
+"NewMission_No_Start_Time"                     ="開始時間なし";
+"NewMission_Finish"                            ="完了済み";
+"NewMission_Add_Mission_Finish"                ="新建任务成功";
+"NewMission_Get_Mission_Detail_Success"        ="获取任务详情成功";
+"NewMission_Edit_Mission_Finish"               ="编辑任务成功";
+"NewMission_Add_New_Mission_Interface_Fail"    ="新建任务界面失败";
+"NewMission_Please_Select_People"              ="参加者を入力してください";
+"NewMission_Select_Start_Time_info"			   = "開始時間を入力してください";
+"NewMission_Out_Of_Date"                       ="期限切れ";
+"NEWMISSION_IN_DATE"						   ="未过期";
+"NewMission_Member"                            ="メンバー";
+"NewMission_Get_MissionList_success"           ="获取任务列表成功";
+"NewMission_Change_Fail"                       ="保存できませんでした";
+"NewMission_Add_SubMission"                    ="新規サブタスク";
+"NewMission_SubMission_Detail"                 ="タスクの詳細";
+"MissionMoveError"							   ="任務は同級生ではない";
+/**************** 任务 ****************************/
+"Mission_Detaile_item"   = "プロジェクト";
+"Mission_Detail_tag"     = "tag";
+"Mission_Detail_title"   = "任务详情";
+"Mission_NewTask_title"  = "新規タスク";
+"Mission_EditTask_title" = "タスクを編集";
+"Mission_Participant"    = "参加者";
+"Mission_Project"        = "プロジェクト";
+"Mission_End"            = "締め切り";
+"Mission_SubTask"        = "サブタスク";
+"Mission_NewSubTask"     = "新規サブタスク";
+"Mission_EditSubTask"    = "サブタスクを編集";
+"Mission_DeleteSubTask"  = "サブタスクを削除";
+"Mission_ChangeTask"     = "サブタスクにする";
+"Mission_High"           = "高";
+"Mission_Medium"         = "中";
+"Mission_Low"            = "低";
+"Mission_whofirst"       = "優先度";
+"Mission_FillTaskName"   = "タイトルを入力";
+"Mission_EndTime"        = "締め切り";
+"Mission_AllDay"         = "終日";
+"Mission_Remark"         = "メモ";
+"Mission_MyTask"         = "マイタスク";
+"Mission_MyAttendTask"   = "私のタスク";
+"Mission_MySendTask"     = "割り当てたタスク";
+"Mission_EndToday"       = "今日まで";
+"Mission_EndWeek"        = "今週まで";
+"Mission_NewProject"     = "新規プロジェクト";
+"Mission_ComfirmDelete"  = "本当に削除しますか";
+"Mission_ProjectName"    = "プロジェクト名";
+"Mission_Member"         = "メンバー";
+"Mission_NewBoard"       = "新規ホワイトボード";
+"Mission_All"            = "全て";
+"Mission_Add"            = "追加";
+"Mission_today"          = "今日";
+"Mission_tomorrow"       = "明日";
+"Mission_thedayaftertomorrow" = "明後日";
+"Mission_weeklater"      = "一週間後";
+"Mission_monthlater"     = "一ヶ月後";
+"Mission_choose"         = "選択";
+"Mission_pass"           = "フィルター";
+"Mission_more_choose"    = "オプション";
+"Mission_pls_input_task_title" = "タスクのタイトルを入力";
+"Mission_changeToParent" = "親タスクにする";
+"Mission_parentTask"           = "親タスク";
+"Mission_editProject"          = "プロジェクトを編集";
+"Mission_selectProject"        = "プロジェクトを選択してください";
+"Mission_editWhiteboard"       = "ホワイトボードを編集";
+"Mission_inputWhiteboardTitle" = "ホワイトボードのタイトルを入力してください";
+"Mission_inputNotNone"         = "入力が必須です";
+"Mission_empty_icon"           = "残タスクはありません";
+"Mission_title_for_new_tast"   = "タイトル";
+/**************** Message ****************************/
+"Chat_empty_tip" = "チャットを始めるには、WEB版からユーザーを追加してください";
+"Chat_empty_subTip" = "https://workhub.jp/a/%@\nからログインし、右下にある「システム設定」からユーザーと組織を追加してください\n（パソコンからのご利用をおすすめします）";
+
+"Message_StartGroup" = "グループチャット";          // MESSAGE_STARTGROUP
+"Connecting" = "接続中...";                    // CONNECTING
+"UnConnect" = "オフライン";                     // UNCONNECT
+"Delete" = "削除";                          // DELETE
+"Message_SendAgain" = "再送";               // MESSAGE_SENDAGAIN
+"Message_Copy" = "コピー";                    // MESSAGE_COPY
+"CancelVoice" = "録音をキャセルしました";                // CANCELVOICE
+"UpdateSuccessful" = "アップデートされました";
+
+// RadioManager
+"Radio_NoWork" = "録音ができません";                 // RADIO_NOWORK
+"Radio_NoWorkReason" = "マイクエラー"; // RADIO_NOWORREASON
+"Radio_TimeTooShort" = "短すぎるため録音できませんでした。再度お試しください"; // RADIO_TIMETOOSHORT
+
+// 群聊
+"Group_NotPermit" = "グループから削除されたため、発言できません"; // GEROUPNOTPERMIT
+"Group_Permit" = "グループメンバーになったため、発言できるようになりました";         // GEROUPPERMIT
+"Group_Quit" = "このグループから退会してよろしいですか?";                  // GEROUPQUIT
+"Group_Name" = "グループ名";                              // GEROUPNAME
+"Group_CleanMessage" = "トーク履歴を削除";               // GEROUPCLEAN
+"Group_QuitPromot" = "退会後にはこのグループからのトークが受信できなくなります"; //GEROUPQUITPROMOT
+"GROUP_CREATE_FAILURE" = "グループは失敗を作成する";
+"Chat_empty"  = "チャット";                                 //CHAT_EMPTY
+// ChatCommonInputView
+"Chat_Tap" = "押しながら話す";                       // CHAT_TAP
+
+// MsgGroupMgrView
+"GroupData_Name" = "グループ名";                   // GROUPDATA_NAME
+"GroupData_NoPush" = "通知off";  // GROUPDATA_NOPUSH
+"GroupData_DisplayName" = "グループメンバーのニックネームを表示";          // GROUPDATA_DISPLAYNAME
+"GroupData_Quit" = "グループトークを削除して退出";                // GROUPDATA_QUIT
+
+// MsgImagePasteView
+"Image_FailLoad" = "送信できませんでした";    // IMAGE_FAILLOAD
+
+// ChatAttachPickView
+"Title_Btn_Img" = "画像";                         // TITLE_BTN_IMG
+"Title_Btn_TakePhoto" = "写真を撮る";                   // TITLE_BTN_TAKEPHOTO
+"Title_Btn_File" = "ファイル";                        // TITLE_BTN_FILE
+"Title_Btn_Location" = "位置";                    // TITLE_BTN_LOCATION
+
+"chat_readed"       = "既読";
+"chat_sended"       = "配信済み";
+"chat_call_number"  = "%@は電話番号のようです";
+"chat_mail_to"      = "%@にメールを送信";
+"chat_mail_default" = "デフォルトのメールアドレスを使う";
+"chat_call"         = "発信";
+
+"chat_atme_titel" = "言及";
+"chat_atme_content" = "このチャットで言及された会話がここで表示されます";
+
+"chat_point_titel" = "星マーク";
+"chat_point_content" = "このチャットで星マークをつけた会話の一覧";
+
+"chat_image_titel" = "画像";
+"chat_image_content" = "このチャットで受信した画像の一覧";
+
+"chat_file_titel"  = "ファイル";
+"chat_file_content" = "このチャットで受信したタスクの一覧";
+
+"chat_app_titel" = "タスク";
+"chat_app_content" = "このチャットで受信したタスクの一覧";
+
+"Chat_Forward_History"        = "のチャット履歴";
+"Chat_Forward_History_single" = "%@と%@のチャット履歴";
+"Chat_Forward_Onebyone"       = "この履歴のみ転送";
+"Chat_Forward_Merge"          = "択中の履歴を転送";
+"Chat_Forward_Onebye_warning" = "ファイル、画像と音声は転送できません";
+"Chat_Forward_Merge_warning"  = "ファイル、画像音声とチャットカードは転送できません";
+"CHAT_FORWARD_MERGE_UNSUPPORT_CONTENT" = "アプリでプレビューできないメッセージはウェブ版で閲覧できます";
+
+/**************** ContactClass ****************************/
+// 通讯录
+"Search" = "検索";                      // SEARCH
+"Contact_Recent" = "よく使う連絡先";         // CONTACT_RECENT
+"Contact_Organization" = "組織図";    // CONTACT_ORGANIZATION
+"Contact_MyGroup"  = "グループ";
+"Contact_MyFriend" = "コンタクト";
+"Contact_MySector" = "所属";        // CONTACT_MYSECTOR
+"Contact_MyFavour" = "お気に入り";        // CONTACT_MYFAVOUR
+"Select_Group" = "グループを選択";            // SELECT_GROUP
+"Favourite_Cancel" = "お気に入りから削除";               // FAVOURITE_CANCEL
+"Out_ToPhone" = "デバイスにエクスポート";           // OUT_TOPHONE
+"Out_Success" = "エクスポートしました";             // OUT_SUCCESS
+"Out_Fail" = "エクスポートできませんでした";                // OUT_FAIL
+"Contact_AddFail" = "エクスポートエラー";         // CONTACT_ADDFAIL
+"Send_Message" = "メッセージを送信";             // SEND_MESSAGE
+"Favourite_Contact" = "お気に入りに登録";     // FAVOURITE_CONTACT
+"Call_Fail" = "電話アプリが起動できませんでした";        // CALL_FAIL
+"Contact_AddSuccess" = "追加しました";      // CONTACT_ADDSUCCESS
+"Contact_Add" = "メンバーを選択";             // CONTACT_ADD
+"Contact_Select" = "メンバーを選択";             // CONTACT_SELECT
+"MySector_Contact" = "チームメンバー連絡先";   // MYSECTOR_CONTACT
+"MySector_Add" = "チームメンバーを追加";     // MYSECTOR_ADD
+"Choose_Group" = "グループを選択";          // CHOOSE_GROUP
+"Group_AddPrompt" = "メンバーを1名以上を選択してください";    // GROUP_ADDPROMPT
+"Contact_Favour" = "お気に入り";                // CONTACT_FAVOUR
+"Contact_Grouped" = "既存グループ";              // COMTACT_GROUPED
+"IsTop" = "固定";                              //ISTOP
+"CancelTop" = "固定を取り消す";                //CANCELTOP
+"Contact_SearchTitle" = "ユーザーまたは組織を検索";
+"selectall" = "全て選択";
+// FavoriteViewController
+"Edit" = "編集";                           // EDIT
+"Finish" = "完了";                         // FINISH
+
+// ContactSelectTabBarView
+"Certain_Number" = "保存(%lu)";             // CERTAIN_NUMBER
+"search_department" = "部门";               //SEARCH_DEPARTMENT
+/***********ContactBook*************/
+
+/**************Friends*****************/
+"Friend_Agree"         = "同意";
+"Friend_DisAgress"     = "却下";
+"friend_addFriend"     = "コンタクト追加";
+"friend_verify"        = "コンタクト認証";
+"friend_remark_please" = "表示させたい名前を入力してください";
+"friend_addRemark"     = "メモ";
+"friend_remove"        = "コンタクト解除";
+"friend_chat"          = "チャット";
+"friend_verify_please" = "コンタクト追加リクエスト";
+"friend_verify_wait"    = "コンタクトリクエストを送信して、承認されればチャットできるようになります";
+"friend_verify_message" = "コメントを入力してください";
+"friend_add"            = "コンタクト追加";
+"friend_search"         = "携帯番号か";
+
+/**************Friends*****************/
+
+"InDepartOrder"     = "チーム";
+"InNameOrder"       = "名前";
+"PhoneNumber"       = "携帯番号";
+"Email"             = "Email";
+"BussinsessPhone"   = "電話番号";
+"Depart"            = "部門";
+"Job"               = "職位";
+"QRCode"            = "QRコード";
+"Share"             = "シェア";
+"Include"           = "";
+"DepartWorlds"      = "が含まれている部門";
+"UserNameWrolds"    = "が含まれているユーザー";
+"chat"              = "チャット";
+
+/***************应用评论*****************/
+"CommentDeleted"    = "コメントが削除されました";
+
+/***************请假*****************/
+/***************我的设置*****************/
+"Me_name" = "氏名";
+"Me_mobile" = "携帯番号";
+"Me_mail" = "Email";
+"Me_office" = "電話番号";
+"Me_team" = "チーム";
+"Me_qrcode" = "QRコード";
+"Me_share" = "シェア";
+"Me_revise_code" = "パスワードを変更";
+"Me_revise_tap" = "パターンパスワードを変更";
+"Me_set" = "設定";
+"Me_kindly_warn" = "ご注意";
+"Me_confirm_revise" = "変更";
+"Me_orginal_password" = "現在のパスワード";
+"Me_new_password" = "新しいパスワード";
+"Me_confirm_password" = "再入力";
+"Me_check_code" = "認証コード";
+"Me_warn" = "ご注意";
+"Me_login_pw_need_exist" = "ログインパスワードは必須です";
+"Me_newmail_need" = "新しいEmailは必須です";
+"Me_checkcode_need" = "認証コードは必須です";
+"Me_login_pw" = "ログインパスワード";
+"Me_new_mail" = "新しいEmail";
+"Me_operation_cannot_back" = "この操作はやり直しができません";
+"Me_language" = "多言語";
+"Me_message_notification" = "通知";
+"Me_devise_manage" = "デバイス管理";
+"Me_clean_all" = "キャッシュクリア";
+"Me_suggest_back" = "フィードバック";
+"Me_help" = "ヘルプ";
+"Me_about_p" = "WorkHubについて";
+"Me_delete_account" = "アカウント削除";
+"Me_confirm_clean_all" = "キャッシュを全部削除しますか";
+"Me_warn_operation" = "ご注意:この操作はやり直しができません!";
+"Me_confirm_delete" = "削除";
+"Me_login_out" = "ログアウト";
+"Me_back_records" = "フィードバック履歴";
+"Me_lowerword" =   "小文字１つ以上";
+"Me_upperword" =   "大文字１つ以上";
+"Me_number" =      "数字１桁以上";
+"Me_specialword" = "記号１つ以上";
+"Me_morethan8" =   "８桁以上";
+"Me_had_sent" = "送信されました";
+"Me_get_check_code" = "認証コードを送信";
+"Me_input_backcontent" = "内容を入力してください";
+"Me_input_backsuggest" = "フィードバックを入力してください";
+"Me_pw_lessthan16"     = "16桁以内にしてください";
+"Me_newpw_notthesame"  = "新しいパスワードが一致しません。もう一度入力してください";
+"Me_newpw_notasrequired" = "新しいパスワードがルールに満たしていません";
+"Me_change_mail"      = "メールアドレスを変更";
+"Me_input_right_mail" = "メールアドレスが正しくありません";
+"Me_revise_mobile"    = "携帯番号を変更";
+"Me_newmobile_need"   = "新しい携帯番号が必須です";
+"Me_newmobile_no"    = "新しい携帯番号";
+"Me_prompt_type" = "プッシュ通知設定";
+
+/***************审批*****************/
+"Apply_accept_before"               = "まで";
+
+/*****************Apply**********************/
+"Apply_apply" = "申請";
+"Apply_allday" = "終日";
+"Apply_dealing" = "処理中";
+"Apply_searching" = "検索中...";
+"Apply_delete_picture" = "この写真を本当に削除しますか";
+/*apply Add view */
+"Apply_add_detail"            = "メモ";
+"Apply_add_accept_Title"      = "承認者";
+"Apply_add_cc_Title"          = "CC";
+"Apply_add_Type_Title"        = "类型";
+"Apply_add_Priority_Title"    = "至急";
+"Apply_add_Deadline_Title"    = "承認期限";
+"Apply_add_Period_Title"      = "休暇期間";
+"Apply_add_Attachment_Title"  = "添付";
+"Apply_add_Expensed_Title"    = "金額";
+"Apply_apply_success" = "申請が送信されました";
+"Apply_camero" = "カメラ";
+"Apply_picture" = "写真を選択";
+"Apply_getnew_comments" = "さらに読み込む";
+"Apply_nomore_comments" = "コメントは以上です";
+"Pleas_input" = "入力してください";
+"Apply_send" = "送信";
+"Apply_input_apply_suggest" = "コメントを入力してください";
+"Apply_input_next_appraller" = "次の承認者を選択してください";
+"Apply_accept" = "承認";
+"Apply_delete_comment" = "コメントを本当に削除しますか";
+"Apply_delete_success" = "削除されました";
+"Apply_makesure_delete" = "本当に削除しますか";
+"Apply_cannot_delete_apply" = "この申請は削除できません";
+"Apply_makesure" = "決済";
+"Apply_makesure_forward" = "承認して次の承認者に送信";
+"Apply_input_title" = "タイトルを入力してください";
+"Apply_input_money" = "金額を入力してください";
+"Apply_input_approller" = "承認者を選択してください";
+"Apply_begin_time" = "開始時間";
+"Apply_end_time" = "終了時間";
+"Apply_input_vocation_time" = "休暇の期間を入力してください";
+"APPLY_SEARCH_CONTAIN_TITLE"			= "'%@'が含まれている申請";
+"APPLY_SEARCH_CONTAIN_NAME"				= "'%@'が承認者としての申請";
+
+"Apply_sender_Success" = "申請が提出されました";
+
+
+
+
+
+
+
+//承认者
+"Apply_Accept_Vocation_Title"       = "休暇申請";
+"Apply_Accpet_Expensed_Title"       = "費用申請";
+"Apply_add_new_vocation"            = "新規休暇";
+"Apply_add_new_money"               = "新規費用";
+"Apply_Accept_Receiver_Title"       = "受信";
+"Apply_Accept_Sender_Title"         = "送信";
+"APPLY_ADD"                         = "追加";
+"Apply_Accept_AcceptBtn_Title"      = "承認";
+"Apply_Accept_CCBtn_Title"          = "同報";
+"Apply_Accept_Backward_Title"       = " 驳回";
+"Apply_Accept_Unaccept_Title"       = " 却下";
+"Apply_Accept_AcceptBtn_Title"      = " 承認";
+"Apply_Accept_Waiting_Event_Title"  = "処理待ち";
+"Apply_Accept_Dealed_Event_Title"   = "承認済み";
+"Apply_accept_before"               = "締め切り";
+"Apply_sp_contain"                  = "";
+"Apply_sp_asword"                   = "が含まれている申請";
+"Apply_as_approveller" = "が承認者としての申請";
+
+//申请者
+"Apply_Sender_Unaccept_Title"       = "却下";
+"Apply_Sender_Accept_Title"         = "承認";
+"Apply_Sender_Backward_Title"       = "差戻し";
+"Apply_Sender_Dealing_Title"        = "進行中";
+"Apply_Sender_Wait_Deal_Title"      = "承認待ち";
+
+//详细
+"Apply_list_deadline_info"          = "締め切り";
+"Apply_Apply_Confirm_Title"         = "承認の詳細";
+"Apply_Apply_Vocation_Title"        = "休暇申請";
+"Apply_Apply_Deadline_Title"        = "承認締め切り";
+"Apply_Apply_Attachment_Title"      = "添附";
+"Apply_comeout"                     = "提出済み";
+
+"apply_inputMoney"       = "整数金額を入力してください";
+"apply_applyComment"     = "コメント";
+"apply_nextperson"       = "次の承認者";
+"apply_selectNextperson" = "次の承認者を選択";
+"apply_noresult"         = "%@に関する検索結果がありませんでした";
+
+/***************Meeting*****************/
+"Meet_AddNewMeeting" = "新規会議";
+"Meeting_Title" = "タイトル";
+"Meeting_Must_Attend" = "必須出席";
+"Meeting_Cannot_Attend" = "任意出席";
+"Meeting_ChooseTime_Address" = "時間と場所を選択";
+"Meeting_Time_Address" = "時間と場所";
+"Meeting_Remind" = "繰り返し";
+"Meeting_Notificate" = "通知";
+"Meeting_Eventconfirm" = "の予定";
+"Meeting_Confirm" = "会議の詳細";
+"Meeting_Sure" = "確認";
+"Meeting_Delete" = "削除";
+"Meeting_Delete_Current" = "このイベントのみ";
+"Meeting_Confirm_Delete" = "本当に削除しますか？";
+"Meeting_AddNewMeeting_Deatil" = "詳細";
+"Meeting_Attend" = "参加";
+"Meeting_NotAttend" = "不参加";
+"Meeting_NotAllowCheck" = "非参加の会議を表示することができません";
+"Meeting_Personal_Schedule_Detail" = "の日程詳細";
+
+"Meeting_input_title" = "タイトルを入力してください ";
+"Meeting_input_attenders" = "必須出席者を選択してください";
+"Meeting_input_meetingtime" = "時間と場所を選択してください";
+"Meeting_input_meetingaddress" = "場所を指定してください";
+"Meeting_input_meetingroom" = "会議室を選択";
+"Meeting_input_addresswithout_meetingroom" = "その他の場所";
+"Meeting_check_event" = "イベントを見る";
+"Meeting_input_address" = "場所を指定してください";
+"Meeting_input_time" = "時間を選択してください";
+"Meeting_open_location" = "位置情報サービスをオンにする";
+"Meeting_important" = "重要";
+"Meeting_address_changed" = "場所指定";
+"Meeting_event_day" = "イベントの予定当日";
+"Meeting_hour" = "時";
+
+/***************Calendar*****************/
+/*view schedle detail*/
+"Calendar_confirm_ConfirmOrder" = "予定を確認";
+"Calendar_confirm_DetailTitle"  = "予定の詳細";
+"Calendar_Time" = "時間";
+"Calendar_placeHolderTime" = "日時";
+
+"Calendar_confirm_Edit"               = "編集";
+"Calendar_confirm_TakeOutCertificate" = "印鑑証明書を取る";
+"Calendar_confirm_WholeDay"           = "終日" ;
+"Calendar_confirm_Alternate"          = "候補";
+"Calendar_confirm_Copy"               = "候補日をコピー";
+"Calendar_confirm_Tel"                = "電話番号";
+"Calendar_confirm_Detail"             = "詳細";
+"Calendar_confirm_DeleteOrder"        = "予定を削除";
+"Calendar_change"                     = "メンバーの予定";
+
+/*scheduleByWeek*/
+"Calendar_scheduleByWeek_Week"    = "週";
+"Calendar_scheduleByWeek_Month"    = "月";
+"CALENDAR_SCHEDULEBYWEEK_Day"      = "日";
+"Calendar_scheduleByWeek_Time"    = "時間";
+"Calendar_scheduleByWeek_NoOrder" = "予定なし";
+"Calendar_scheduleByWeek_Add"     = "追加";
+"Calendar_scheduleByWeek_Today"   = "今日";
+"Calendar_scheduleByWeek_Yesterday" = "昨日";
+"Calendar_scheduleByWeek_TimeMode" = "M月d日 EEEEE";
+"Calendar_scheduleByWeek_Sunday"      = "日";
+"Calendar_scheduleByWeek_Monday"      = "月";
+"Calendar_scheduleByWeek_Tuesday"     = "火";
+"Calendar_scheduleByWeek_Wednesday"   = "水";
+"Calendar_scheduleByWeek_Thursday"    = "木";
+"Calendar_scheduleByWeek_Friday"      = "金";
+"Calendar_scheduleByWeek_Saturday"    = "土";
+"Calendar_never_remind"               = "通知なし";
+"Calendar_before_event_begin"         = "イベントの予定時刻";
+"Calendar_minutes_before"             = "分前";
+"Calendar_hours_before"               = "時間前";
+"Calendar_days_before"                = "日前";
+"Calendar_weeks_before"               = "週間前";
+"Calendar_never_repeat"               = "なし";
+"Calendar_repeat_everyday"            = "毎日";
+"Calendar_repeat_everyweek"           = "毎週";
+"Calendar_repeat_everymonth"          = "毎月";
+"Calenadr_repeat_everyyear"           = "毎年";
+"Calendar_delete_current"             = "このイベントのみ";
+"Calendar_delete_current_after"       = "このイベント以後のイベント";
+"Calendar_edit_current_meeting"       = "会議を編集";
+"Calendar_edit_all_meeting"           = "全ての会議を編集";
+"Calendar_minute"                     = "分";
+"Calendar_hour"                       = "時間";
+/*add schedule 1**/
+
+"Calendar_add_AddOrder"      = "新規予定";
+"Calendar_add_Save"          = "保存";
+"Calendar_add_Cancle"        = "キャンセル";
+"Calendar_add_Title"         = "予定のタイトル";
+"Calendar_add_Important"     = "重要";
+"Calendar_add_Place"         = "場所";
+"Calendar_add_OrderWholeDay" = "終日の予定";
+"Calendar_add_ChooseTime"    = "時間";
+"Calendar_add_Repeat"        = "繰り返し";
+"Calendar_add_Notification"  = "通知";
+"Calendar_add_Tel"           = "電話番号";
+"Calendar_add_Url"           = "URL";
+"Calendar_add_Detail"        = "詳細";
+"Calendar_others_hadarranged" = "*この時間帯に予定が入っているメンバーが%d名います";
+"Calendar_select_meetingroom" = "利用可能な会議室";
+"Calendar_other_place" = "会議室以外の場所を入力";
+"Calendar_event_detail" = "予定一覧を見る";
+"Calendar_no_meeting_room" = "*この時間帯に利用可能な会議室がありません";
+"Calendar_no_meeting_room_other" = "時間帯を選びなおすか、会議室以外の場所を入力してください";
+"Calendar_no_data"             =  "イベントなし";
+"Calendar_copy"                = "下記の情報がコピーされました";
+"Calendar_SelecteAlternateData" = "候補日を選択";
+
+"Calendar_Edit_Event"          = "予定を編集";
+/*add schedule 2*/
+"Calendar_timePicker_ChooseTime"        = "日時を選択";
+"Calendar_timePicker_Date2"             = "日時";
+"Calendar_timePicker_StartTime"         = "開始時間";
+"Calendar_timePicker_EndTime"           = "終了時間";
+"Calendar_timePicker_AddAlternateData"  = "時間を選択";
+"Calendar_timePicker_CopyAlternateData" = "候補日をコピー";
+"Calendar_Create_Sender_Success"        = "会議が作成されました";
+
+/*schedule by month*/
+"Calendar_scheduleByMonth_Search" = "検索";
+"Calendar_scheduleByMonth_Cancle" = "キャンセル";
+
+/*view schedule detail1*/
+"Calendar_viewScheduleDetail_Fail"       = "失敗";
+"Calendar_viewScheduleDetail_FailDetail" = "再ログインしてください。サーバーに接続できません。";
+
+
+/*view schedule detail3*/
+"Calender_viewScheduleDeleteAlterview_Alerttile"   = "本当に削除しますか";
+"Calender_viewScheduleDeleteAlterview_AlertDetail" = "編集中の内容が保存されません";
+"Calender_viewScheduleDeleteAlterview_No"          = "いいえ";
+"Calender_viewScheduleDeleteAlterview_YES"         = "はい";
+
+"Calendar_selectEditType" = "編集する種類を選択してください";
+"Calendar_onlytype"       = "このイベントのみを編集";
+"Calendar_alltype"        = "今後の全てのイベントを編集";
+"Calendar_myCalendar"     = "マイスケジュール";
+
+/**************** MeClass ****************************/
+"UserInfo_Circle" = "タイムライン";           // USERINFO_CIRCLE
+"UserInfo_MyGallery" = "アルバム";      // USERINFO_MYGALLERY
+"UserInfo_MyFavorite" = "お気に入り";     // USERINFO_MYFAVORITE
+"UserInfo_Comments" = "コメントと＠";      // USERINFO_COMMENTS
+"UserInfo_Setting" = "設定";           // USERINFO_SETTING
+
+// 个人信息详情
+"UserInfo_Phone" = "電話番号";            // USERINFO_PHONE
+"UserInfo_HomePhone" = "固定電話";     // USERINFO_HOMEPHONE
+"UserInfo_Mail" = "Email";             // USERINFO_MAIL
+"UserInfo_Department" = "部門";       // USERINFO_DEPARTMENT
+"UserInfo_Position" = "役職";         // USERINFO_POSITION
+"Unset" = "未設定";                   // UNSET
+"Vice_Director" = "副課長";           // VICE_DIRECTOR
+"Prompt" = "ヒント";                              //PROMPT
+"Effective_After_Re-login" = "設定を有効にするために、再度ログインしてください";  //EFFECTIVE_AFTER_RELOGIN
+"Language_ChangeTitle" = "WorkHubの言語を %@ に設定しますか";
+
+// 添加头像
+"Gallery" = "アルバム";      // GALLERY
+"Camera" = "写真を撮る";       // CAMERA
+"Cancel" = "キャンセル";       // CANCEL
+"Save" = "保存";         // SAVE
+
+// 设置页面
+"Setting_SignOut" = "サインアウト";   // SIGNOUT
+"Setting_NewMessage" = "通知";  // SETTING_NEWMESSAGE
+"Setting_Cache" = "キャッシュを削除";       // SETTING_CLEARCACHE
+"Setting_Gesture" = "ロック解除パターンを変更";   // SETTING_GESTURE
+"Setting_FeedBack" = "フィードバック";     // SETTING_FEEDBACK
+"Setting_About" = "このアプリについて";       // SETTING_ABOUT
+"Setting_Multilingual" = "多言語";   // Setting_Multilingual
+
+// 多国语言
+"Language_System" = "システム言語に従う";
+"Language_SpChinese" = "简体中文";
+"Language_English" = "English";
+"Language_Japanese" = "日本語";
+"Prompt" = "ヒント";                              //PROMPT
+"Effective_After_Re-login" = "設定を有効にするために、再度ログインしてください";  //EFFECTIVE_AFTER_RELOGIN
+
+// 修改密码
+"Password_Title" = "パスワードの設定";  // PASSWORD_SETTING
+"Now_Password" = "現在のパスワード";    // NOWPASSWORD
+"Certain" = "保存";            // CERTAIN
+"PasswordWrong" = "パスワードが正しくありません。もう一度入力してください"; //PASSWORDWRONG
+"ChangeSuccess" = "変更が保存されました";   // CHANGESUCCESS
+//"Password_Least" = "パスワードは６文字以上を設定してください"; // PASSWORD_LEAST
+"Password_Least" = "最低6文字必要です"; // PASSWORD_LEAST
+"Password_UnMatching" = "パスワードが一致しません";    // PASSWORD_UNMATCHING
+//"Password_New" = "新しいパスワード";     // PASSWORD_NEW
+"Password_New" = "再入力";     // PASSWORD_NEW
+//"Password_Determine" = "パスワードを確認してください"; // PASSWORD_DETERMINE
+"Password_Determine" = "確認"; // PASSWORD_DETERMINE
+//"PassWord_Twice" = "パスワードをもう一度入力してください"; // PASSWORD_TWICE
+"PassWord_Twice" = "バスウードの再入力"; // PASSWORD_TWICE
+
+
+
+// 注销
+"Certain_SignOut" = "ログアウトしますか"; // CERTAIN_SIGNOUT
+"YES" = "ログアウト";        // SETYES
+"NO" = "キャンセル";         // SETNO
+
+// 新消息通知
+"Voice" = "音";         // VOICE
+"Shock" = "バイブル";         // SHOCK
+
+// 意见反馈
+"Send" = "送信";          // SEND
+"SendError" = "送信エラー";   // SENDERROR
+"WRITECONTENT" = "テキストを入力";    // WRITECONTENT
+"THAKSFORBACK" = "フィードバックをありがとうございます";   // THANKSFORBACK
+"Input_problem" = "フィードバックをご入力ください";
+
+"Feedback_choosePic" = "画像を選択";
+"Feedback_pro" = "フィードバック";
+"Feedback_chooseType" = "タイプを選ぶ";
+"Feedback_commit" = "提出";      // COMMIT
+
+// 关于软件
+"Check_Update" = "アップデートを確認";        // CHECK_UPDATE
+"score" = "レビューを書く";                 // TOSCORE
+"Check_New" = "　すでに最新バージョンです"; // CHECKNEW
+"Check_Down" = "新しいバージョンｘがあります%@";       // CHECKDOWN
+"Check_Down2" = "新しいバージョンｘがあります";       // CHECKDOWN2
+"Ignore" = "スキップ";                // IGONORE
+"Update" = "アップデート";                // UPDATE
+"Store_Error" = "Storeに接続できないため、アップデートできませんでした";    // STORE_ERROR
+"FindNewVersion" = "アップデートがあります";
+"UpdateNow" = "今すぐ更新";
+"UpdateLater" = "あとで更新";
+
+
+/****************  第三方库  ****************************/
+// MJPhotoToolbar
+"SaveError" = "保存できませんでした";                   // SAVEERROR
+"SavePhotoSuccess" = "アルバムに保存しました";       // SAVEPHOTOSUCCESS
+
+// QBImagePicker
+"CameraRoll" = "カメラロール";
+"Preview"    = "プレビュー";
+"Finish"     = "完了";// FINISH
+"Back"       = "もどる";
+
+// 上拉 下拉 未翻译
+"NoMore" = "最新状態です";                   // NOMORE
+"Click_More" = "さらに読み込む";                // CLICK_MORE
+"Click_Null" = "内容は以上です";               // CLICK_NULL
+"Click_Loading" = "読み込み中…";                // CLICK_LOADING
+"Push_Loading" = "ドラッグして更新";              //PUSH_LOADING
+"Loose_Loading" = "指を離して更新";                //LOOSE_LOADING
+"Loading" = "アップデート中";                     //LOADING
+"Last_Loading" = "最終更新日";                   //LAST_LOADING
+"Norecord" = "記録はありません";                  //NORECORD
+
+/****************  聊天之前遗漏的  ****************************/
+// 10-15
+"Search_MessageContent" = "チャットを検索";
+"Message_Logging"       = "チャット履歴";
+"emphasis"              = "マーク";
+"Cancle_Mark_Emphasis"  = "星マークを取り消す";
+"To_Schedule"           = "日程にする";
+"To_Task"               = "タスクにする";
+"To_Recall"             = "撤回";
+"Frowarding"            = "転送";
+"Meeting"               = "会議";
+"From"                  = "から";
+"Message_voice"         = "音声";
+"place"                 = "場所";
+"state"                 = "ステータス";
+"priority"              = "優先度";
+"Ask_For_Leave"         = "休暇申請";
+"veto"                  = "却下";
+"cost"                  = "費用";
+"Cancel_Mark"           = "マーク取り消し";
+"Make_Mark"             = "マーク";
+"Pick_Photo"            = "写真を選択";
+"Save_Photo"            = "アルバムに保存しますか";
+"No_Save"               = "保存しない";
+"Chat_Set"              = "チャット設定";
+"No_Message"            = "通知オフ";
+"Delete_Message"        = "チャット履歴を削除";
+"Quit_Delete"           = "削除して退室";
+"File_BanDownload"      = "この種類のファイルはサポートしていません";
+"File_ClickDownload"    = "ダウンロード";
+"File_FailDonwload"     = "ダウンロードできませんでした";
+"Schedule_Time"         = "時間：";
+"Task_Type"             = "ステータス：";
+"Task_Level"            = "優先度：";
+"Schedule_Place"        = "場所 ：";
+"Leave"                 = "休暇申請 ：";
+"Refuse"            = "却下";
+"Look"              = "一覧";                            // LOOK
+"ChangeDevice"      = "このアカウントは他のデバイスでログイン中です";         // CHANGEDEVICE
+"UnSupport" = "このタイプのファイルはサポートしていません";            // UNSUPPORT
+"recall_somebody"         = "%@がメッセージを撤回しました";
+"recall_me"               = "メッセージが撤回されました";
+"NewMessageAttention"     = "プッシュ通知設定";
+"OpenNotify"        = "通知ON";
+"CloseNotify"       = "通知OFF";
+
+"Chat_atMe"               = "[言及]";
+"Chat_at"                 = "[@]";
+"Chat_selectPerson"       = "メンバーを選択";
+"Chat_inputHabit_setting" = "キーボード設定";
+"Chat_breakLine"          = "改行";
+"Chat_dont_disturb"       = "通知オフ";
+"Chat_atAll"              = "全員";
+"Chat_draft"              = "[下書き]";
+
+"im_comment"               = "%@さんが%@にコメントしました";
+"im_meetingAttend"         = "%@さんが参加します";
+"im_meetingAttendDefinite" = "%@に%@さんが出席します";
+"im_meetingRefuseAttend"   = "%@さんが出席しません";
+"im_delete"                = "%@さんが%@を削除しました";
+"im_taskEditStatus"        = "%@さんが%@のステータスを変更しました";
+"im_approvePass"           = "%@さん%@を承認しました";
+"im_approveBack"           = "%@さん%@を差戻しました";
+"im_approveRefuse"         = "%@さん%@を却下しました";
+"im_approveTranspond"      = "%@さん%@を次の承認者に転送しました";
+"im_remindSchedule"        = "%@が%@から開始する予定です";
+"im_remindTask"            = "%@が%@終了する予定です";
+"im_remindTaskV2"          = "%@が%@終了する予定です";
+
+"im_chatcard_undone"          = "Todo";
+"im_chatcard_done"            = "完了";
+"im_chatcard_systemmessage"   = "システム通知";
+"im_chatcard_transform"       = "転送済";
+"im_chatcard_attend"          = "参加します";
+"im_chatcard_notattend"       = "参加しません";
+
+//新版小卡片
+"im_charcard_remind"              ="%@に開始します";
+"im_chatcard_meeting_attend"      ="参加します";
+"im_chatcard_meeting_notattend"   ="参加しません";
+"im_chatcard_meeting_cancel"      ="会議がキャンセルされました:%@";
+"im_chatcard_meeting_edit"        ="会議の詳細が変更されました";
+"im_chatcard_approve_pass"        ="承認されました";
+"IM_CHATCARD_APPROVE_NOINFO"	  ="無";
+//"im_chatcard_approve_back"        ="差し戻されました,%@";
+//"im_chatcard_approve_refuse"      ="却下されました,%@";
+"im_chatcard_approve_back"        ="差し戻しました。コメント:%@";
+"im_chatcard_approve_refuse"      ="却下しました。コメント:%@";
+"im_chatcard_approve_transpond"   ="次の承認者%@に転送しました。コメント:%@";
+"im_chatcard_task_edittodone"     ="タスクが完了されました";
+"im_chatcard_task_edittoundone"   ="タスクが進行中です";
+"im_chatcard_task_editcontent"    ="タスクの詳細が変更されました";
+"im_chatcard_task_delete"         ="タスクが存在しません";
+
+//新版日程
+"newcalendar_inputeventtitle"     ="タイトルを入力";
+"newcalendar_onlymecansee"        ="プライベート";
+"newcalendar_currentlocation"     ="現在地";
+"newcalendar_seeotherevent"       ="メンバーの予定";
+"newcalendar_backtomyevent"       ="マイスケジュール";
+"newcalendar_addlocation"         ="位置情報を追加";
+"newcalendar_deletelocation"      ="削除";
+
+//新版任务
+"newtask_contantwordsintask"      ="%@が含まれているチャット履歴";
+"newtask_contantattendarintask"   ="%@が担当者のタスク";
+
+//新版会议
+"Newmeeting_cancelreason"        ="キャンセルの理由";
+"Newmeeting_inputreason"         ="キャンセルの理由を入力してください";
+
+//1-19
+"search_contact"           = "チャット履歴";
+"search_history"           = "もっと見る";
+"search_moreContact"       = "さらに見る";
+
+/*********************应用评论翻译**************************/
+"appcomment_refuse_attend"              = "が出席しません";
+"appcomment_meeting_attend"             = "が参加します";
+"appcomment_unkonw_info"				= "状態を修正しました";
+"appcomment_meeting_cancel"  			= "会議の取り消し。%@";
+"appcomment_approve_pass"               = "が %@ を承認しました";
+"appcomment_approve_back_definite"      = "が　%@ を 差戻しました。%@";
+"appcomment_approve_refuse_definite"    = "が　%@ 却下をしました。%@";
+"appcomment_approve_transpond_definite" = "が　%@ を 次の承認者に転送しました。%@";
+"appcomment_task_edit_status_definite"  = "が　タスクの状態を%@にしました";
+
+"appcomment_newapprove_create"          = "申請が提出されました";
+"appcomment_newapprove_edit"            = "申請を編集";
+"appcomment_newapprove_transpondto"     = "次の承認者%@に転送しました。コメント:%@";
+"appcomment_newapprove_pass"            = "承認しました";
+"appcomment_newapprove_back"            = "差し戻しました。コメント:%@";
+"appcomment_newapprove_refuse"          = "却下しました。コメント:%@";
+
+"appcomment_createTask"                 = "タスクを作成しました";
+"appcomment_taskUpdate"                 = "タスクの詳細が変更されました";
+"appcomment_taskChangeStatus"           = "%@のステータスを変更しました";
+
+"Newapply_all"          = "すべて";
+"Newapply_comment"      = "コメント";
+"Newapply_attachment"   = "ファイル";
+"Newapply_system"       = "アクション";
+
+"Apply_all"                             = "全て";
+"Apply_needapply"                       = "承認待ち";
+"Apply_sends"                            = "提出済み";
+"Apply_cc"                              = "CC";
+"Apply_done"                            = "承認完了";
+"Apply_choose_applykind"                = "新規申請";
+"Apply_input_leavecontent"              = "詳細を入力してください";
+"Apply_input_moneycontent"              = "詳細を入力してください";
+"Apply_more"                            = "さらに見る";
+
+/*********************二维码**************************/
+"QR_scan"         = "QRコードをスキャン";
+"QR_description"  = "QRコードを写してください";
+"QR_web_login"    = "web版にログインしますか";
+"QR_cancel_login" = "キャンセル";
+"QR_Camera_Unavailable_info" = "してくださいiPhoneの「設定」 - 「プライバシー」 - 「カメラ」機能、カメラアプリへのオープンアクセス」";
+/*********************关于Launchr**************************/
+"About_launchr_protocol"       = "ユーザー規約";
+"About_launchr_Policy"         = "プライバシーポリシー";
+"About_launchr_version"        = "現在のバージョン";
+"About_launchr_latest_version" = "最新バージョン";

@@ -1,0 +1,183 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - AMapFoundation (1.3.0)
+  - AMapLocation (2.1.1):
+    - AMapFoundation (~> 1.2)
+  - BaiduMapKit (3.0.0)
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - DACircularProgress (2.3.1)
+  - DateTools (1.6.1)
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - KSCrash (0.0.6):
+    - KSCrash/Installations (= 0.0.6)
+    - KSCrash/no-arc (= 0.0.6)
+    - KSCrash/Recording (= 0.0.6)
+    - KSCrash/Reporting (= 0.0.6)
+  - KSCrash/Installations (0.0.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting
+  - KSCrash/no-arc (0.0.6)
+  - KSCrash/Recording (0.0.6):
+    - KSCrash/no-arc
+  - KSCrash/Reporting (0.0.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters (= 0.0.6)
+    - KSCrash/Reporting/Sinks (= 0.0.6)
+    - KSCrash/Reporting/Tools (= 0.0.6)
+  - KSCrash/Reporting/Filters (0.0.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Alert (= 0.0.6)
+    - KSCrash/Reporting/Filters/AppleFmt (= 0.0.6)
+    - KSCrash/Reporting/Filters/Base (= 0.0.6)
+    - KSCrash/Reporting/Filters/Basic (= 0.0.6)
+    - KSCrash/Reporting/Filters/GZip (= 0.0.6)
+    - KSCrash/Reporting/Filters/JSON (= 0.0.6)
+    - KSCrash/Reporting/Filters/Sets (= 0.0.6)
+  - KSCrash/Reporting/Filters/Alert (0.0.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/AppleFmt (0.0.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Base (0.0.6):
+    - KSCrash/Recording
+  - KSCrash/Reporting/Filters/Basic (0.0.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/GZip (0.0.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/JSON (0.0.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Sets (0.0.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/AppleFmt
+    - KSCrash/Reporting/Filters/Base
+    - KSCrash/Reporting/Filters/Basic
+    - KSCrash/Reporting/Filters/GZip
+    - KSCrash/Reporting/Filters/JSON
+  - KSCrash/Reporting/Sinks (0.0.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters
+    - KSCrash/Reporting/Tools
+  - KSCrash/Reporting/Tools (0.0.6):
+    - KSCrash/Recording
+  - MagicalRecord (2.2):
+    - MagicalRecord/Core (= 2.2)
+  - MagicalRecord/Core (2.2)
+  - Masonry (0.6.2)
+  - MBProgressHUD (0.9.2)
+  - Mixpanel (2.8.2):
+    - Mixpanel/Mixpanel (= 2.8.2)
+  - Mixpanel/Mixpanel (2.8.2)
+  - MJExtension (3.0.10)
+  - MJRefresh (2.3.2)
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core (= 0.5.7)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.5.7)
+    - MMDrawerController/MMDrawerVisualStates (= 0.5.7)
+    - MMDrawerController/Subclass (= 0.5.7)
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core (= 0.2.3)
+    - NJKWebViewProgress/ProgressView (= 0.2.3)
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - PSTCollectionView (1.2.3)
+  - Reachability (3.2)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SocketRocket (0.4.2)
+  - SVWebViewController (1.0)
+  - TPKeyboardAvoiding (1.2.9)
+  - UIActionSheet+Blocks (0.9)
+  - UIAlertView+Blocks (0.9)
+  - UIMenuItem-CXAImageSupport (0.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.4)
+  - AMapLocation
+  - BaiduMapKit (~> 3.0.0)
+  - CocoaLumberjack (~> 2.2.0)
+  - DACircularProgress
+  - DateTools (~> 1.6.1)
+  - FMDB (~> 2.6)
+  - KSCrash (~> 0.0.6)
+  - MagicalRecord
+  - Masonry (~> 0.6.2)
+  - MBProgressHUD (~> 0.9.1)
+  - Mixpanel (~> 2.8.2)
+  - MJExtension (~> 3.0.10)
+  - MJRefresh (~> 2.3.2)
+  - MMDrawerController (~> 0.5.7)
+  - NJKWebViewProgress (~> 0.2.3)
+  - PSTCollectionView
+  - Reachability (~> 3.2)
+  - SDWebImage
+  - SocketRocket (~> 0.4.2)
+  - SVWebViewController (~> 1.0)
+  - TPKeyboardAvoiding (~> 1.2.9)
+  - UIActionSheet+Blocks (~> 0.9)
+  - UIAlertView+Blocks (~> 0.9)
+  - UIMenuItem-CXAImageSupport (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  AMapFoundation: 95799945466ccabfe1d3d5d9c1d524501c327b90
+  AMapLocation: dd203f76b034ef5cb546600f4e1ffad2a3a14072
+  BaiduMapKit: de2a726d5296d6b2dc0e974b683af73153608dcd
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DateTools: 9bcc89e4f2f9004d8a7a2bd1b49269cf78968e65
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  KSCrash: c6ab634b7d7c63d6b9abc2ef00f995cbd9eead1e
+  MagicalRecord: 2dc87179ae7c1f2a274442624ec65a07d4357a6f
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  Mixpanel: f4d71ac2a306e7cda6ad03d4a2be249a0fd7a967
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  MJRefresh: 0f6f5e8387970607c26080b44058b229a23065d7
+  MMDrawerController: 7a4cf8e25596bf2434e03ce50d22a8608ddee6a1
+  NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
+  PSTCollectionView: 6749df92885353521f55279a7ce2b293762e2be4
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  SVWebViewController: c36dda7326e81fcae0abf5d02bf7bbf7e41be901
+  TPKeyboardAvoiding: ff1ee4e5a5a0c119b965552af8f183868ea20207
+  UIActionSheet+Blocks: e180b7dad0a721ab7f212ac9742af799008bb358
+  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
+  UIMenuItem-CXAImageSupport: 2945e2af4487414caad801ed8ff6ac8db274e986
+
+COCOAPODS: 0.39.0

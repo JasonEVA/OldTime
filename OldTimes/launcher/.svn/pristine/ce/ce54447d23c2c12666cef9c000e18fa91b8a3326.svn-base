@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>launcher 中国演示.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
+		<key>launcher 内网.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>26</integer>
+		</dict>
+		<key>launcher 医疗.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>32</integer>
+		</dict>
+		<key>launcher 日本AppStore99.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>27</integer>
+		</dict>
+		<key>launcher 日本正式299.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>28</integer>
+		</dict>
+		<key>launcher 日本测试.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
+		<key>launcher 自己公司(请使用中国演示).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>30</integer>
+		</dict>
+		<key>launcherTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>31</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C52468A21BF5CF770033D168</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C55E7FFD1BF1C8F1005CA176</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C575BE1D1C51CDEC00DEAB69</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5865EC81C3F980300672625</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5AB70341C507A9B00E3C824</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5BA1AF61B61D7B300DC101B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5BA1B121B61D7B300DC101B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5C819061BE09D1000B6B475</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5C81AFB1BE09D7C00B6B475</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5C81D011BE0B51700B6B475</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

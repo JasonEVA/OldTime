@@ -1,0 +1,1341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C55E43951C99114A0051C513 /* Aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C55E43981C99114A0051C513 /* Build configuration list for PBXAggregateTarget "Aggregate" */;
+			buildPhases = (
+				C55E43991C99115C0051C513 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Aggregate;
+			productName = Aggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3A6D90DF1CA116330039A583 /* GetFriendInfolistRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6D90DD1CA116330039A583 /* GetFriendInfolistRequest.h */; };
+		3A6D90E01CA116330039A583 /* GetFriendInfolistRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D90DE1CA116330039A583 /* GetFriendInfolistRequest.m */; };
+		3A6D90E31CA118A80039A583 /* AddRelationValidateRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6D90E11CA118A80039A583 /* AddRelationValidateRequest.h */; };
+		3A6D90E41CA118A80039A583 /* AddRelationValidateRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D90E21CA118A80039A583 /* AddRelationValidateRequest.m */; };
+		3A6D90F71CA13C4B0039A583 /* LoadRelationGroupInfoRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A6D90F51CA13C4B0039A583 /* LoadRelationGroupInfoRequest.h */; };
+		3A6D90F81CA13C4B0039A583 /* LoadRelationGroupInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6D90F61CA13C4B0039A583 /* LoadRelationGroupInfoRequest.m */; };
+		3A7D5E9D1CA22DD300FB2B07 /* SearchRelationUserRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7D5E9B1CA22DD300FB2B07 /* SearchRelationUserRequest.h */; };
+		3ABC33AD1CA4FF3100D20624 /* DisposeRelationValidateRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ABC33AB1CA4FF3100D20624 /* DisposeRelationValidateRequest.h */; };
+		3ABC33AE1CA4FF3100D20624 /* DisposeRelationValidateRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC33AC1CA4FF3100D20624 /* DisposeRelationValidateRequest.m */; };
+		3ABC33C11CA52C1D00D20624 /* DeleteRelationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ABC33BF1CA52C1D00D20624 /* DeleteRelationRequest.h */; };
+		3ABC33C21CA52C1D00D20624 /* DeleteRelationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC33C01CA52C1D00D20624 /* DeleteRelationRequest.m */; };
+		3ABC33C51CA52FDA00D20624 /* RemarkRelationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ABC33C31CA52FDA00D20624 /* RemarkRelationRequest.h */; };
+		3ABC33C61CA52FDA00D20624 /* RemarkRelationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABC33C41CA52FDA00D20624 /* RemarkRelationRequest.m */; };
+		5F00190B1CE5811D00B54D9E /* modifyRelationGroupRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F0019091CE5811D00B54D9E /* modifyRelationGroupRequest.h */; };
+		5F00190C1CE5811D00B54D9E /* modifyRelationGroupRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F00190A1CE5811D00B54D9E /* modifyRelationGroupRequest.m */; };
+		5F9285261CAA49FD00130FDC /* RelationGroupInfoRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9285241CAA49FD00130FDC /* RelationGroupInfoRequest.h */; };
+		5F9285271CAA49FD00130FDC /* RelationGroupInfoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9285251CAA49FD00130FDC /* RelationGroupInfoRequest.m */; };
+		5F92852A1CAA520B00130FDC /* relationGroupInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9285281CAA520B00130FDC /* relationGroupInfoModel.h */; };
+		5F92852B1CAA520B00130FDC /* relationGroupInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9285291CAA520B00130FDC /* relationGroupInfoModel.m */; };
+		5FF8D2461CFD86390045C1EF /* FriendsTransferRelationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF8D2441CFD86390045C1EF /* FriendsTransferRelationRequest.h */; };
+		5FF8D2471CFD86390045C1EF /* FriendsTransferRelationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF8D2451CFD86390045C1EF /* FriendsTransferRelationRequest.m */; };
+		5FFD97F11CA907E90023EE70 /* SearchRelationUserRequest.h in Sources */ = {isa = PBXBuildFile; fileRef = 3A7D5E9B1CA22DD300FB2B07 /* SearchRelationUserRequest.h */; };
+		5FFD97F51CA90B6B0023EE70 /* SearchRelationUserRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD97F41CA90B6B0023EE70 /* SearchRelationUserRequest.m */; };
+		5FFFE4A21CE2E38C00B776AB /* DeleteRelationGroupRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FFFE4A01CE2E38C00B776AB /* DeleteRelationGroupRequest.h */; };
+		5FFFE4A31CE2E38C00B776AB /* DeleteRelationGroupRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFFE4A11CE2E38C00B776AB /* DeleteRelationGroupRequest.m */; };
+		930C774E1D2100DE003035EF /* SuperGroupListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 930C774C1D2100DE003035EF /* SuperGroupListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930C774F1D2100DE003035EF /* SuperGroupListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 930C774D1D2100DE003035EF /* SuperGroupListModel.m */; };
+		930C77521D21047A003035EF /* GetSuperGroupListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 930C77501D21047A003035EF /* GetSuperGroupListRequest.h */; };
+		930C77531D21047A003035EF /* GetSuperGroupListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 930C77511D21047A003035EF /* GetSuperGroupListRequest.m */; };
+		930C77541D21165F003035EF /* SuperGroupListModel.m in Headers */ = {isa = PBXBuildFile; fileRef = 930C774D1D2100DE003035EF /* SuperGroupListModel.m */; };
+		930C77551D211916003035EF /* GetSuperGroupListRequest.m in Headers */ = {isa = PBXBuildFile; fileRef = 930C77511D21047A003035EF /* GetSuperGroupListRequest.m */; };
+		A15994A2349C8349A6D8F6C5 /* libPods-MintcodeIM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5B738505C1FAB2C2734610 /* libPods-MintcodeIM.a */; };
+		C54BF27C1CA92B030085EDC2 /* MessageMergeForwardRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C54BF27A1CA92B030085EDC2 /* MessageMergeForwardRequest.h */; };
+		C54BF27D1CA92B030085EDC2 /* MessageMergeForwardRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C54BF27B1CA92B030085EDC2 /* MessageMergeForwardRequest.m */; };
+		C5582D241CD9CE4000008D40 /* GetGroupListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5582D221CD9CE4000008D40 /* GetGroupListRequest.h */; };
+		C5582D251CD9CE4000008D40 /* GetGroupListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5582D231CD9CE4000008D40 /* GetGroupListRequest.m */; };
+		C5582D281CD9E9BE00008D40 /* IMBaseBlockRequestPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = C5582D261CD9E9BE00008D40 /* IMBaseBlockRequestPrivate.h */; };
+		C5582D291CD9E9BE00008D40 /* IMBaseBlockRequestPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5582D271CD9E9BE00008D40 /* IMBaseBlockRequestPrivate.m */; };
+		C597508F1C9FDC4500C0FC27 /* MessageManagerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = C597508E1C9FDC4500C0FC27 /* MessageManagerPrivate.h */; };
+		C59C02B71CA11178002A5098 /* MessageRelationGroupTable.h in Headers */ = {isa = PBXBuildFile; fileRef = C59C02B31CA11178002A5098 /* MessageRelationGroupTable.h */; };
+		C59C02B81CA11178002A5098 /* MessageRelationGroupTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C02B41CA11178002A5098 /* MessageRelationGroupTable.m */; };
+		C59C02B91CA11178002A5098 /* MessageRelationInfoListTable.h in Headers */ = {isa = PBXBuildFile; fileRef = C59C02B51CA11178002A5098 /* MessageRelationInfoListTable.h */; };
+		C59C02BA1CA11178002A5098 /* MessageRelationInfoListTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C02B61CA11178002A5098 /* MessageRelationInfoListTable.m */; };
+		C59C02BD1CA1118B002A5098 /* MessageRelationGroupModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C59C02BB1CA1118B002A5098 /* MessageRelationGroupModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C59C02BE1CA1118B002A5098 /* MessageRelationGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C02BC1CA1118B002A5098 /* MessageRelationGroupModel.m */; };
+		C59C02C11CA111A7002A5098 /* MessageRelationInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C59C02BF1CA111A7002A5098 /* MessageRelationInfoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C59C02C21CA111A7002A5098 /* MessageRelationInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C02C01CA111A7002A5098 /* MessageRelationInfoModel.m */; };
+		C59C02C51CA11A62002A5098 /* MessageRelationGroupModel+SQLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C59C02C31CA11A62002A5098 /* MessageRelationGroupModel+SQLUtil.h */; };
+		C59C02C61CA11A62002A5098 /* MessageRelationGroupModel+SQLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C02C41CA11A62002A5098 /* MessageRelationGroupModel+SQLUtil.m */; };
+		C59C02C91CA11A81002A5098 /* MessageRelationInfoModel+SQLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C59C02C71CA11A81002A5098 /* MessageRelationInfoModel+SQLUtil.h */; };
+		C59C02CA1CA11A81002A5098 /* MessageRelationInfoModel+SQLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C02C81CA11A81002A5098 /* MessageRelationInfoModel+SQLUtil.m */; };
+		C5A4A57E1C910623003724AD /* MintcodeIM.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A57D1C910623003724AD /* MintcodeIM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A4A5C51C910933003724AD /* IMBaseBlockRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5BC1C910933003724AD /* IMBaseBlockRequest.h */; };
+		C5A4A5C61C910933003724AD /* IMBaseBlockRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5BD1C910933003724AD /* IMBaseBlockRequest.m */; };
+		C5A4A5C71C910933003724AD /* IMBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5BE1C910933003724AD /* IMBaseRequest.h */; };
+		C5A4A5C81C910933003724AD /* IMBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5BF1C910933003724AD /* IMBaseRequest.m */; };
+		C5A4A5C91C910933003724AD /* NSData+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5C11C910933003724AD /* NSData+AES.h */; };
+		C5A4A5CA1C910933003724AD /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5C21C910933003724AD /* NSData+AES.m */; };
+		C5A4A5CB1C910933003724AD /* NSString+Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5C31C910933003724AD /* NSString+Manager.h */; };
+		C5A4A5CC1C910933003724AD /* NSString+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5C41C910933003724AD /* NSString+Manager.m */; };
+		C5A4A5F21C910984003724AD /* AddGroupUserRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5CE1C910984003724AD /* AddGroupUserRequest.h */; };
+		C5A4A5F31C910984003724AD /* AddGroupUserRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5CF1C910984003724AD /* AddGroupUserRequest.m */; };
+		C5A4A5F41C910984003724AD /* AttachmentDownloadDAL.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5D01C910984003724AD /* AttachmentDownloadDAL.h */; };
+		C5A4A5F51C910984003724AD /* AttachmentDownloadDAL.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5D11C910984003724AD /* AttachmentDownloadDAL.m */; };
+		C5A4A5F61C910984003724AD /* AudioDownloadDAL.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5D21C910984003724AD /* AudioDownloadDAL.h */; };
+		C5A4A5F71C910984003724AD /* AudioDownloadDAL.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5D31C910984003724AD /* AudioDownloadDAL.m */; };
+		C5A4A5F81C910984003724AD /* CreateGroupRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5D41C910984003724AD /* CreateGroupRequest.h */; };
+		C5A4A5F91C910984003724AD /* CreateGroupRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5D51C910984003724AD /* CreateGroupRequest.m */; };
+		C5A4A5FA1C910984003724AD /* DeleteGroupUserRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5D61C910984003724AD /* DeleteGroupUserRequest.h */; };
+		C5A4A5FB1C910984003724AD /* DeleteGroupUserRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5D71C910984003724AD /* DeleteGroupUserRequest.m */; };
+		C5A4A5FC1C910984003724AD /* GetHistoryMessageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5D81C910984003724AD /* GetHistoryMessageRequest.h */; };
+		C5A4A5FD1C910984003724AD /* GetHistoryMessageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5D91C910984003724AD /* GetHistoryMessageRequest.m */; };
+		C5A4A5FE1C910984003724AD /* GetSessionUserProfileDAL.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5DA1C910984003724AD /* GetSessionUserProfileDAL.h */; };
+		C5A4A5FF1C910984003724AD /* GetSessionUserProfileDAL.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5DB1C910984003724AD /* GetSessionUserProfileDAL.m */; };
+		C5A4A6021C910984003724AD /* GetUnreadSessionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5DE1C910984003724AD /* GetUnreadSessionRequest.h */; };
+		C5A4A6031C910984003724AD /* GetUnreadSessionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5DF1C910984003724AD /* GetUnreadSessionRequest.m */; };
+		C5A4A6041C910984003724AD /* IMAttachmentUploadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5E01C910984003724AD /* IMAttachmentUploadRequest.h */; };
+		C5A4A6051C910984003724AD /* IMAttachmentUploadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5E11C910984003724AD /* IMAttachmentUploadRequest.m */; };
+		C5A4A6061C910984003724AD /* IMLoginDAL.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5E21C910984003724AD /* IMLoginDAL.h */; };
+		C5A4A6071C910984003724AD /* IMLoginDAL.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5E31C910984003724AD /* IMLoginDAL.m */; };
+		C5A4A6081C910984003724AD /* IMLoginOutRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5E41C910984003724AD /* IMLoginOutRequest.h */; };
+		C5A4A6091C910984003724AD /* IMLoginOutRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5E51C910984003724AD /* IMLoginOutRequest.m */; };
+		C5A4A60A1C910984003724AD /* MessageOfflineDAL.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5E61C910984003724AD /* MessageOfflineDAL.h */; };
+		C5A4A60B1C910984003724AD /* MessageOfflineDAL.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5E71C910984003724AD /* MessageOfflineDAL.m */; };
+		C5A4A60C1C910984003724AD /* MsgBaseDAL.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5E81C910984003724AD /* MsgBaseDAL.h */; };
+		C5A4A60D1C910984003724AD /* MsgBaseDAL.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5E91C910984003724AD /* MsgBaseDAL.m */; };
+		C5A4A60E1C910984003724AD /* RecallMessageRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5EA1C910984003724AD /* RecallMessageRequest.h */; };
+		C5A4A60F1C910984003724AD /* RecallMessageRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5EB1C910984003724AD /* RecallMessageRequest.m */; };
+		C5A4A6101C910984003724AD /* RemoveSessionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5EC1C910984003724AD /* RemoveSessionRequest.h */; };
+		C5A4A6111C910984003724AD /* RemoveSessionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5ED1C910984003724AD /* RemoveSessionRequest.m */; };
+		C5A4A6121C910984003724AD /* SetMessageReadRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5EE1C910984003724AD /* SetMessageReadRequest.h */; };
+		C5A4A6131C910984003724AD /* SetMessageReadRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5EF1C910984003724AD /* SetMessageReadRequest.m */; };
+		C5A4A6141C910984003724AD /* UpdateGroupNameRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A5F01C910984003724AD /* UpdateGroupNameRequest.h */; };
+		C5A4A6151C910984003724AD /* UpdateGroupNameRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A5F11C910984003724AD /* UpdateGroupNameRequest.m */; };
+		C5A4A63B1C910A1C003724AD /* AudioDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6171C910A1C003724AD /* AudioDownloadManager.h */; };
+		C5A4A63C1C910A1C003724AD /* AudioDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6181C910A1C003724AD /* AudioDownloadManager.m */; };
+		C5A4A63D1C910A1C003724AD /* AudioMessageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6191C910A1C003724AD /* AudioMessageManager.h */; };
+		C5A4A63E1C910A1C003724AD /* AudioMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A61A1C910A1C003724AD /* AudioMessageManager.m */; };
+		C5A4A63F1C910A1C003724AD /* ChatMsgManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A61B1C910A1C003724AD /* ChatMsgManager.h */; };
+		C5A4A6401C910A1C003724AD /* ChatMsgManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A61C1C910A1C003724AD /* ChatMsgManager.m */; };
+		C5A4A6411C910A1C003724AD /* IMApplicationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A61D1C910A1C003724AD /* IMApplicationManager.h */; };
+		C5A4A6421C910A1C003724AD /* IMApplicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A61E1C910A1C003724AD /* IMApplicationManager.m */; };
+		C5A4A6431C910A1C003724AD /* IMUploadFileSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A61F1C910A1C003724AD /* IMUploadFileSessionManager.h */; };
+		C5A4A6441C910A1C003724AD /* IMUploadFileSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6201C910A1C003724AD /* IMUploadFileSessionManager.m */; };
+		C5A4A6491C910A1C003724AD /* MessageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6251C910A1C003724AD /* MessageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A4A64A1C910A1C003724AD /* MessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6261C910A1C003724AD /* MessageManager.m */; };
+		C5A4A6511C910A1C003724AD /* MessageTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A62D1C910A1C003724AD /* MessageTimerManager.h */; };
+		C5A4A6521C910A1C003724AD /* MessageTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A62E1C910A1C003724AD /* MessageTimerManager.m */; };
+		C5A4A6531C910A1C003724AD /* MsgFilePathMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A62F1C910A1C003724AD /* MsgFilePathMgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A4A6541C910A1C003724AD /* MsgFilePathMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6301C910A1C003724AD /* MsgFilePathMgr.m */; };
+		C5A4A6571C910A1C003724AD /* MsgUserInfoMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6331C910A1C003724AD /* MsgUserInfoMgr.h */; };
+		C5A4A6581C910A1C003724AD /* MsgUserInfoMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6341C910A1C003724AD /* MsgUserInfoMgr.m */; };
+		C5A4A6591C910A1C003724AD /* SendMessageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6351C910A1C003724AD /* SendMessageManager.h */; };
+		C5A4A65A1C910A1C003724AD /* SendMessageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6361C910A1C003724AD /* SendMessageManager.m */; };
+		C5A4A65B1C910A1C003724AD /* SocketManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6371C910A1C003724AD /* SocketManager.h */; };
+		C5A4A65C1C910A1C003724AD /* SocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6381C910A1C003724AD /* SocketManager.m */; };
+		C5A4A65D1C910A1C003724AD /* UnifiedNetworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6391C910A1C003724AD /* UnifiedNetworkManager.h */; };
+		C5A4A65E1C910A1C003724AD /* UnifiedNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A63A1C910A1C003724AD /* UnifiedNetworkManager.m */; };
+		C5A4A66C1C910A9A003724AD /* MessageContactsTable.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6601C910A9A003724AD /* MessageContactsTable.h */; };
+		C5A4A66D1C910A9A003724AD /* MessageContactsTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6611C910A9A003724AD /* MessageContactsTable.m */; };
+		C5A4A66E1C910A9A003724AD /* MessageListTable.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6621C910A9A003724AD /* MessageListTable.h */; };
+		C5A4A66F1C910A9A003724AD /* MessageListTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6631C910A9A003724AD /* MessageListTable.m */; };
+		C5A4A6701C910A9A003724AD /* MessageRecallTable.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6641C910A9A003724AD /* MessageRecallTable.h */; };
+		C5A4A6711C910A9A003724AD /* MessageRecallTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6651C910A9A003724AD /* MessageRecallTable.m */; };
+		C5A4A6721C910A9A003724AD /* MessageSqlVersionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6661C910A9A003724AD /* MessageSqlVersionManager.h */; };
+		C5A4A6731C910A9A003724AD /* MessageSqlVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6671C910A9A003724AD /* MessageSqlVersionManager.m */; };
+		C5A4A6741C910A9A003724AD /* MessageTable.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6681C910A9A003724AD /* MessageTable.h */; };
+		C5A4A6751C910A9A003724AD /* MessageTable.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6691C910A9A003724AD /* MessageTable.m */; };
+		C5A4A6761C910A9A003724AD /* MsgSqlMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A66A1C910A9A003724AD /* MsgSqlMgr.h */; };
+		C5A4A6771C910A9A003724AD /* MsgSqlMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A66B1C910A9A003724AD /* MsgSqlMgr.m */; };
+		C5A4A68A1C910C92003724AD /* AttachmentUploadModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A67A1C910C92003724AD /* AttachmentUploadModel.h */; };
+		C5A4A68B1C910C92003724AD /* AttachmentUploadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A67B1C910C92003724AD /* AttachmentUploadModel.m */; };
+		C5A4A68C1C910C92003724AD /* ContactDetailModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A67C1C910C92003724AD /* ContactDetailModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A4A68D1C910C92003724AD /* ContactDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A67D1C910C92003724AD /* ContactDetailModel.m */; };
+		C5A4A68E1C910C92003724AD /* MessageAppModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A67E1C910C92003724AD /* MessageAppModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A4A68F1C910C92003724AD /* MessageAppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A67F1C910C92003724AD /* MessageAppModel.m */; };
+		C5A4A6901C910C92003724AD /* MessageAttachmentModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6801C910C92003724AD /* MessageAttachmentModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A4A6911C910C92003724AD /* MessageAttachmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6811C910C92003724AD /* MessageAttachmentModel.m */; };
+		C5A4A6921C910C92003724AD /* MessageBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6821C910C92003724AD /* MessageBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A4A6931C910C92003724AD /* MessageBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6831C910C92003724AD /* MessageBaseModel.m */; };
+		C5A4A6941C910C92003724AD /* MessageBaseModel+SQLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6841C910C92003724AD /* MessageBaseModel+SQLUtil.h */; };
+		C5A4A6951C910C92003724AD /* MessageBaseModel+SQLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6851C910C92003724AD /* MessageBaseModel+SQLUtil.m */; };
+		C5A4A6981C910C92003724AD /* UserProfileModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6881C910C92003724AD /* UserProfileModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A4A6991C910C92003724AD /* UserProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6891C910C92003724AD /* UserProfileModel.m */; };
+		C5A4A6BC1C910CAE003724AD /* ASJSONKitManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A69B1C910CAE003724AD /* ASJSONKitManager.h */; };
+		C5A4A6BD1C910CAE003724AD /* ASJSONKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A69C1C910CAE003724AD /* ASJSONKitManager.m */; };
+		C5A4A6C01C910CAE003724AD /* SGdownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6A11C910CAE003724AD /* SGdownloader.h */; };
+		C5A4A6C11C910CAE003724AD /* SGdownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6A21C910CAE003724AD /* SGdownloader.m */; };
+		C5A4A6C91C910CAE003724AD /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6AD1C910CAE003724AD /* amrFileCodec.h */; };
+		C5A4A6CA1C910CAE003724AD /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6AE1C910CAE003724AD /* amrFileCodec.mm */; };
+		C5A4A6CB1C910CAE003724AD /* wav.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6AF1C910CAE003724AD /* wav.h */; };
+		C5A4A6CC1C910CAE003724AD /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6B01C910CAE003724AD /* wav.mm */; };
+		C5A4A6CD1C910CAE003724AD /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A4A6B21C910CAE003724AD /* libopencore-amrnb.a */; };
+		C5A4A6CE1C910CAE003724AD /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A4A6B31C910CAE003724AD /* libopencore-amrwb.a */; };
+		C5A4A6CF1C910CAE003724AD /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6B51C910CAE003724AD /* interf_dec.h */; };
+		C5A4A6D01C910CAE003724AD /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6B61C910CAE003724AD /* interf_enc.h */; };
+		C5A4A6D11C910CAE003724AD /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6B81C910CAE003724AD /* dec_if.h */; };
+		C5A4A6D21C910CAE003724AD /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6B91C910CAE003724AD /* if_rom.h */; };
+		C5A4A6D31C910CAE003724AD /* VoiceConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6BA1C910CAE003724AD /* VoiceConverter.h */; };
+		C5A4A6D41C910CAE003724AD /* VoiceConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = C5A4A6BB1C910CAE003724AD /* VoiceConverter.mm */; };
+		C5A4A6D61C910CF8003724AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A4A6D51C910CF8003724AD /* Foundation.framework */; };
+		C5A4A6D81C910CFC003724AD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A4A6D71C910CFC003724AD /* CFNetwork.framework */; };
+		C5A4A6DA1C910D05003724AD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A4A6D91C910D05003724AD /* Security.framework */; };
+		C5A4A6DD1C910D4B003724AD /* IMEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6DB1C910D4B003724AD /* IMEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A4A6DE1C910D4B003724AD /* MsgDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A4A6DC1C910D4B003724AD /* MsgDefine.h */; };
+		C5A52A0E1C914DA400470C15 /* NSDictionary+IMSafeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A52A0C1C914DA400470C15 /* NSDictionary+IMSafeManager.h */; };
+		C5A52A0F1C914DA400470C15 /* NSDictionary+IMSafeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A52A0D1C914DA400470C15 /* NSDictionary+IMSafeManager.m */; };
+		C5A52A121C91524200470C15 /* NSDate+IMManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A52A101C91524200470C15 /* NSDate+IMManager.h */; };
+		C5A52A131C91524200470C15 /* NSDate+IMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A52A111C91524200470C15 /* NSDate+IMManager.m */; };
+		C5A52A161C915A3200470C15 /* IMConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A52A141C915A3200470C15 /* IMConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A52A171C915A3200470C15 /* IMConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A52A151C915A3200470C15 /* IMConfigure.m */; };
+		C5A52A1A1C9166B200470C15 /* ContactDetailModel+SQLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A52A181C9166B200470C15 /* ContactDetailModel+SQLUtil.h */; };
+		C5A52A1B1C9166B200470C15 /* ContactDetailModel+SQLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A52A191C9166B200470C15 /* ContactDetailModel+SQLUtil.m */; };
+		C5A52A1E1C91721D00470C15 /* ContactDetailModel+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A52A1C1C91721D00470C15 /* ContactDetailModel+Extension.h */; };
+		C5A52A1F1C91721D00470C15 /* ContactDetailModel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A52A1D1C91721D00470C15 /* ContactDetailModel+Extension.m */; };
+		C5AFEDC41C9695F400C1D825 /* IMMessageMarkRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AFEDC21C9695F400C1D825 /* IMMessageMarkRequest.h */; };
+		C5AFEDC51C9695F400C1D825 /* IMMessageMarkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AFEDC31C9695F400C1D825 /* IMMessageMarkRequest.m */; };
+		C5AFEDC81C96AFAA00C1D825 /* MessageGroupNoDisturbRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AFEDC61C96AFAA00C1D825 /* MessageGroupNoDisturbRequest.h */; };
+		C5AFEDC91C96AFAA00C1D825 /* MessageGroupNoDisturbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AFEDC71C96AFAA00C1D825 /* MessageGroupNoDisturbRequest.m */; };
+		C5B435311CD847F200319CDC /* CreateRelationGroupRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B4352F1CD847F200319CDC /* CreateRelationGroupRequest.h */; };
+		C5B435321CD847F200319CDC /* CreateRelationGroupRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B435301CD847F200319CDC /* CreateRelationGroupRequest.m */; };
+		C5CFF6D31CA3B5F600D25787 /* ContactDetailModel+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CFF6D11CA3B5F600D25787 /* ContactDetailModel+Private.h */; };
+		C5CFF6D41CA3B5F600D25787 /* ContactDetailModel+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CFF6D21CA3B5F600D25787 /* ContactDetailModel+Private.m */; };
+		C5CFF6D71CA3BA1800D25787 /* MessageBaseModel+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CFF6D51CA3BA1800D25787 /* MessageBaseModel+Private.h */; };
+		C5CFF6D81CA3BA1800D25787 /* MessageBaseModel+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CFF6D61CA3BA1800D25787 /* MessageBaseModel+Private.m */; };
+		C5CFF6DC1CA3BBF600D25787 /* UserProfileModel+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CFF6DA1CA3BBF600D25787 /* UserProfileModel+Private.h */; };
+		C5CFF6DD1CA3BBF600D25787 /* UserProfileModel+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CFF6DB1CA3BBF600D25787 /* UserProfileModel+Private.m */; };
+		C5DCAA581CA27118005663E6 /* RelationValidateListRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DCAA561CA27118005663E6 /* RelationValidateListRequest.h */; };
+		C5DCAA591CA27118005663E6 /* RelationValidateListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DCAA571CA27118005663E6 /* RelationValidateListRequest.m */; };
+		C5DCAA601CA271B1005663E6 /* MessageRelationValidateModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DCAA5E1CA271B1005663E6 /* MessageRelationValidateModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5DCAA611CA271B1005663E6 /* MessageRelationValidateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DCAA5F1CA271B1005663E6 /* MessageRelationValidateModel.m */; };
+		C5F475341C92626B00AFBFEC /* MessageBaseModel+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F475321C92626B00AFBFEC /* MessageBaseModel+Extension.h */; };
+		C5F475351C92626B00AFBFEC /* MessageBaseModel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F475331C92626B00AFBFEC /* MessageBaseModel+Extension.m */; };
+		C5F475661C929D4300AFBFEC /* UserProfileModel+SQLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F475641C929D4300AFBFEC /* UserProfileModel+SQLUtil.h */; };
+		C5F475671C929D4300AFBFEC /* UserProfileModel+SQLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F475651C929D4300AFBFEC /* UserProfileModel+SQLUtil.m */; };
+		C5FF1AE71CDB34CB00261F84 /* MessageVoipModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C5FF1AE51CDB34CB00261F84 /* MessageVoipModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5FF1AE81CDB34CB00261F84 /* MessageVoipModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5FF1AE61CDB34CB00261F84 /* MessageVoipModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DC2190473B3894FE8EDF60E /* Pods-MintcodeIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintcodeIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MintcodeIM/Pods-MintcodeIM.debug.xcconfig"; sourceTree = "<group>"; };
+		3A6D90DD1CA116330039A583 /* GetFriendInfolistRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetFriendInfolistRequest.h; sourceTree = "<group>"; };
+		3A6D90DE1CA116330039A583 /* GetFriendInfolistRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetFriendInfolistRequest.m; sourceTree = "<group>"; };
+		3A6D90E11CA118A80039A583 /* AddRelationValidateRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRelationValidateRequest.h; sourceTree = "<group>"; };
+		3A6D90E21CA118A80039A583 /* AddRelationValidateRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRelationValidateRequest.m; sourceTree = "<group>"; };
+		3A6D90F51CA13C4B0039A583 /* LoadRelationGroupInfoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadRelationGroupInfoRequest.h; sourceTree = "<group>"; };
+		3A6D90F61CA13C4B0039A583 /* LoadRelationGroupInfoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadRelationGroupInfoRequest.m; sourceTree = "<group>"; };
+		3A7D5E9B1CA22DD300FB2B07 /* SearchRelationUserRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchRelationUserRequest.h; sourceTree = "<group>"; };
+		3ABC33AB1CA4FF3100D20624 /* DisposeRelationValidateRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisposeRelationValidateRequest.h; sourceTree = "<group>"; };
+		3ABC33AC1CA4FF3100D20624 /* DisposeRelationValidateRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisposeRelationValidateRequest.m; sourceTree = "<group>"; };
+		3ABC33BF1CA52C1D00D20624 /* DeleteRelationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteRelationRequest.h; sourceTree = "<group>"; };
+		3ABC33C01CA52C1D00D20624 /* DeleteRelationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteRelationRequest.m; sourceTree = "<group>"; };
+		3ABC33C31CA52FDA00D20624 /* RemarkRelationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemarkRelationRequest.h; sourceTree = "<group>"; };
+		3ABC33C41CA52FDA00D20624 /* RemarkRelationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemarkRelationRequest.m; sourceTree = "<group>"; };
+		3C5B738505C1FAB2C2734610 /* libPods-MintcodeIM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MintcodeIM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0019091CE5811D00B54D9E /* modifyRelationGroupRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modifyRelationGroupRequest.h; sourceTree = "<group>"; };
+		5F00190A1CE5811D00B54D9E /* modifyRelationGroupRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modifyRelationGroupRequest.m; sourceTree = "<group>"; };
+		5F9285241CAA49FD00130FDC /* RelationGroupInfoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelationGroupInfoRequest.h; sourceTree = "<group>"; };
+		5F9285251CAA49FD00130FDC /* RelationGroupInfoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelationGroupInfoRequest.m; sourceTree = "<group>"; };
+		5F9285281CAA520B00130FDC /* relationGroupInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relationGroupInfoModel.h; sourceTree = "<group>"; };
+		5F9285291CAA520B00130FDC /* relationGroupInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = relationGroupInfoModel.m; sourceTree = "<group>"; };
+		5FF8D2441CFD86390045C1EF /* FriendsTransferRelationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTransferRelationRequest.h; sourceTree = "<group>"; };
+		5FF8D2451CFD86390045C1EF /* FriendsTransferRelationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsTransferRelationRequest.m; sourceTree = "<group>"; };
+		5FFD97F41CA90B6B0023EE70 /* SearchRelationUserRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchRelationUserRequest.m; sourceTree = "<group>"; };
+		5FFFE4A01CE2E38C00B776AB /* DeleteRelationGroupRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteRelationGroupRequest.h; sourceTree = "<group>"; };
+		5FFFE4A11CE2E38C00B776AB /* DeleteRelationGroupRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteRelationGroupRequest.m; sourceTree = "<group>"; };
+		930C774C1D2100DE003035EF /* SuperGroupListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperGroupListModel.h; sourceTree = "<group>"; };
+		930C774D1D2100DE003035EF /* SuperGroupListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperGroupListModel.m; sourceTree = "<group>"; };
+		930C77501D21047A003035EF /* GetSuperGroupListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSuperGroupListRequest.h; sourceTree = "<group>"; };
+		930C77511D21047A003035EF /* GetSuperGroupListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSuperGroupListRequest.m; sourceTree = "<group>"; };
+		C54BF27A1CA92B030085EDC2 /* MessageMergeForwardRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageMergeForwardRequest.h; sourceTree = "<group>"; };
+		C54BF27B1CA92B030085EDC2 /* MessageMergeForwardRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageMergeForwardRequest.m; sourceTree = "<group>"; };
+		C5582D221CD9CE4000008D40 /* GetGroupListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetGroupListRequest.h; sourceTree = "<group>"; };
+		C5582D231CD9CE4000008D40 /* GetGroupListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetGroupListRequest.m; sourceTree = "<group>"; };
+		C5582D261CD9E9BE00008D40 /* IMBaseBlockRequestPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBaseBlockRequestPrivate.h; sourceTree = "<group>"; };
+		C5582D271CD9E9BE00008D40 /* IMBaseBlockRequestPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBaseBlockRequestPrivate.m; sourceTree = "<group>"; };
+		C597508E1C9FDC4500C0FC27 /* MessageManagerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageManagerPrivate.h; sourceTree = "<group>"; };
+		C59C02B31CA11178002A5098 /* MessageRelationGroupTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageRelationGroupTable.h; sourceTree = "<group>"; };
+		C59C02B41CA11178002A5098 /* MessageRelationGroupTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageRelationGroupTable.m; sourceTree = "<group>"; };
+		C59C02B51CA11178002A5098 /* MessageRelationInfoListTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageRelationInfoListTable.h; sourceTree = "<group>"; };
+		C59C02B61CA11178002A5098 /* MessageRelationInfoListTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageRelationInfoListTable.m; sourceTree = "<group>"; };
+		C59C02BB1CA1118B002A5098 /* MessageRelationGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageRelationGroupModel.h; sourceTree = "<group>"; };
+		C59C02BC1CA1118B002A5098 /* MessageRelationGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageRelationGroupModel.m; sourceTree = "<group>"; };
+		C59C02BF1CA111A7002A5098 /* MessageRelationInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageRelationInfoModel.h; sourceTree = "<group>"; };
+		C59C02C01CA111A7002A5098 /* MessageRelationInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageRelationInfoModel.m; sourceTree = "<group>"; };
+		C59C02C31CA11A62002A5098 /* MessageRelationGroupModel+SQLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MessageRelationGroupModel+SQLUtil.h"; sourceTree = "<group>"; };
+		C59C02C41CA11A62002A5098 /* MessageRelationGroupModel+SQLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MessageRelationGroupModel+SQLUtil.m"; sourceTree = "<group>"; };
+		C59C02C71CA11A81002A5098 /* MessageRelationInfoModel+SQLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MessageRelationInfoModel+SQLUtil.h"; sourceTree = "<group>"; };
+		C59C02C81CA11A81002A5098 /* MessageRelationInfoModel+SQLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MessageRelationInfoModel+SQLUtil.m"; sourceTree = "<group>"; };
+		C5A4A57A1C910623003724AD /* MintcodeIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MintcodeIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A4A57D1C910623003724AD /* MintcodeIM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MintcodeIM.h; sourceTree = "<group>"; };
+		C5A4A57F1C910623003724AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5A4A5BC1C910933003724AD /* IMBaseBlockRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBaseBlockRequest.h; sourceTree = "<group>"; };
+		C5A4A5BD1C910933003724AD /* IMBaseBlockRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBaseBlockRequest.m; sourceTree = "<group>"; };
+		C5A4A5BE1C910933003724AD /* IMBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMBaseRequest.h; sourceTree = "<group>"; };
+		C5A4A5BF1C910933003724AD /* IMBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMBaseRequest.m; sourceTree = "<group>"; };
+		C5A4A5C11C910933003724AD /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		C5A4A5C21C910933003724AD /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		C5A4A5C31C910933003724AD /* NSString+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Manager.h"; sourceTree = "<group>"; };
+		C5A4A5C41C910933003724AD /* NSString+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Manager.m"; sourceTree = "<group>"; };
+		C5A4A5CE1C910984003724AD /* AddGroupUserRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGroupUserRequest.h; sourceTree = "<group>"; };
+		C5A4A5CF1C910984003724AD /* AddGroupUserRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGroupUserRequest.m; sourceTree = "<group>"; };
+		C5A4A5D01C910984003724AD /* AttachmentDownloadDAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentDownloadDAL.h; sourceTree = "<group>"; };
+		C5A4A5D11C910984003724AD /* AttachmentDownloadDAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentDownloadDAL.m; sourceTree = "<group>"; };
+		C5A4A5D21C910984003724AD /* AudioDownloadDAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDownloadDAL.h; sourceTree = "<group>"; };
+		C5A4A5D31C910984003724AD /* AudioDownloadDAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioDownloadDAL.m; sourceTree = "<group>"; };
+		C5A4A5D41C910984003724AD /* CreateGroupRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateGroupRequest.h; sourceTree = "<group>"; };
+		C5A4A5D51C910984003724AD /* CreateGroupRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateGroupRequest.m; sourceTree = "<group>"; };
+		C5A4A5D61C910984003724AD /* DeleteGroupUserRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteGroupUserRequest.h; sourceTree = "<group>"; };
+		C5A4A5D71C910984003724AD /* DeleteGroupUserRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteGroupUserRequest.m; sourceTree = "<group>"; };
+		C5A4A5D81C910984003724AD /* GetHistoryMessageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetHistoryMessageRequest.h; sourceTree = "<group>"; };
+		C5A4A5D91C910984003724AD /* GetHistoryMessageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetHistoryMessageRequest.m; sourceTree = "<group>"; };
+		C5A4A5DA1C910984003724AD /* GetSessionUserProfileDAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSessionUserProfileDAL.h; sourceTree = "<group>"; };
+		C5A4A5DB1C910984003724AD /* GetSessionUserProfileDAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSessionUserProfileDAL.m; sourceTree = "<group>"; };
+		C5A4A5DE1C910984003724AD /* GetUnreadSessionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetUnreadSessionRequest.h; sourceTree = "<group>"; };
+		C5A4A5DF1C910984003724AD /* GetUnreadSessionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetUnreadSessionRequest.m; sourceTree = "<group>"; };
+		C5A4A5E01C910984003724AD /* IMAttachmentUploadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMAttachmentUploadRequest.h; sourceTree = "<group>"; };
+		C5A4A5E11C910984003724AD /* IMAttachmentUploadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMAttachmentUploadRequest.m; sourceTree = "<group>"; };
+		C5A4A5E21C910984003724AD /* IMLoginDAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMLoginDAL.h; sourceTree = "<group>"; };
+		C5A4A5E31C910984003724AD /* IMLoginDAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLoginDAL.m; sourceTree = "<group>"; };
+		C5A4A5E41C910984003724AD /* IMLoginOutRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMLoginOutRequest.h; sourceTree = "<group>"; };
+		C5A4A5E51C910984003724AD /* IMLoginOutRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMLoginOutRequest.m; sourceTree = "<group>"; };
+		C5A4A5E61C910984003724AD /* MessageOfflineDAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageOfflineDAL.h; sourceTree = "<group>"; };
+		C5A4A5E71C910984003724AD /* MessageOfflineDAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageOfflineDAL.m; sourceTree = "<group>"; };
+		C5A4A5E81C910984003724AD /* MsgBaseDAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgBaseDAL.h; sourceTree = "<group>"; };
+		C5A4A5E91C910984003724AD /* MsgBaseDAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgBaseDAL.m; sourceTree = "<group>"; };
+		C5A4A5EA1C910984003724AD /* RecallMessageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecallMessageRequest.h; sourceTree = "<group>"; };
+		C5A4A5EB1C910984003724AD /* RecallMessageRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecallMessageRequest.m; sourceTree = "<group>"; };
+		C5A4A5EC1C910984003724AD /* RemoveSessionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoveSessionRequest.h; sourceTree = "<group>"; };
+		C5A4A5ED1C910984003724AD /* RemoveSessionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoveSessionRequest.m; sourceTree = "<group>"; };
+		C5A4A5EE1C910984003724AD /* SetMessageReadRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetMessageReadRequest.h; sourceTree = "<group>"; };
+		C5A4A5EF1C910984003724AD /* SetMessageReadRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetMessageReadRequest.m; sourceTree = "<group>"; };
+		C5A4A5F01C910984003724AD /* UpdateGroupNameRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateGroupNameRequest.h; sourceTree = "<group>"; };
+		C5A4A5F11C910984003724AD /* UpdateGroupNameRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateGroupNameRequest.m; sourceTree = "<group>"; };
+		C5A4A6171C910A1C003724AD /* AudioDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDownloadManager.h; sourceTree = "<group>"; };
+		C5A4A6181C910A1C003724AD /* AudioDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioDownloadManager.m; sourceTree = "<group>"; };
+		C5A4A6191C910A1C003724AD /* AudioMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioMessageManager.h; sourceTree = "<group>"; };
+		C5A4A61A1C910A1C003724AD /* AudioMessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioMessageManager.m; sourceTree = "<group>"; };
+		C5A4A61B1C910A1C003724AD /* ChatMsgManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMsgManager.h; sourceTree = "<group>"; };
+		C5A4A61C1C910A1C003724AD /* ChatMsgManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMsgManager.m; sourceTree = "<group>"; };
+		C5A4A61D1C910A1C003724AD /* IMApplicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMApplicationManager.h; sourceTree = "<group>"; };
+		C5A4A61E1C910A1C003724AD /* IMApplicationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMApplicationManager.m; sourceTree = "<group>"; };
+		C5A4A61F1C910A1C003724AD /* IMUploadFileSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMUploadFileSessionManager.h; sourceTree = "<group>"; };
+		C5A4A6201C910A1C003724AD /* IMUploadFileSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMUploadFileSessionManager.m; sourceTree = "<group>"; };
+		C5A4A6251C910A1C003724AD /* MessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageManager.h; sourceTree = "<group>"; };
+		C5A4A6261C910A1C003724AD /* MessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageManager.m; sourceTree = "<group>"; };
+		C5A4A62D1C910A1C003724AD /* MessageTimerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTimerManager.h; sourceTree = "<group>"; };
+		C5A4A62E1C910A1C003724AD /* MessageTimerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTimerManager.m; sourceTree = "<group>"; };
+		C5A4A62F1C910A1C003724AD /* MsgFilePathMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgFilePathMgr.h; sourceTree = "<group>"; };
+		C5A4A6301C910A1C003724AD /* MsgFilePathMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgFilePathMgr.m; sourceTree = "<group>"; };
+		C5A4A6331C910A1C003724AD /* MsgUserInfoMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgUserInfoMgr.h; sourceTree = "<group>"; };
+		C5A4A6341C910A1C003724AD /* MsgUserInfoMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgUserInfoMgr.m; sourceTree = "<group>"; };
+		C5A4A6351C910A1C003724AD /* SendMessageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMessageManager.h; sourceTree = "<group>"; };
+		C5A4A6361C910A1C003724AD /* SendMessageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMessageManager.m; sourceTree = "<group>"; };
+		C5A4A6371C910A1C003724AD /* SocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketManager.h; sourceTree = "<group>"; };
+		C5A4A6381C910A1C003724AD /* SocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketManager.m; sourceTree = "<group>"; };
+		C5A4A6391C910A1C003724AD /* UnifiedNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnifiedNetworkManager.h; sourceTree = "<group>"; };
+		C5A4A63A1C910A1C003724AD /* UnifiedNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnifiedNetworkManager.m; sourceTree = "<group>"; };
+		C5A4A6601C910A9A003724AD /* MessageContactsTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageContactsTable.h; sourceTree = "<group>"; };
+		C5A4A6611C910A9A003724AD /* MessageContactsTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageContactsTable.m; sourceTree = "<group>"; };
+		C5A4A6621C910A9A003724AD /* MessageListTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageListTable.h; sourceTree = "<group>"; };
+		C5A4A6631C910A9A003724AD /* MessageListTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageListTable.m; sourceTree = "<group>"; };
+		C5A4A6641C910A9A003724AD /* MessageRecallTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageRecallTable.h; sourceTree = "<group>"; };
+		C5A4A6651C910A9A003724AD /* MessageRecallTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageRecallTable.m; sourceTree = "<group>"; };
+		C5A4A6661C910A9A003724AD /* MessageSqlVersionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageSqlVersionManager.h; sourceTree = "<group>"; };
+		C5A4A6671C910A9A003724AD /* MessageSqlVersionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageSqlVersionManager.m; sourceTree = "<group>"; };
+		C5A4A6681C910A9A003724AD /* MessageTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTable.h; sourceTree = "<group>"; };
+		C5A4A6691C910A9A003724AD /* MessageTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTable.m; sourceTree = "<group>"; };
+		C5A4A66A1C910A9A003724AD /* MsgSqlMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgSqlMgr.h; sourceTree = "<group>"; };
+		C5A4A66B1C910A9A003724AD /* MsgSqlMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgSqlMgr.m; sourceTree = "<group>"; };
+		C5A4A67A1C910C92003724AD /* AttachmentUploadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentUploadModel.h; sourceTree = "<group>"; };
+		C5A4A67B1C910C92003724AD /* AttachmentUploadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentUploadModel.m; sourceTree = "<group>"; };
+		C5A4A67C1C910C92003724AD /* ContactDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailModel.h; sourceTree = "<group>"; };
+		C5A4A67D1C910C92003724AD /* ContactDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailModel.m; sourceTree = "<group>"; };
+		C5A4A67E1C910C92003724AD /* MessageAppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageAppModel.h; sourceTree = "<group>"; };
+		C5A4A67F1C910C92003724AD /* MessageAppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageAppModel.m; sourceTree = "<group>"; };
+		C5A4A6801C910C92003724AD /* MessageAttachmentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageAttachmentModel.h; sourceTree = "<group>"; };
+		C5A4A6811C910C92003724AD /* MessageAttachmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageAttachmentModel.m; sourceTree = "<group>"; };
+		C5A4A6821C910C92003724AD /* MessageBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageBaseModel.h; sourceTree = "<group>"; };
+		C5A4A6831C910C92003724AD /* MessageBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageBaseModel.m; sourceTree = "<group>"; };
+		C5A4A6841C910C92003724AD /* MessageBaseModel+SQLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MessageBaseModel+SQLUtil.h"; sourceTree = "<group>"; };
+		C5A4A6851C910C92003724AD /* MessageBaseModel+SQLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MessageBaseModel+SQLUtil.m"; sourceTree = "<group>"; };
+		C5A4A6881C910C92003724AD /* UserProfileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileModel.h; sourceTree = "<group>"; };
+		C5A4A6891C910C92003724AD /* UserProfileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileModel.m; sourceTree = "<group>"; };
+		C5A4A69B1C910CAE003724AD /* ASJSONKitManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASJSONKitManager.h; sourceTree = "<group>"; };
+		C5A4A69C1C910CAE003724AD /* ASJSONKitManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASJSONKitManager.m; sourceTree = "<group>"; };
+		C5A4A6A11C910CAE003724AD /* SGdownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGdownloader.h; sourceTree = "<group>"; };
+		C5A4A6A21C910CAE003724AD /* SGdownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGdownloader.m; sourceTree = "<group>"; };
+		C5A4A6AD1C910CAE003724AD /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		C5A4A6AE1C910CAE003724AD /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		C5A4A6AF1C910CAE003724AD /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		C5A4A6B01C910CAE003724AD /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		C5A4A6B21C910CAE003724AD /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		C5A4A6B31C910CAE003724AD /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		C5A4A6B51C910CAE003724AD /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		C5A4A6B61C910CAE003724AD /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		C5A4A6B81C910CAE003724AD /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		C5A4A6B91C910CAE003724AD /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		C5A4A6BA1C910CAE003724AD /* VoiceConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceConverter.h; sourceTree = "<group>"; };
+		C5A4A6BB1C910CAE003724AD /* VoiceConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VoiceConverter.mm; sourceTree = "<group>"; };
+		C5A4A6D51C910CF8003724AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5A4A6D71C910CFC003724AD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C5A4A6D91C910D05003724AD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C5A4A6DB1C910D4B003724AD /* IMEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMEnum.h; sourceTree = "<group>"; };
+		C5A4A6DC1C910D4B003724AD /* MsgDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgDefine.h; sourceTree = "<group>"; };
+		C5A52A0C1C914DA400470C15 /* NSDictionary+IMSafeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+IMSafeManager.h"; sourceTree = "<group>"; };
+		C5A52A0D1C914DA400470C15 /* NSDictionary+IMSafeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+IMSafeManager.m"; sourceTree = "<group>"; };
+		C5A52A101C91524200470C15 /* NSDate+IMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+IMManager.h"; sourceTree = "<group>"; };
+		C5A52A111C91524200470C15 /* NSDate+IMManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+IMManager.m"; sourceTree = "<group>"; };
+		C5A52A141C915A3200470C15 /* IMConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMConfigure.h; sourceTree = "<group>"; };
+		C5A52A151C915A3200470C15 /* IMConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMConfigure.m; sourceTree = "<group>"; };
+		C5A52A181C9166B200470C15 /* ContactDetailModel+SQLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ContactDetailModel+SQLUtil.h"; sourceTree = "<group>"; };
+		C5A52A191C9166B200470C15 /* ContactDetailModel+SQLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ContactDetailModel+SQLUtil.m"; sourceTree = "<group>"; };
+		C5A52A1C1C91721D00470C15 /* ContactDetailModel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ContactDetailModel+Extension.h"; sourceTree = "<group>"; };
+		C5A52A1D1C91721D00470C15 /* ContactDetailModel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ContactDetailModel+Extension.m"; sourceTree = "<group>"; };
+		C5AFEDC21C9695F400C1D825 /* IMMessageMarkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMMessageMarkRequest.h; sourceTree = "<group>"; };
+		C5AFEDC31C9695F400C1D825 /* IMMessageMarkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMMessageMarkRequest.m; sourceTree = "<group>"; };
+		C5AFEDC61C96AFAA00C1D825 /* MessageGroupNoDisturbRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageGroupNoDisturbRequest.h; sourceTree = "<group>"; };
+		C5AFEDC71C96AFAA00C1D825 /* MessageGroupNoDisturbRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageGroupNoDisturbRequest.m; sourceTree = "<group>"; };
+		C5B4352F1CD847F200319CDC /* CreateRelationGroupRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateRelationGroupRequest.h; sourceTree = "<group>"; };
+		C5B435301CD847F200319CDC /* CreateRelationGroupRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateRelationGroupRequest.m; sourceTree = "<group>"; };
+		C5CFF6D11CA3B5F600D25787 /* ContactDetailModel+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ContactDetailModel+Private.h"; sourceTree = "<group>"; };
+		C5CFF6D21CA3B5F600D25787 /* ContactDetailModel+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ContactDetailModel+Private.m"; sourceTree = "<group>"; };
+		C5CFF6D51CA3BA1800D25787 /* MessageBaseModel+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MessageBaseModel+Private.h"; sourceTree = "<group>"; };
+		C5CFF6D61CA3BA1800D25787 /* MessageBaseModel+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MessageBaseModel+Private.m"; sourceTree = "<group>"; };
+		C5CFF6DA1CA3BBF600D25787 /* UserProfileModel+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserProfileModel+Private.h"; sourceTree = "<group>"; };
+		C5CFF6DB1CA3BBF600D25787 /* UserProfileModel+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UserProfileModel+Private.m"; sourceTree = "<group>"; };
+		C5DCAA561CA27118005663E6 /* RelationValidateListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelationValidateListRequest.h; sourceTree = "<group>"; };
+		C5DCAA571CA27118005663E6 /* RelationValidateListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelationValidateListRequest.m; sourceTree = "<group>"; };
+		C5DCAA5E1CA271B1005663E6 /* MessageRelationValidateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageRelationValidateModel.h; sourceTree = "<group>"; };
+		C5DCAA5F1CA271B1005663E6 /* MessageRelationValidateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageRelationValidateModel.m; sourceTree = "<group>"; };
+		C5F475321C92626B00AFBFEC /* MessageBaseModel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MessageBaseModel+Extension.h"; sourceTree = "<group>"; };
+		C5F475331C92626B00AFBFEC /* MessageBaseModel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MessageBaseModel+Extension.m"; sourceTree = "<group>"; };
+		C5F475641C929D4300AFBFEC /* UserProfileModel+SQLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UserProfileModel+SQLUtil.h"; sourceTree = "<group>"; };
+		C5F475651C929D4300AFBFEC /* UserProfileModel+SQLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UserProfileModel+SQLUtil.m"; sourceTree = "<group>"; };
+		C5FF1AE51CDB34CB00261F84 /* MessageVoipModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageVoipModel.h; sourceTree = "<group>"; };
+		C5FF1AE61CDB34CB00261F84 /* MessageVoipModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageVoipModel.m; sourceTree = "<group>"; };
+		D333A14BBFB0640212236D43 /* Pods-MintcodeIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintcodeIM.release.xcconfig"; path = "Pods/Target Support Files/Pods-MintcodeIM/Pods-MintcodeIM.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5A4A5761C910623003724AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A4A6DA1C910D05003724AD /* Security.framework in Frameworks */,
+				C5A4A6D81C910CFC003724AD /* CFNetwork.framework in Frameworks */,
+				C5A4A6D61C910CF8003724AD /* Foundation.framework in Frameworks */,
+				C5A4A6CE1C910CAE003724AD /* libopencore-amrwb.a in Frameworks */,
+				C5A4A6CD1C910CAE003724AD /* libopencore-amrnb.a in Frameworks */,
+				A15994A2349C8349A6D8F6C5 /* libPods-MintcodeIM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6489353955FC16318DCF4915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B738505C1FAB2C2734610 /* libPods-MintcodeIM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C59C02A81CA110CC002A5098 /* RelationClass */ = {
+			isa = PBXGroup;
+			children = (
+				C5DCAA551CA270E0005663E6 /* Request */,
+				C59C02B21CA11153002A5098 /* Model */,
+				C59C02B11CA1112D002A5098 /* SQL */,
+			);
+			path = RelationClass;
+			sourceTree = "<group>";
+		};
+		C59C02B11CA1112D002A5098 /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				C59C02B31CA11178002A5098 /* MessageRelationGroupTable.h */,
+				C59C02B41CA11178002A5098 /* MessageRelationGroupTable.m */,
+				C59C02B51CA11178002A5098 /* MessageRelationInfoListTable.h */,
+				C59C02B61CA11178002A5098 /* MessageRelationInfoListTable.m */,
+			);
+			path = SQL;
+			sourceTree = "<group>";
+		};
+		C59C02B21CA11153002A5098 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C59C02BB1CA1118B002A5098 /* MessageRelationGroupModel.h */,
+				C59C02BC1CA1118B002A5098 /* MessageRelationGroupModel.m */,
+				C59C02C31CA11A62002A5098 /* MessageRelationGroupModel+SQLUtil.h */,
+				C59C02C41CA11A62002A5098 /* MessageRelationGroupModel+SQLUtil.m */,
+				C59C02BF1CA111A7002A5098 /* MessageRelationInfoModel.h */,
+				C59C02C01CA111A7002A5098 /* MessageRelationInfoModel.m */,
+				C59C02C71CA11A81002A5098 /* MessageRelationInfoModel+SQLUtil.h */,
+				C59C02C81CA11A81002A5098 /* MessageRelationInfoModel+SQLUtil.m */,
+				C5DCAA5E1CA271B1005663E6 /* MessageRelationValidateModel.h */,
+				C5DCAA5F1CA271B1005663E6 /* MessageRelationValidateModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5A4A5701C910623003724AD = {
+			isa = PBXGroup;
+			children = (
+				C5A4A6D91C910D05003724AD /* Security.framework */,
+				C5A4A6D71C910CFC003724AD /* CFNetwork.framework */,
+				C5A4A6D51C910CF8003724AD /* Foundation.framework */,
+				C5A4A57C1C910623003724AD /* MintcodeIM */,
+				C5A4A57B1C910623003724AD /* Products */,
+				E2B3097C4C1ECAE2919D4C6B /* Pods */,
+				6489353955FC16318DCF4915 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5A4A57B1C910623003724AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A57A1C910623003724AD /* MintcodeIM.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5A4A57C1C910623003724AD /* MintcodeIM */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A6DB1C910D4B003724AD /* IMEnum.h */,
+				C5A4A6DC1C910D4B003724AD /* MsgDefine.h */,
+				C5A52A141C915A3200470C15 /* IMConfigure.h */,
+				C5A52A151C915A3200470C15 /* IMConfigure.m */,
+				C5A4A6791C910ABD003724AD /* ThirdLib */,
+				C5A4A6781C910AB2003724AD /* Model */,
+				C59C02A81CA110CC002A5098 /* RelationClass */,
+				C5A4A6161C910997003724AD /* Manager */,
+				C5A4A5CD1C910946003724AD /* Request */,
+				C5A4A5BB1C910933003724AD /* BaseClass */,
+				C5A4A5C01C910933003724AD /* Category */,
+				C5A4A57D1C910623003724AD /* MintcodeIM.h */,
+				C5A4A57F1C910623003724AD /* Info.plist */,
+			);
+			path = MintcodeIM;
+			sourceTree = "<group>";
+		};
+		C5A4A5BB1C910933003724AD /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A5BC1C910933003724AD /* IMBaseBlockRequest.h */,
+				C5A4A5BD1C910933003724AD /* IMBaseBlockRequest.m */,
+				C5582D261CD9E9BE00008D40 /* IMBaseBlockRequestPrivate.h */,
+				C5582D271CD9E9BE00008D40 /* IMBaseBlockRequestPrivate.m */,
+				C5A4A5BE1C910933003724AD /* IMBaseRequest.h */,
+				C5A4A5BF1C910933003724AD /* IMBaseRequest.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		C5A4A5C01C910933003724AD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A5C11C910933003724AD /* NSData+AES.h */,
+				C5A4A5C21C910933003724AD /* NSData+AES.m */,
+				C5A4A5C31C910933003724AD /* NSString+Manager.h */,
+				C5A4A5C41C910933003724AD /* NSString+Manager.m */,
+				C5A52A0C1C914DA400470C15 /* NSDictionary+IMSafeManager.h */,
+				C5A52A0D1C914DA400470C15 /* NSDictionary+IMSafeManager.m */,
+				C5A52A101C91524200470C15 /* NSDate+IMManager.h */,
+				C5A52A111C91524200470C15 /* NSDate+IMManager.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C5A4A5CD1C910946003724AD /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A5CE1C910984003724AD /* AddGroupUserRequest.h */,
+				C5A4A5CF1C910984003724AD /* AddGroupUserRequest.m */,
+				C5A4A5D01C910984003724AD /* AttachmentDownloadDAL.h */,
+				C5A4A5D11C910984003724AD /* AttachmentDownloadDAL.m */,
+				C5A4A5D21C910984003724AD /* AudioDownloadDAL.h */,
+				C5A4A5D31C910984003724AD /* AudioDownloadDAL.m */,
+				C5A4A5D41C910984003724AD /* CreateGroupRequest.h */,
+				C5A4A5D51C910984003724AD /* CreateGroupRequest.m */,
+				C5A4A5D61C910984003724AD /* DeleteGroupUserRequest.h */,
+				C5A4A5D71C910984003724AD /* DeleteGroupUserRequest.m */,
+				C5A4A5D81C910984003724AD /* GetHistoryMessageRequest.h */,
+				C5A4A5D91C910984003724AD /* GetHistoryMessageRequest.m */,
+				C5A4A5DA1C910984003724AD /* GetSessionUserProfileDAL.h */,
+				C5A4A5DB1C910984003724AD /* GetSessionUserProfileDAL.m */,
+				C5A4A5DE1C910984003724AD /* GetUnreadSessionRequest.h */,
+				C5A4A5DF1C910984003724AD /* GetUnreadSessionRequest.m */,
+				C5A4A5E01C910984003724AD /* IMAttachmentUploadRequest.h */,
+				C5A4A5E11C910984003724AD /* IMAttachmentUploadRequest.m */,
+				C5A4A5E21C910984003724AD /* IMLoginDAL.h */,
+				C5A4A5E31C910984003724AD /* IMLoginDAL.m */,
+				C5A4A5E41C910984003724AD /* IMLoginOutRequest.h */,
+				C5A4A5E51C910984003724AD /* IMLoginOutRequest.m */,
+				C5A4A5E61C910984003724AD /* MessageOfflineDAL.h */,
+				C5A4A5E71C910984003724AD /* MessageOfflineDAL.m */,
+				C5A4A5E81C910984003724AD /* MsgBaseDAL.h */,
+				C5A4A5E91C910984003724AD /* MsgBaseDAL.m */,
+				C5A4A5EA1C910984003724AD /* RecallMessageRequest.h */,
+				C5A4A5EB1C910984003724AD /* RecallMessageRequest.m */,
+				C5A4A5EC1C910984003724AD /* RemoveSessionRequest.h */,
+				C5A4A5ED1C910984003724AD /* RemoveSessionRequest.m */,
+				C5A4A5EE1C910984003724AD /* SetMessageReadRequest.h */,
+				C5A4A5EF1C910984003724AD /* SetMessageReadRequest.m */,
+				C5A4A5F01C910984003724AD /* UpdateGroupNameRequest.h */,
+				C5A4A5F11C910984003724AD /* UpdateGroupNameRequest.m */,
+				C5AFEDC21C9695F400C1D825 /* IMMessageMarkRequest.h */,
+				C5AFEDC31C9695F400C1D825 /* IMMessageMarkRequest.m */,
+				C5AFEDC61C96AFAA00C1D825 /* MessageGroupNoDisturbRequest.h */,
+				C5AFEDC71C96AFAA00C1D825 /* MessageGroupNoDisturbRequest.m */,
+				3A6D90DD1CA116330039A583 /* GetFriendInfolistRequest.h */,
+				3A6D90DE1CA116330039A583 /* GetFriendInfolistRequest.m */,
+				3A6D90F51CA13C4B0039A583 /* LoadRelationGroupInfoRequest.h */,
+				3A6D90F61CA13C4B0039A583 /* LoadRelationGroupInfoRequest.m */,
+				3A6D90E11CA118A80039A583 /* AddRelationValidateRequest.h */,
+				3A6D90E21CA118A80039A583 /* AddRelationValidateRequest.m */,
+				C54BF27A1CA92B030085EDC2 /* MessageMergeForwardRequest.h */,
+				C54BF27B1CA92B030085EDC2 /* MessageMergeForwardRequest.m */,
+				3A7D5E9B1CA22DD300FB2B07 /* SearchRelationUserRequest.h */,
+				5FFD97F41CA90B6B0023EE70 /* SearchRelationUserRequest.m */,
+				5F9285241CAA49FD00130FDC /* RelationGroupInfoRequest.h */,
+				5F9285251CAA49FD00130FDC /* RelationGroupInfoRequest.m */,
+				C5582D221CD9CE4000008D40 /* GetGroupListRequest.h */,
+				C5582D231CD9CE4000008D40 /* GetGroupListRequest.m */,
+				5FF8D2441CFD86390045C1EF /* FriendsTransferRelationRequest.h */,
+				5FF8D2451CFD86390045C1EF /* FriendsTransferRelationRequest.m */,
+				930C77501D21047A003035EF /* GetSuperGroupListRequest.h */,
+				930C77511D21047A003035EF /* GetSuperGroupListRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		C5A4A6161C910997003724AD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A65F1C910A33003724AD /* SQLManager */,
+				C5A4A6171C910A1C003724AD /* AudioDownloadManager.h */,
+				C5A4A6181C910A1C003724AD /* AudioDownloadManager.m */,
+				C5A4A6191C910A1C003724AD /* AudioMessageManager.h */,
+				C5A4A61A1C910A1C003724AD /* AudioMessageManager.m */,
+				C5A4A61B1C910A1C003724AD /* ChatMsgManager.h */,
+				C5A4A61C1C910A1C003724AD /* ChatMsgManager.m */,
+				C5A4A61D1C910A1C003724AD /* IMApplicationManager.h */,
+				C5A4A61E1C910A1C003724AD /* IMApplicationManager.m */,
+				C5A4A61F1C910A1C003724AD /* IMUploadFileSessionManager.h */,
+				C5A4A6201C910A1C003724AD /* IMUploadFileSessionManager.m */,
+				C5A4A6251C910A1C003724AD /* MessageManager.h */,
+				C5A4A6261C910A1C003724AD /* MessageManager.m */,
+				C597508E1C9FDC4500C0FC27 /* MessageManagerPrivate.h */,
+				C5A4A62D1C910A1C003724AD /* MessageTimerManager.h */,
+				C5A4A62E1C910A1C003724AD /* MessageTimerManager.m */,
+				C5A4A62F1C910A1C003724AD /* MsgFilePathMgr.h */,
+				C5A4A6301C910A1C003724AD /* MsgFilePathMgr.m */,
+				C5A4A6331C910A1C003724AD /* MsgUserInfoMgr.h */,
+				C5A4A6341C910A1C003724AD /* MsgUserInfoMgr.m */,
+				C5A4A6351C910A1C003724AD /* SendMessageManager.h */,
+				C5A4A6361C910A1C003724AD /* SendMessageManager.m */,
+				C5A4A6371C910A1C003724AD /* SocketManager.h */,
+				C5A4A6381C910A1C003724AD /* SocketManager.m */,
+				C5A4A6391C910A1C003724AD /* UnifiedNetworkManager.h */,
+				C5A4A63A1C910A1C003724AD /* UnifiedNetworkManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		C5A4A65F1C910A33003724AD /* SQLManager */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A6601C910A9A003724AD /* MessageContactsTable.h */,
+				C5A4A6611C910A9A003724AD /* MessageContactsTable.m */,
+				C5A4A6621C910A9A003724AD /* MessageListTable.h */,
+				C5A4A6631C910A9A003724AD /* MessageListTable.m */,
+				C5A4A6641C910A9A003724AD /* MessageRecallTable.h */,
+				C5A4A6651C910A9A003724AD /* MessageRecallTable.m */,
+				C5A4A6661C910A9A003724AD /* MessageSqlVersionManager.h */,
+				C5A4A6671C910A9A003724AD /* MessageSqlVersionManager.m */,
+				C5A4A6681C910A9A003724AD /* MessageTable.h */,
+				C5A4A6691C910A9A003724AD /* MessageTable.m */,
+				C5A4A66A1C910A9A003724AD /* MsgSqlMgr.h */,
+				C5A4A66B1C910A9A003724AD /* MsgSqlMgr.m */,
+			);
+			path = SQLManager;
+			sourceTree = "<group>";
+		};
+		C5A4A6781C910AB2003724AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A67A1C910C92003724AD /* AttachmentUploadModel.h */,
+				C5A4A67B1C910C92003724AD /* AttachmentUploadModel.m */,
+				C5A4A67C1C910C92003724AD /* ContactDetailModel.h */,
+				C5A4A67D1C910C92003724AD /* ContactDetailModel.m */,
+				C5CFF6D11CA3B5F600D25787 /* ContactDetailModel+Private.h */,
+				C5CFF6D21CA3B5F600D25787 /* ContactDetailModel+Private.m */,
+				C5A52A1C1C91721D00470C15 /* ContactDetailModel+Extension.h */,
+				C5A52A1D1C91721D00470C15 /* ContactDetailModel+Extension.m */,
+				C5A52A181C9166B200470C15 /* ContactDetailModel+SQLUtil.h */,
+				C5A52A191C9166B200470C15 /* ContactDetailModel+SQLUtil.m */,
+				C5A4A67E1C910C92003724AD /* MessageAppModel.h */,
+				C5A4A67F1C910C92003724AD /* MessageAppModel.m */,
+				C5A4A6801C910C92003724AD /* MessageAttachmentModel.h */,
+				C5A4A6811C910C92003724AD /* MessageAttachmentModel.m */,
+				C5FF1AE51CDB34CB00261F84 /* MessageVoipModel.h */,
+				C5FF1AE61CDB34CB00261F84 /* MessageVoipModel.m */,
+				C5A4A6821C910C92003724AD /* MessageBaseModel.h */,
+				C5A4A6831C910C92003724AD /* MessageBaseModel.m */,
+				C5CFF6D51CA3BA1800D25787 /* MessageBaseModel+Private.h */,
+				C5CFF6D61CA3BA1800D25787 /* MessageBaseModel+Private.m */,
+				C5F475321C92626B00AFBFEC /* MessageBaseModel+Extension.h */,
+				C5F475331C92626B00AFBFEC /* MessageBaseModel+Extension.m */,
+				C5A4A6841C910C92003724AD /* MessageBaseModel+SQLUtil.h */,
+				C5A4A6851C910C92003724AD /* MessageBaseModel+SQLUtil.m */,
+				C5A4A6881C910C92003724AD /* UserProfileModel.h */,
+				C5A4A6891C910C92003724AD /* UserProfileModel.m */,
+				C5CFF6DA1CA3BBF600D25787 /* UserProfileModel+Private.h */,
+				C5CFF6DB1CA3BBF600D25787 /* UserProfileModel+Private.m */,
+				C5F475641C929D4300AFBFEC /* UserProfileModel+SQLUtil.h */,
+				C5F475651C929D4300AFBFEC /* UserProfileModel+SQLUtil.m */,
+				5F9285281CAA520B00130FDC /* relationGroupInfoModel.h */,
+				5F9285291CAA520B00130FDC /* relationGroupInfoModel.m */,
+				930C774C1D2100DE003035EF /* SuperGroupListModel.h */,
+				930C774D1D2100DE003035EF /* SuperGroupListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5A4A6791C910ABD003724AD /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A69A1C910CAE003724AD /* ASJSONKitManager */,
+				C5A4A6A01C910CAE003724AD /* SGDownload */,
+				C5A4A6AB1C910CAE003724AD /* VoiceConvert */,
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		C5A4A69A1C910CAE003724AD /* ASJSONKitManager */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A69B1C910CAE003724AD /* ASJSONKitManager.h */,
+				C5A4A69C1C910CAE003724AD /* ASJSONKitManager.m */,
+			);
+			path = ASJSONKitManager;
+			sourceTree = "<group>";
+		};
+		C5A4A6A01C910CAE003724AD /* SGDownload */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A6A11C910CAE003724AD /* SGdownloader.h */,
+				C5A4A6A21C910CAE003724AD /* SGdownloader.m */,
+			);
+			path = SGDownload;
+			sourceTree = "<group>";
+		};
+		C5A4A6AB1C910CAE003724AD /* VoiceConvert */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A6AC1C910CAE003724AD /* amrwapper */,
+				C5A4A6B11C910CAE003724AD /* lib */,
+				C5A4A6B41C910CAE003724AD /* opencore-amrnb */,
+				C5A4A6B71C910CAE003724AD /* opencore-amrwb */,
+				C5A4A6BA1C910CAE003724AD /* VoiceConverter.h */,
+				C5A4A6BB1C910CAE003724AD /* VoiceConverter.mm */,
+			);
+			path = VoiceConvert;
+			sourceTree = "<group>";
+		};
+		C5A4A6AC1C910CAE003724AD /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A6AD1C910CAE003724AD /* amrFileCodec.h */,
+				C5A4A6AE1C910CAE003724AD /* amrFileCodec.mm */,
+				C5A4A6AF1C910CAE003724AD /* wav.h */,
+				C5A4A6B01C910CAE003724AD /* wav.mm */,
+			);
+			path = amrwapper;
+			sourceTree = "<group>";
+		};
+		C5A4A6B11C910CAE003724AD /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A6B21C910CAE003724AD /* libopencore-amrnb.a */,
+				C5A4A6B31C910CAE003724AD /* libopencore-amrwb.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		C5A4A6B41C910CAE003724AD /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A6B51C910CAE003724AD /* interf_dec.h */,
+				C5A4A6B61C910CAE003724AD /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		C5A4A6B71C910CAE003724AD /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				C5A4A6B81C910CAE003724AD /* dec_if.h */,
+				C5A4A6B91C910CAE003724AD /* if_rom.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		C5DCAA551CA270E0005663E6 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				C5DCAA561CA27118005663E6 /* RelationValidateListRequest.h */,
+				C5DCAA571CA27118005663E6 /* RelationValidateListRequest.m */,
+				3ABC33AB1CA4FF3100D20624 /* DisposeRelationValidateRequest.h */,
+				3ABC33AC1CA4FF3100D20624 /* DisposeRelationValidateRequest.m */,
+				3ABC33BF1CA52C1D00D20624 /* DeleteRelationRequest.h */,
+				3ABC33C01CA52C1D00D20624 /* DeleteRelationRequest.m */,
+				3ABC33C31CA52FDA00D20624 /* RemarkRelationRequest.h */,
+				3ABC33C41CA52FDA00D20624 /* RemarkRelationRequest.m */,
+				C5B4352F1CD847F200319CDC /* CreateRelationGroupRequest.h */,
+				C5B435301CD847F200319CDC /* CreateRelationGroupRequest.m */,
+				5FFFE4A01CE2E38C00B776AB /* DeleteRelationGroupRequest.h */,
+				5FFFE4A11CE2E38C00B776AB /* DeleteRelationGroupRequest.m */,
+				5F0019091CE5811D00B54D9E /* modifyRelationGroupRequest.h */,
+				5F00190A1CE5811D00B54D9E /* modifyRelationGroupRequest.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		E2B3097C4C1ECAE2919D4C6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DC2190473B3894FE8EDF60E /* Pods-MintcodeIM.debug.xcconfig */,
+				D333A14BBFB0640212236D43 /* Pods-MintcodeIM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C5A4A5771C910623003724AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930C774E1D2100DE003035EF /* SuperGroupListModel.h in Headers */,
+				C5A4A6491C910A1C003724AD /* MessageManager.h in Headers */,
+				C5A4A6431C910A1C003724AD /* IMUploadFileSessionManager.h in Headers */,
+				C5A4A6411C910A1C003724AD /* IMApplicationManager.h in Headers */,
+				C5A4A63D1C910A1C003724AD /* AudioMessageManager.h in Headers */,
+				C5A4A6981C910C92003724AD /* UserProfileModel.h in Headers */,
+				C5A4A6901C910C92003724AD /* MessageAttachmentModel.h in Headers */,
+				C5A4A68E1C910C92003724AD /* MessageAppModel.h in Headers */,
+				3A6D90F71CA13C4B0039A583 /* LoadRelationGroupInfoRequest.h in Headers */,
+				C5A4A6061C910984003724AD /* IMLoginDAL.h in Headers */,
+				C5A4A5F41C910984003724AD /* AttachmentDownloadDAL.h in Headers */,
+				3ABC33C11CA52C1D00D20624 /* DeleteRelationRequest.h in Headers */,
+				C5A4A68C1C910C92003724AD /* ContactDetailModel.h in Headers */,
+				C5CFF6D71CA3BA1800D25787 /* MessageBaseModel+Private.h in Headers */,
+				C5A4A68A1C910C92003724AD /* AttachmentUploadModel.h in Headers */,
+				930C77551D211916003035EF /* GetSuperGroupListRequest.m in Headers */,
+				930C77541D21165F003035EF /* SuperGroupListModel.m in Headers */,
+				C5AFEDC81C96AFAA00C1D825 /* MessageGroupNoDisturbRequest.h in Headers */,
+				C5A4A6041C910984003724AD /* IMAttachmentUploadRequest.h in Headers */,
+				C59C02C51CA11A62002A5098 /* MessageRelationGroupModel+SQLUtil.h in Headers */,
+				C5A4A63F1C910A1C003724AD /* ChatMsgManager.h in Headers */,
+				C5A4A6921C910C92003724AD /* MessageBaseModel.h in Headers */,
+				C5A4A5C51C910933003724AD /* IMBaseBlockRequest.h in Headers */,
+				C5A4A60C1C910984003724AD /* MsgBaseDAL.h in Headers */,
+				C5A4A5F81C910984003724AD /* CreateGroupRequest.h in Headers */,
+				C59C02C91CA11A81002A5098 /* MessageRelationInfoModel+SQLUtil.h in Headers */,
+				C5B435311CD847F200319CDC /* CreateRelationGroupRequest.h in Headers */,
+				3A6D90E31CA118A80039A583 /* AddRelationValidateRequest.h in Headers */,
+				C5A4A6021C910984003724AD /* GetUnreadSessionRequest.h in Headers */,
+				3ABC33AD1CA4FF3100D20624 /* DisposeRelationValidateRequest.h in Headers */,
+				C5A4A6DE1C910D4B003724AD /* MsgDefine.h in Headers */,
+				C5A4A5F21C910984003724AD /* AddGroupUserRequest.h in Headers */,
+				C5A4A6101C910984003724AD /* RemoveSessionRequest.h in Headers */,
+				C5A4A63B1C910A1C003724AD /* AudioDownloadManager.h in Headers */,
+				C5A4A6C01C910CAE003724AD /* SGdownloader.h in Headers */,
+				C54BF27C1CA92B030085EDC2 /* MessageMergeForwardRequest.h in Headers */,
+				C5A4A60E1C910984003724AD /* RecallMessageRequest.h in Headers */,
+				C5A4A5FA1C910984003724AD /* DeleteGroupUserRequest.h in Headers */,
+				C5A4A5C71C910933003724AD /* IMBaseRequest.h in Headers */,
+				C5A4A6DD1C910D4B003724AD /* IMEnum.h in Headers */,
+				C5A4A6591C910A1C003724AD /* SendMessageManager.h in Headers */,
+				C5A4A6531C910A1C003724AD /* MsgFilePathMgr.h in Headers */,
+				C5FF1AE71CDB34CB00261F84 /* MessageVoipModel.h in Headers */,
+				C59C02B71CA11178002A5098 /* MessageRelationGroupTable.h in Headers */,
+				C5A4A6081C910984003724AD /* IMLoginOutRequest.h in Headers */,
+				C5A4A6D01C910CAE003724AD /* interf_enc.h in Headers */,
+				C5CFF6DC1CA3BBF600D25787 /* UserProfileModel+Private.h in Headers */,
+				C5DCAA601CA271B1005663E6 /* MessageRelationValidateModel.h in Headers */,
+				C59C02B91CA11178002A5098 /* MessageRelationInfoListTable.h in Headers */,
+				C5A4A6D31C910CAE003724AD /* VoiceConverter.h in Headers */,
+				C5A4A6BC1C910CAE003724AD /* ASJSONKitManager.h in Headers */,
+				C5A4A6941C910C92003724AD /* MessageBaseModel+SQLUtil.h in Headers */,
+				C5F475341C92626B00AFBFEC /* MessageBaseModel+Extension.h in Headers */,
+				C5A4A6141C910984003724AD /* UpdateGroupNameRequest.h in Headers */,
+				C5A4A5FC1C910984003724AD /* GetHistoryMessageRequest.h in Headers */,
+				C5A4A6571C910A1C003724AD /* MsgUserInfoMgr.h in Headers */,
+				3A7D5E9D1CA22DD300FB2B07 /* SearchRelationUserRequest.h in Headers */,
+				C5A52A1A1C9166B200470C15 /* ContactDetailModel+SQLUtil.h in Headers */,
+				C5A4A6CB1C910CAE003724AD /* wav.h in Headers */,
+				930C77521D21047A003035EF /* GetSuperGroupListRequest.h in Headers */,
+				C5A52A161C915A3200470C15 /* IMConfigure.h in Headers */,
+				C5F475661C929D4300AFBFEC /* UserProfileModel+SQLUtil.h in Headers */,
+				C5A52A121C91524200470C15 /* NSDate+IMManager.h in Headers */,
+				3ABC33C51CA52FDA00D20624 /* RemarkRelationRequest.h in Headers */,
+				C5582D241CD9CE4000008D40 /* GetGroupListRequest.h in Headers */,
+				5F9285261CAA49FD00130FDC /* RelationGroupInfoRequest.h in Headers */,
+				C5582D281CD9E9BE00008D40 /* IMBaseBlockRequestPrivate.h in Headers */,
+				C5A4A65D1C910A1C003724AD /* UnifiedNetworkManager.h in Headers */,
+				C5A4A6741C910A9A003724AD /* MessageTable.h in Headers */,
+				C5A4A6D21C910CAE003724AD /* if_rom.h in Headers */,
+				C5A4A66E1C910A9A003724AD /* MessageListTable.h in Headers */,
+				5F92852A1CAA520B00130FDC /* relationGroupInfoModel.h in Headers */,
+				C5A4A6CF1C910CAE003724AD /* interf_dec.h in Headers */,
+				5FFFE4A21CE2E38C00B776AB /* DeleteRelationGroupRequest.h in Headers */,
+				C5A4A6C91C910CAE003724AD /* amrFileCodec.h in Headers */,
+				C5A4A6701C910A9A003724AD /* MessageRecallTable.h in Headers */,
+				C5A52A1E1C91721D00470C15 /* ContactDetailModel+Extension.h in Headers */,
+				C597508F1C9FDC4500C0FC27 /* MessageManagerPrivate.h in Headers */,
+				C5A4A6121C910984003724AD /* SetMessageReadRequest.h in Headers */,
+				C5A4A66C1C910A9A003724AD /* MessageContactsTable.h in Headers */,
+				C5A4A6D11C910CAE003724AD /* dec_if.h in Headers */,
+				5F00190B1CE5811D00B54D9E /* modifyRelationGroupRequest.h in Headers */,
+				C5DCAA581CA27118005663E6 /* RelationValidateListRequest.h in Headers */,
+				C5AFEDC41C9695F400C1D825 /* IMMessageMarkRequest.h in Headers */,
+				C5A4A6721C910A9A003724AD /* MessageSqlVersionManager.h in Headers */,
+				C5CFF6D31CA3B5F600D25787 /* ContactDetailModel+Private.h in Headers */,
+				C59C02BD1CA1118B002A5098 /* MessageRelationGroupModel.h in Headers */,
+				C5A4A5FE1C910984003724AD /* GetSessionUserProfileDAL.h in Headers */,
+				C5A4A5F61C910984003724AD /* AudioDownloadDAL.h in Headers */,
+				C5A4A6761C910A9A003724AD /* MsgSqlMgr.h in Headers */,
+				C59C02C11CA111A7002A5098 /* MessageRelationInfoModel.h in Headers */,
+				C5A4A5CB1C910933003724AD /* NSString+Manager.h in Headers */,
+				C5A4A60A1C910984003724AD /* MessageOfflineDAL.h in Headers */,
+				C5A4A5C91C910933003724AD /* NSData+AES.h in Headers */,
+				C5A4A6511C910A1C003724AD /* MessageTimerManager.h in Headers */,
+				C5A4A65B1C910A1C003724AD /* SocketManager.h in Headers */,
+				3A6D90DF1CA116330039A583 /* GetFriendInfolistRequest.h in Headers */,
+				5FF8D2461CFD86390045C1EF /* FriendsTransferRelationRequest.h in Headers */,
+				C5A4A57E1C910623003724AD /* MintcodeIM.h in Headers */,
+				C5A52A0E1C914DA400470C15 /* NSDictionary+IMSafeManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C5A4A5791C910623003724AD /* MintcodeIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A4A5821C910623003724AD /* Build configuration list for PBXNativeTarget "MintcodeIM" */;
+			buildPhases = (
+				A64D98B0B29AD1C0F980BEC5 /* Check Pods Manifest.lock */,
+				C5A4A5751C910623003724AD /* Sources */,
+				C5A4A5761C910623003724AD /* Frameworks */,
+				C5A4A5771C910623003724AD /* Headers */,
+				C5A4A5781C910623003724AD /* Resources */,
+				C686B89644D369CA26E31A81 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MintcodeIM;
+			productName = MintcodeIM;
+			productReference = C5A4A57A1C910623003724AD /* MintcodeIM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5A4A5711C910623003724AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "William Zhang";
+				TargetAttributes = {
+					C55E43951C99114A0051C513 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C5A4A5791C910623003724AD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HHH85LCW4M;
+					};
+				};
+			};
+			buildConfigurationList = C5A4A5741C910623003724AD /* Build configuration list for PBXProject "MintcodeIM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5A4A5701C910623003724AD;
+			productRefGroup = C5A4A57B1C910623003724AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5A4A5791C910623003724AD /* MintcodeIM */,
+				C55E43951C99114A0051C513 /* Aggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5A4A5781C910623003724AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A64D98B0B29AD1C0F980BEC5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C55E43991C99115C0051C513 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Constants\nSF_TARGET_NAME=${PROJECT_NAME}\n#自定义的用来存放最后合并的framework\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n\n\n#IPHONE_DEVICE_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphoneos\n\nWORKSPACE_NAME=${PROJECT_NAME}.xcworkspace\nYO_SCHEME=${PROJECT_NAME}\n\n#clean build是先清除原来的build\nxcodebuild -workspace ${WORKSPACE_NAME} -scheme ${YO_SCHEME} -sdk iphonesimulator -configuration \"${CONFIGURATION}\" clean build\nxcodebuild -workspace ${WORKSPACE_NAME} -scheme ${YO_SCHEME} -sdk iphoneos -configuration \"${CONFIGURATION}\" clean build\n\n# build project\n#xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" CONFIGURATION_BUILD_DIR=\"${IPHONE_DEVICE_BUILD_DIR}/arm64\" SYMROOT=\"${SYMROOT}\" ARCHS='arm64' VALID_ARCHS='arm64' $ACTION\n\n#xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\"  CONFIGURATION_BUILD_DIR=\"${IPHONE_DEVICE_BUILD_DIR}/armv7\" SYMROOT=\"${SYMROOT}\" ARCHS='armv7 armv7s' VALID_ARCHS='armv7 armv7s' $ACTION\n\n# Copy the framework structure to the universal folder (clean it first)\n#因为framework的合并,lipo只是合并了最后的二进制可执行文件,所以其它的需要我们自己复制过来\n#先移除原来的\nrm -rf \"${UNIVERSAL_OUTPUTFOLDER}\"\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\"\n\n#合并模拟器和真机的架构\nlipo -create  \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\" -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\nopen \"${UNIVERSAL_OUTPUTFOLDER}\"";
+		};
+		C686B89644D369CA26E31A81 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MintcodeIM/Pods-MintcodeIM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5A4A5751C910623003724AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFD97F11CA907E90023EE70 /* SearchRelationUserRequest.h in Sources */,
+				C5A4A5FF1C910984003724AD /* GetSessionUserProfileDAL.m in Sources */,
+				C5A4A68D1C910C92003724AD /* ContactDetailModel.m in Sources */,
+				C5A52A0F1C914DA400470C15 /* NSDictionary+IMSafeManager.m in Sources */,
+				C5A4A6521C910A1C003724AD /* MessageTimerManager.m in Sources */,
+				C5A4A66F1C910A9A003724AD /* MessageListTable.m in Sources */,
+				C5F475671C929D4300AFBFEC /* UserProfileModel+SQLUtil.m in Sources */,
+				C5A4A6051C910984003724AD /* IMAttachmentUploadRequest.m in Sources */,
+				C5CFF6DD1CA3BBF600D25787 /* UserProfileModel+Private.m in Sources */,
+				C5A4A68F1C910C92003724AD /* MessageAppModel.m in Sources */,
+				C5A4A63E1C910A1C003724AD /* AudioMessageManager.m in Sources */,
+				C5A4A5C81C910933003724AD /* IMBaseRequest.m in Sources */,
+				5F92852B1CAA520B00130FDC /* relationGroupInfoModel.m in Sources */,
+				C5A4A5FB1C910984003724AD /* DeleteGroupUserRequest.m in Sources */,
+				C5A4A6131C910984003724AD /* SetMessageReadRequest.m in Sources */,
+				C5A4A6911C910C92003724AD /* MessageAttachmentModel.m in Sources */,
+				C5A4A6931C910C92003724AD /* MessageBaseModel.m in Sources */,
+				C5A4A60F1C910984003724AD /* RecallMessageRequest.m in Sources */,
+				C5A52A1F1C91721D00470C15 /* ContactDetailModel+Extension.m in Sources */,
+				930C77531D21047A003035EF /* GetSuperGroupListRequest.m in Sources */,
+				5FFD97F51CA90B6B0023EE70 /* SearchRelationUserRequest.m in Sources */,
+				C5A4A6441C910A1C003724AD /* IMUploadFileSessionManager.m in Sources */,
+				C5DCAA611CA271B1005663E6 /* MessageRelationValidateModel.m in Sources */,
+				C5AFEDC91C96AFAA00C1D825 /* MessageGroupNoDisturbRequest.m in Sources */,
+				C5A52A131C91524200470C15 /* NSDate+IMManager.m in Sources */,
+				C5CFF6D41CA3B5F600D25787 /* ContactDetailModel+Private.m in Sources */,
+				C5FF1AE81CDB34CB00261F84 /* MessageVoipModel.m in Sources */,
+				3A6D90E41CA118A80039A583 /* AddRelationValidateRequest.m in Sources */,
+				C5A4A6991C910C92003724AD /* UserProfileModel.m in Sources */,
+				C59C02B81CA11178002A5098 /* MessageRelationGroupTable.m in Sources */,
+				5FFFE4A31CE2E38C00B776AB /* DeleteRelationGroupRequest.m in Sources */,
+				3A6D90F81CA13C4B0039A583 /* LoadRelationGroupInfoRequest.m in Sources */,
+				C5A4A5F91C910984003724AD /* CreateGroupRequest.m in Sources */,
+				5FF8D2471CFD86390045C1EF /* FriendsTransferRelationRequest.m in Sources */,
+				C5A4A65E1C910A1C003724AD /* UnifiedNetworkManager.m in Sources */,
+				C59C02BE1CA1118B002A5098 /* MessageRelationGroupModel.m in Sources */,
+				C5A4A6421C910A1C003724AD /* IMApplicationManager.m in Sources */,
+				C54BF27D1CA92B030085EDC2 /* MessageMergeForwardRequest.m in Sources */,
+				C5A4A65A1C910A1C003724AD /* SendMessageManager.m in Sources */,
+				C5DCAA591CA27118005663E6 /* RelationValidateListRequest.m in Sources */,
+				C5A4A6C11C910CAE003724AD /* SGdownloader.m in Sources */,
+				C5AFEDC51C9695F400C1D825 /* IMMessageMarkRequest.m in Sources */,
+				C5F475351C92626B00AFBFEC /* MessageBaseModel+Extension.m in Sources */,
+				C5A4A5FD1C910984003724AD /* GetHistoryMessageRequest.m in Sources */,
+				C5A4A6581C910A1C003724AD /* MsgUserInfoMgr.m in Sources */,
+				5F00190C1CE5811D00B54D9E /* modifyRelationGroupRequest.m in Sources */,
+				C5A4A5F31C910984003724AD /* AddGroupUserRequest.m in Sources */,
+				C5A4A6711C910A9A003724AD /* MessageRecallTable.m in Sources */,
+				C5A4A64A1C910A1C003724AD /* MessageManager.m in Sources */,
+				3ABC33C61CA52FDA00D20624 /* RemarkRelationRequest.m in Sources */,
+				C5A4A6771C910A9A003724AD /* MsgSqlMgr.m in Sources */,
+				C5A4A6751C910A9A003724AD /* MessageTable.m in Sources */,
+				C5A4A6151C910984003724AD /* UpdateGroupNameRequest.m in Sources */,
+				C5A4A66D1C910A9A003724AD /* MessageContactsTable.m in Sources */,
+				C5A4A68B1C910C92003724AD /* AttachmentUploadModel.m in Sources */,
+				3ABC33AE1CA4FF3100D20624 /* DisposeRelationValidateRequest.m in Sources */,
+				C5A4A5F71C910984003724AD /* AudioDownloadDAL.m in Sources */,
+				C5CFF6D81CA3BA1800D25787 /* MessageBaseModel+Private.m in Sources */,
+				3ABC33C21CA52C1D00D20624 /* DeleteRelationRequest.m in Sources */,
+				C5A4A5C61C910933003724AD /* IMBaseBlockRequest.m in Sources */,
+				C5A4A6BD1C910CAE003724AD /* ASJSONKitManager.m in Sources */,
+				3A6D90E01CA116330039A583 /* GetFriendInfolistRequest.m in Sources */,
+				C5A4A5CA1C910933003724AD /* NSData+AES.m in Sources */,
+				C5A4A60D1C910984003724AD /* MsgBaseDAL.m in Sources */,
+				C5A52A1B1C9166B200470C15 /* ContactDetailModel+SQLUtil.m in Sources */,
+				C59C02BA1CA11178002A5098 /* MessageRelationInfoListTable.m in Sources */,
+				C5A4A6111C910984003724AD /* RemoveSessionRequest.m in Sources */,
+				C5582D251CD9CE4000008D40 /* GetGroupListRequest.m in Sources */,
+				C5A4A65C1C910A1C003724AD /* SocketManager.m in Sources */,
+				C59C02C61CA11A62002A5098 /* MessageRelationGroupModel+SQLUtil.m in Sources */,
+				C5582D291CD9E9BE00008D40 /* IMBaseBlockRequestPrivate.m in Sources */,
+				C5A4A6401C910A1C003724AD /* ChatMsgManager.m in Sources */,
+				C5A4A5F51C910984003724AD /* AttachmentDownloadDAL.m in Sources */,
+				C5B435321CD847F200319CDC /* CreateRelationGroupRequest.m in Sources */,
+				C5A4A63C1C910A1C003724AD /* AudioDownloadManager.m in Sources */,
+				C5A4A6951C910C92003724AD /* MessageBaseModel+SQLUtil.m in Sources */,
+				C5A4A6031C910984003724AD /* GetUnreadSessionRequest.m in Sources */,
+				C59C02C21CA111A7002A5098 /* MessageRelationInfoModel.m in Sources */,
+				C5A4A6071C910984003724AD /* IMLoginDAL.m in Sources */,
+				5F9285271CAA49FD00130FDC /* RelationGroupInfoRequest.m in Sources */,
+				C5A4A60B1C910984003724AD /* MessageOfflineDAL.m in Sources */,
+				C5A4A6D41C910CAE003724AD /* VoiceConverter.mm in Sources */,
+				C5A52A171C915A3200470C15 /* IMConfigure.m in Sources */,
+				C5A4A6091C910984003724AD /* IMLoginOutRequest.m in Sources */,
+				C5A4A6731C910A9A003724AD /* MessageSqlVersionManager.m in Sources */,
+				C5A4A6CC1C910CAE003724AD /* wav.mm in Sources */,
+				C59C02CA1CA11A81002A5098 /* MessageRelationInfoModel+SQLUtil.m in Sources */,
+				C5A4A5CC1C910933003724AD /* NSString+Manager.m in Sources */,
+				930C774F1D2100DE003035EF /* SuperGroupListModel.m in Sources */,
+				C5A4A6541C910A1C003724AD /* MsgFilePathMgr.m in Sources */,
+				C5A4A6CA1C910CAE003724AD /* amrFileCodec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C55E43961C99114A0051C513 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C55E43971C99114A0051C513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5A4A5801C910623003724AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5A4A5811C910623003724AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5A4A5831C910623003724AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC2190473B3894FE8EDF60E /* Pods-MintcodeIM.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = MintcodeIM/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MintcodeIM/ThirdLib/VoiceConvert/lib",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintcode.MintcodeIM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5A4A5841C910623003724AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D333A14BBFB0640212236D43 /* Pods-MintcodeIM.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULE_DEBUGGING = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = MintcodeIM/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MintcodeIM/ThirdLib/VoiceConvert/lib",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintcode.MintcodeIM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55E43981C99114A0051C513 /* Build configuration list for PBXAggregateTarget "Aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55E43961C99114A0051C513 /* Debug */,
+				C55E43971C99114A0051C513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A4A5741C910623003724AD /* Build configuration list for PBXProject "MintcodeIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A4A5801C910623003724AD /* Debug */,
+				C5A4A5811C910623003724AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A4A5821C910623003724AD /* Build configuration list for PBXNativeTarget "MintcodeIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A4A5831C910623003724AD /* Debug */,
+				C5A4A5841C910623003724AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5A4A5711C910623003724AD /* Project object */;
+}

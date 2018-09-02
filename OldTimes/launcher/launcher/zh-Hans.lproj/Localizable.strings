@@ -1,0 +1,929 @@
+/*
+ Localizable.strings
+ launcher
+ 
+ Created by William Zhang on 15/7/30.
+ Copyright (c) 2015年 William Zhang. All rights reserved.
+ */
+
+
+// 通用
+"None"    = "无";
+"Title"   = "标题";
+"Content" = "内容";
+"Start"   = "开始";
+"Stop"    = "结束";
+"Confirm" = "确定";
+"Delete"  = "删除";                          // DELETE
+"Close"   = "关闭";
+
+"Delete_Success" = "删除成功";  // DELETESUCCESS
+"Delete_Fail"    = "删除失败";  // FAILDELETE
+"Cancel_Success" = "取消成功";  // CALCEL_SUCCESS
+"Send_Success"   = "提交成功";  // SEND_SECCESS
+
+"Upload_Error" = "网络很糟糕，上传终止";
+"Input_Error" = "请输入%@";
+
+"Permission_Error" = "无权查看";
+
+"sender_Success"    = "发送成功";
+/**************** HomeClass ****************************/
+// Tabbar
+"HomeTabbar_Message"     = "消息";// HOMETABBAR_MESSAGE
+"HomeTabbar_Application" = "应用";// HOMETABBAR_APPLICATION
+"HomeTabbar_Contact"     = "通讯录";// HOMETABBAR_CONTACT
+"HomeTabbar_UserInfo"    = "我";// HOMETABBAR_USERINFO
+
+/**************** LoginClass ****************************/
+// 登陆界面
+"LoginClass_Title" = "登录";               // LOGINCLASS_TITLE
+"LoginClass_Name" = "输入邮箱账号";              // LOGINCLASS_NAME
+"LoginClass_PassWord" = "输入登录密码";            // LOGINCLASS_PASSWORD
+"LoginClass_Remember" = "记住密码";         // LOGINCLASS_REMERBER
+"LoginClass_Error1" = "请输入用户名";        // LOGINCLASS_ERROR1
+"LoginClass_Error2" = "请输入密码";          // LOGINCLASS_ERROR2
+"LoginClass_Logining" = "登录中...";
+
+"LoginClass_Forget" = "忘记密码";          //  LOGINCLASS_FORGETPSD
+"LoginClass_ApplyTrial" = "注册";
+"LoginClass_Description" = "轻松管理 敏捷工作";
+
+"LoginClass_EnterValidCode" = "输入验证码";
+// 手势界面
+"GestureLogin_Forget"        = "忘记手势密码";// GESTURELOGIN_FORGET
+"GestureLogin_OtherWay"      = "指纹认证解除锁定";// GESTURELOGIN_OTHERWAY
+"GestureLogin_Wrong"         = "密码错误，您还可以输入%ld次";//GESTURELOGIN_WRONG
+"GestureLogin_Wrong2"        = "即将跳转到密码登录界面，请重设手势解锁图案";//GESTURELOGIN_WRONG2
+"GestureLogin_Title"         = "设置手势密码";// GESTURELOGIN_TITLE
+"GestureLogin_Prompt"        = "绘制解锁图案";// GESTURELOGIN_PROMPT
+"GestureLogin_Prompt1"       = "请至少连接4个点";// GESTURELOGIN_PROMPT1
+"GestureLogin_Prompt2"       = "请再次绘制解锁图案";// GESTURELOGIN_PROMPT2
+"GestureLogin_Prompt3"       = "设置解锁图案成功";// GESTURELOGIN_PROMPT3
+"GrestureLogin_Prompt4"      = "与第一次图案不匹配";// GESTURELOGIN_PROMPT4
+"GestureLogin_Prompt5"       = "请重新绘制解锁图案";
+"Fingerprint_Identification" = "通过指纹验证进入";//FINGERPRINT_IDENTIFICATION
+
+"ErrorOther" = "手机网络不佳，请检查后尝试";                    // ERROROTHER
+
+
+"register_account"                     = "注册账号";
+"register_email_register"              = "邮箱注册";
+"register_nextStep"                    = "下一步";
+"register_email_error"                 = "请输入正确的邮箱";
+"register_email"                       = "请输入邮箱";
+"register_password_error"              = "请输入密码";
+"register_teamName_error"              = "请输入团队名称";
+"register_teamDomain_error"            = "请输入团队域名";
+"register_name_error"                  = "请输入姓名";
+"register_registered"                  = "已被注册";
+"register_login_now"                   = "直接登录";
+"register_email_change"                = "修改邮箱";
+"register_email_find"                  = "邮箱找回";
+"register_login_back"                  = "返回登录";
+"register_email_find_send"             = "发送密码找回邮件";
+"register_email_find_send_description" = "我们已经向您注册的邮箱发送一封密码找回邮件，请您注意接收邮件。";
+"register_email_find_resend"           = "重新发送";
+"register_team_create"                 = "创建团队";
+"register_password_set"                = "设置登录密码";
+"register_info_confirm"                = "确认信息";
+"register_team_address"                = "团队地址";
+"register_team_name"                   = "团队名称";
+"register_password"                    = "密码";
+
+"register_term1" = "我已阅读并同意相关服务条款和隐私政策";
+"register_term1_sub1" = "服务条款";
+"register_term1_sub2" = "隐私政策";
+"register_term2" = "同意接收运营邮件";
+
+/***************应用*****************/
+"Application"          = "应用";
+"Application_Calendar" = "日程";
+"Application_Apply"    = "申请";
+"Applcation_Mission"   = "任务";
+"Application_Attendance" = "考勤";
+
+"Application_Calendar_notify" = "日程通知";
+"Application_Apply_notify"    = "审批通知";
+"Application_Mission_notify"  = "任务通知";
+"Application_Unfinished"  = "未完成";
+
+"Quick_new_chat"     = "新建聊天";
+"Quick_new_task"     = "新建任务";
+"Quick_new_schedule" = "新建日程";
+"Quick_QRCode"       = "扫一扫";
+"Quick_Apply"        = "新建审批";
+"Quick_Meeting"      = "新建会议";
+
+/**************** Message ****************************/
+"Chat_empty_tip" = "请先从web版添加用户以开始聊天";
+"Chat_empty_subTip" = "请从以下地址登录\nhttps://workhub.jp/a/%@\n点击画面右下角的“系统设置”添加用户和部门。（我们推荐您使用电脑进行操作）";
+
+"Message_StartGroup" = "创建群组";          // MESSAGE_STARTGROUP
+"Connecting" = "连接中...";                    // CONNECTING
+"UnConnect" = "未连接";                     // UNCONNECT
+"Delete" = "删除";                          // DELETE
+"Message_SendAgain" = "重发";               // MESSAGE_SENDAGAIN
+"Message_Copy" = "复制";                    // MESSAGE_COPY
+"CancelVoice" = "已取消录制";                // CANCELVOICE
+"UpdateSuccessful" = "更新成功";
+
+// RadioManager
+"Radio_NoWork" = "无法录音";                 // RADIO_NOWORK
+"Radio_NoWorkReason" = "麦克风可能损坏或者其他原因"; // RADIO_NOWORREASON
+"Radio_TimeTooShort" = "时间太短，无法录音，请重试"; // RADIO_TIMETOOSHORT
+
+// 群聊
+"Group_NotPermit" = "抱歉你被禁言，因为你已经被移出群"; // GEROUPNOTPERMIT
+"Group_Permit" = "你被重新加回群，解禁了发言";         // GEROUPPERMIT
+"Group_Quit" = "确认要退出本群吗?";                  // GEROUPQUIT
+"Group_Name" = "群名";                              // GEROUPNAME
+"Group_CleanMessage" = "清空聊天记录";               // GEROUPCLEAN
+"Group_QuitPromot" = "删除并退出后，将不再接收此群聊消息"; //GEROUPQUITPROMOT
+"GROUP_CREATE_FAILURE" = "群组创建失败";
+"Chat_empty"  = "聊天";                                 //CHAT_EMPTY
+// ChatCommonInputView
+"Chat_Tap" = "按住 说话";                       // CHAT_TAP
+
+// MsgGroupMgrView
+"GroupData_Name" = "多人组名称";                   // GROUPDATA_NAME
+"GroupData_NoPush" = "屏蔽推送 (接收消息但不推送)";  // GROUPDATA_NOPUSH
+"GroupData_DisplayName" = "显示群成员昵称";          // GROUPDATA_DISPLAYNAME
+"GroupData_Quit" = "退出并删除群聊";                // GROUPDATA_QUIT
+
+// MsgImagePasteView
+"Image_FailLoad" = "很抱歉，加载原图失败无法发送";    // IMAGE_FAILLOAD
+
+// ChatAttachPickView
+"Title_Btn_Img" = "图片";                         // TITLE_BTN_IMG
+"Title_Btn_TakePhoto" = "拍照";                   // TITLE_BTN_TAKEPHOTO
+"Title_Btn_File" = "文件";                        // TITLE_BTN_FILE
+"Title_Btn_Location" = "位置";                    // TITLE_BTN_LOCATION
+
+"chat_readed"       = "已读";
+"chat_sended"       = "已送达";
+"chat_call_number"  = "%@可能是一个电话号码，你可以";
+"chat_mail_to"      = "向%@发送邮件";
+"chat_mail_default" = "使用默认邮件账户";
+"chat_call"         = "呼叫";
+
+"chat_atme_titel" = "@";
+"chat_atme_content" = "您被@的对话将显示在这里";
+
+"chat_point_titel" = "重点";
+"chat_point_content" = "被您标记为重点的对话将显示在这里";
+
+"chat_image_titel" = "图片";
+"chat_image_content" = "您收到的图片将显示在这里";
+
+"chat_file_titel"  = "文件";
+"chat_file_content" = "您收到的文件将显示在这里";
+
+"chat_app_titel" = "应用";
+"chat_app_content" = "您收到的任务或日程将显示在这里";
+
+"Chat_Forward_History"        = "的聊天记录";
+"Chat_Forward_History_single" = "%@与%@的聊天记录";
+"Chat_Forward_Onebyone"       = "逐条转发";
+"Chat_Forward_Merge"          = "合并转发";
+"Chat_Forward_Onebye_warning" = "选择的消息中，文件、图片和语音消息不能转发";
+"Chat_Forward_Merge_warning"  = "选择的消息中，文件、图片、语音和卡片类消息不能合并转发";
+"CHAT_FORWARD_MERGE_UNSUPPORT_CONTENT" = "收到不支持的消息,可在电脑上查看";
+
+
+/**************** ContactClass ****************************/
+// 通讯录
+"Search" = "搜索";                      // SEARCH
+"Contact_Recent" = "最近联系人";         // CONTACT_RECENT
+"Contact_Organization" = "组织架构";    // CONTACT_ORGANIZATION
+"Contact_MyGroup"  = "我的群组";
+"Contact_MyFriend" = "我的好友";
+"Contact_MySector" = "我的部门";        // CONTACT_MYSECTOR
+"Contact_MyFavour" = "我的收藏";        // CONTACT_MYFAVOUR
+"Select_Group" = "选择群组";            // SELECT_GROUP
+"Favourite_Cancel" = "取消收藏";               // FAVOURITE_CANCEL
+"Out_ToPhone" = "导出到手机";           // OUT_TOPHONE
+"Out_Success" = "导出成功";             // OUT_SUCCESS
+"Out_Fail" = "导出失败";                // OUT_FAIL
+"Contact_AddFail" = "写入失败";         // CONTACT_ADDFAIL
+"Send_Message" = "发消息";             // SEND_MESSAGE
+"Favourite_Contact" = "收藏联系人";     // FAVOURITE_CONTACT
+"Call_Fail" = "无法打开拨号程序";        // CALL_FAIL
+"Contact_AddSuccess" = "添加成功";      // CONTACT_ADDSUCCESS
+"Contact_Add" = "添加成员";             // CONTACT_ADD
+"Contact_Select" = "选择成员";             // CONTACT_SELECT
+"MySector_Contact" = "我的部门联系人";   // MYSECTOR_CONTACT
+"MySector_Add" = "添加我的部门成员";     // MYSECTOR_ADD
+"Choose_Group" = "选择一个群组";          // CHOOSE_GROUP
+"Group_AddPrompt" = "请选择至少一个成员";    // GROUP_ADDPROMPT
+"Contact_Favour" = "收藏";                // CONTACT_FAVOUR
+"Contact_Grouped" = "已有群";              // COMTACT_GROUPED
+"IsTop" = "置顶";                        //ISTOP
+"CancelTop" = "取消置顶";                //CANCELTOP
+"Contact_SearchTitle" = "搜索用户或部门名称";
+"selectall" = "全选";
+// FavoriteViewController
+"Edit" = "编辑";                           // EDIT
+"Finish" = "完成";                         // FINISH
+
+/**************Friends*****************/
+"Friend_Agree"          = "同意";
+"Friend_DisAgress"      = "拒绝";
+"friend_addFriend"      = "添加好友";
+"friend_verify"         = "好友验证";
+"friend_remark_please"  = "请输入备注名";
+"friend_addRemark"      = "添加备注";
+"friend_remove"         = "解除好友关系";
+"friend_chat"           = "对话";
+"friend_verify_please"  = "请求加您为好友";
+"friend_verify_wait"    = "你需要发送验证申请，等待对方通过";
+"friend_verify_message" = "请输入验证信息";
+"friend_add"            = "添加";
+"friend_search"         = "手机号或";
+
+/**************Friends*****************/
+// ContactSelectTabBarView
+"Certain_Number" = "确定(%lu)";             // CERTAIN_NUMBER
+"search_department" = "部门";               //SEARCH_DEPARTMENT
+/***************ContactBook*****************/
+"InDepartOrder"     = "按部门";
+"InNameOrder"       = "按姓名";
+"PhoneNumber"       = "手机号";
+"Email"             = "邮箱";
+"BussinsessPhone"   = "办公电话";
+"Depart"            = "部门";
+"Job"               = "职位";
+"QRCode"            = "二维码名片";
+"Share"             = "分享";
+"Include"           = "包含";
+"DepartWorlds"      = "字样的部门";
+"UserNameWrolds"    = "字样的用户";
+"chat"              = "对话";
+
+/***************应用评论*****************/
+"CommentDeleted"        = "评论已删除";
+"Newapply_all"          = "全部";
+"Newapply_comment"      = "评论";
+"Newapply_attachment"   = "附件";
+"Newapply_system"       = "操作";
+
+// 聊天搜索界面 消息记录 ***********************---------------------------
+"Search_MessageContent"   = "搜索消息内容";     // SEARCH_MESSAGECONTENT
+"Message_Logging"         = "消息记录";        // MESSAGE_LOGGING
+"emphasis"                = "重点";           // EMPHASIS
+"Cancle_Mark_Emphasis"    = "取消标记重点";    // CANCLE_MARK_EMPHASIS
+"To_Schedule"             = "转为日程";       // TO_SCHEDULE
+"To_Task"                 = "转为任务";       // TO_TASK
+"To_Recall"               = "撤回";
+"Frowarding"              = "转发";           // FROWARDING
+"Meeting"                 = "会议";           // MEETING
+"From"                    = "来自";           // FROM
+"Message_voice"           = "语音";           // MESSAGE_VOICE
+"place"                   = "地点";           // PLACE
+"state"                   = "状态";           // STATE
+"priority"                = "优先级";          // PRIORITY
+"Ask_For_Leave"           = "请假";           // ASK_FOR_LEAVE
+"veto"                    = "否决";           // VETO
+"cost"                    = "费用";           // COST
+"recall_somebody"         = "%@撤回了一条消息";
+"recall_me"               = "你撤回了一条消息";
+
+/***************我的设置*****************/
+"Me_name" = "姓名";
+"Me_mobile" = "手机";
+"Me_mail" = "邮箱";
+"Me_office" = "办公室电话";
+"Me_team" = "我的团队";
+"Me_qrcode" = "二维码名片";
+"Me_share" = "分享";
+"Me_revise_code" = "修改密码";
+"Me_revise_tap" = "修改手势密码";
+"Me_set" = "设置";
+"Me_kindly_warn" = "温馨提示";
+"Me_confirm_revise" = "确定修改";
+"Me_orginal_password" = "原密码";
+"Me_new_password" = "新密码";
+"Me_confirm_password" = "确认密码";
+"Me_check_code" = "验证码";
+"Me_warn" = "警告";
+"Me_login_pw_need_exist" = "登录密码不能为空";
+"Me_newmail_need" = "新邮箱地址不能为空";
+"Me_checkcode_need" = "验证码不能为空";
+"Me_login_pw" = "登录密码";
+"Me_new_mail" = "新邮箱";
+"Me_operation_cannot_back" = "操作不可逆";
+"Me_language" = "语言";
+"Me_message_notification" = "消息通知";
+"Me_devise_manage" = "设备管理";
+"Me_clean_all" = "清理缓存";
+"Me_suggest_back" = "意见反馈";
+"Me_help" = "帮助中心";
+"Me_about_p" = "关于WorkHub";
+"Me_delete_account" = "删除账号";
+"Me_confirm_clean_all" = "确定清空本地缓存数据?";
+"Me_warn_operation" = "警告:操作不可逆！";
+"Me_confirm_delete" = "确认删除";
+"Me_login_out" = "退出登录";
+"Me_back_records" = "反馈记录";
+"Me_lowerword" = "小写字母";
+"Me_upperword" = "大写字母";
+"Me_number" = "数字";
+"Me_specialword" = "特殊符号";
+"Me_morethan8" = "至少8位";
+"Me_had_sent" = "已发送";
+"Me_get_check_code" = "获取验证码";
+"Me_input_backcontent" = "请输入反馈内容";
+"Me_input_backsuggest" = "请输入反馈意见";
+"Me_pw_lessthan16"     = "密码最长为16位";
+"Me_newpw_notthesame"  = "新密码不一致，请重新输入";
+"Me_newpw_notasrequired" = "新密码不符合要求";
+"Me_change_mail"      = "修改邮箱";
+"Me_input_right_mail" = "请输入正确的邮箱地址";
+"Me_revise_mobile"    = "修改手机号";
+"Me_newmobile_need"   = "新手机号码不能为空";
+"Me_newmobile_no"    = "新手机号";
+"Me_prompt_type" = "提示类型";
+
+
+/*****************Apply**********************/
+"Apply_apply" = "申请";
+"Apply_allday" = "全天";
+"Apply_dealing" = "处理中";
+"Apply_searching" = "搜索中...";
+"Apply_delete_picture" = "要删除这张照片吗";
+/*apply Add view */
+"Apply_add_detail"            = "备注";
+"Apply_add_accept_Title"      = "审批人";
+"Apply_add_cc_Title"          = "CC";
+"Apply_add_Type_Title"        = "类型";
+"Apply_add_Priority_Title"    = "紧急";
+"Apply_add_Deadline_Title"    = "审批期限";
+"Apply_add_Period_Title"      = "时间";
+"Apply_add_Attachment_Title"  = "附件";
+"Apply_add_Expensed_Title"    = "金额";
+"Apply_apply_success" = "申请成功";
+"Apply_sender_Success" = "审批发送成功";
+"Apply_camero" = "相机";
+"Apply_picture" = "相册";
+"Apply_getnew_comments" = "获取更早的评论";
+"Apply_nomore_comments" = "无更多评论";
+"Pleas_input" = "评论";
+"Apply_send" = "发送";
+"Apply_input_apply_suggest" = "请输入审批意见";
+"Apply_input_next_appraller" = "请选择下一个审批人";
+"Apply_accept" = "通过";
+"Apply_delete_comment" = "是否删除此评论";
+"Apply_delete_success" = "删除成功";
+"Apply_makesure_delete" = "是否确认删除";
+"Apply_cannot_delete_apply" = "该审批不可删除";
+"Apply_makesure" = "通过";
+"Apply_makesure_forward" = "通过并转交";
+"Apply_input_title" = "请输入标题";
+"Apply_input_money" = "请输入金额";
+"Apply_input_approller" = "请选择审批人";
+"Apply_begin_time" = "开始时间";
+"Apply_end_time" = "结束时间";
+"Apply_input_vocation_time" = "请输入假期期间";
+"Apply_sp_contain" = "包含";
+"Apply_sp_asword" = "字样的申请";
+"Apply_as_approveller" = "为审批人的申请";
+
+
+
+
+//承认者
+"Apply_Accept_Vocation_Title"       = "请假申请";
+"Apply_Accpet_Expensed_Title"       = "费用申请";
+"Apply_add_new_vocation"            = "新建请假";
+"Apply_add_new_money"               = "新建费用";
+"Apply_Accept_Receiver_Title"       = "接收";
+"Apply_Accept_Sender_Title"         = "发送";
+"APPLY_ADD"                         = "新增";
+"Apply_Accept_AcceptBtn_Title"      = "审批";
+"Apply_Accept_CCBtn_Title"          = "抄送";
+"Apply_Accept_Backward_Title"       = " 驳回";
+"Apply_Accept_Unaccept_Title"       = " 却下";
+"Apply_Accept_Waiting_Event_Title"  = "待处理";
+"Apply_Accept_Dealed_Event_Title"   = "已处理";
+"Apply_accept_before"               = "截至";
+//申请者
+"Apply_Sender_Unaccept_Title"       = "拒绝";
+"Apply_Sender_Accept_Title"         = "通过";
+"Apply_Sender_Backward_Title"       = "打回";
+"Apply_Sender_Dealing_Title"        = "审批中";
+"Apply_Sender_Wait_Deal_Title"      = "待审批";
+//详细
+"Apply_list_deadline_info"			= "截止";
+"Apply_Apply_Confirm_Title"         = "审批详情";
+"Apply_Apply_Deadline_Title"        = "审批截止日期";
+"Apply_Apply_Vocation_Title"        = "请假申请";
+"Apply_Apply_Attachment_Title"      = "附件";
+"Apply_comeout"                     = "提交";
+
+"apply_inputMoney"       = "请输入正确的格式";
+"apply_applyComment"     = "审批评语";
+"apply_nextperson"       = "下一个审批人";
+"apply_selectNextperson" = "选择下一个审批人";
+"apply_noresult"         = "未搜索到%@相关结果";
+
+/********************新任务****************************/
+"NewMission_Show_Finish"                       ="显示已处理";
+"NewMission_Show_UnFinish"                     ="显示未处理";
+"NewMission_Select_Start_Time"                 ="开始时间";
+"NewMissionS_elect_End_Time"                   ="结束时间";
+"NewMission_Delete_Project"                    ="删除项目";
+"NewMission_OneDay"                            ="无";
+"NewMission_UnSet"                             ="无结束时间";
+"NewMission_Menu"                              ="菜单";
+"NewMission_Add_Mission"                       ="新增任务";
+"NewMission_Cancel_Login"                      ="取消登录";
+"NewMission_CanNot_Empty"                      ="该输入框不能为空";
+"NewMission_Main_Mission"                      ="主任务";
+"NewMission_Add_One_Mission"                   ="添加一个项目";
+"NewMission_All_Mission"                       ="所有任务";
+"NewMission_No_Start_Time"                     ="无开始时间";
+"NewMission_Finish"                            ="已完成";
+"NewMission_Add_Mission_Finish"                ="新建任务成功";
+"NewMission_Get_Mission_Detail_Success"        ="获取任务详情成功";
+"NewMission_Edit_Mission_Finish"               ="编辑任务成功";
+"NewMission_Add_New_Mission_Interface_Fail"    ="新建任务界面失败";
+"NewMission_Please_Select_People"              ="请选择参与人";
+"NewMission_Select_Start_Time_info"			   ="请选择开始时间";
+"NewMission_Out_Of_Date"                       ="已过期";
+"NEWMISSION_IN_DATE"						   ="未过期";
+"NewMission_Member"                            ="项目成员";
+"NewMission_Get_MissionList_success"           ="获取任务列表成功";
+"NewMission_Change_Fail"                       ="修改失败";
+"NewMission_Add_SubMission"                    ="添加子任务";
+"NewMission_SubMission_Detail"                 ="子任务详情";
+"MissionMoveError"							   ="任务不在同级";
+/****************任务********************/
+"Mission_Detaile_item"   = "项目";
+"Mission_Detail_tag"     = "tag";
+"Mission_Detail_title"   = "任务详情";
+"Mission_NewTask_title"  = "新建任务";
+"Mission_EditTask_title" = "编辑任务";
+"Mission_Participant"    = "参与者";
+"Mission_Project"        = "项目";
+"Mission_End"            = "截止";
+"Mission_SubTask"        = "子任务";
+"Mission_NewSubTask"     = "新建子任务";
+"Mission_EditSubTask"    = "编辑子任务";
+"Mission_DeleteSubTask"  = "删除子任务";
+"Mission_ChangeTask"     = "转换任务";
+"Mission_High"           = "高";
+"Mission_Medium"         = "中";
+"Mission_Low"            = "低";
+"Mission_whofirst"       = "优先度";
+"Mission_FillTaskName"   = "填写任务名称";
+"Mission_EndTime"        = "截止时间";
+"Mission_AllDay"         = "全天";
+"Mission_Remark"         = "备注";
+"Mission_MyTask"         = "我的任务";
+"Mission_MyAttendTask"   = "我参与的任务";
+"Mission_MySendTask"     = "我发出的任务";
+"Mission_EndToday"       = "今天截止";
+"Mission_EndWeek"        = "一周内截止";
+"Mission_NewProject"     = "新建项目";
+"Mission_ComfirmDelete"  = "确定删除吗";
+"Mission_ProjectName"    = "项目名称";
+"Mission_Member"         = "成员";
+"Mission_NewBoard"       = "新增白板";
+"Mission_All"            = "所有";
+"Mission_Add"            = "新增";
+"Mission_today"          = "今天";
+"Mission_tomorrow"       = "明天";
+"Mission_thedayaftertomorrow" = "后天";
+"Mission_weeklater"      = "一周后";
+"Mission_monthlater"     = "一月后";
+"Mission_choose"         = "自定";
+"Mission_pass"           = "过滤";
+"Mission_more_choose"    = "更多选项";
+"Mission_pls_input_task_title" = "请输入任务标题";
+"Mission_changeToParent" = "转化为父任务";
+"Mission_parentTask"           = "父任务";
+"Mission_editProject"          = "编辑项目";
+"Mission_selectProject"        = "请选择项目";
+"Mission_editWhiteboard"       = "编辑白板";
+"Mission_inputWhiteboardTitle" = "请输入白板标题";
+"Mission_inputNotNone"         = "该输入框不能为空";
+"Mission_empty_icon"           = "赞!没有未完成的任务";
+"Mission_title_for_new_tast"   = "任务标题";
+/***************Meeting*****************/
+"Meet_AddNewMeeting" = "新建会议";
+"Meeting_Title" = "标题";
+"Meeting_Must_Attend" = "必须出席";
+"Meeting_Cannot_Attend" = "选择出席";
+"Meeting_ChooseTime_Address" = "会议时间和地点";
+"Meeting_Time_Address" = "时间和场所";
+"Meeting_Remind" = "重复";
+"Meeting_Notificate" = "提醒";
+"Meeting_Eventconfirm" = "的确定";
+"Meeting_Confirm" = "会议详情";
+"Meeting_Sure" = "确认";
+"Meeting_Delete" = "删除";
+"Meeting_Delete_Current" = "删除当前事件";
+"Meeting_Confirm_Delete" = "是否确认删除该事件";
+"Meeting_AddNewMeeting_Deatil" = "详细";
+"Meeting_Attend" = "参加";
+"Meeting_NotAttend" = "不参加";
+"Meeting_NotAllowCheck" = "无法查看非参与的会议";
+"Meeting_Personal_Schedule_Detail" = "的日程详细";
+"Meeting_input_title" = "请输入标题";
+"Meeting_input_attenders" = "请输入出席人员";
+"Meeting_input_meetingtime" = "请选择会议时间";
+"Meeting_input_meetingaddress" = "请选择会议地点";
+"Meeting_input_meetingroom" = "请选择会议室";
+"Meeting_input_addresswithout_meetingroom" = "会议室以外的地方";
+"Meeting_check_event" = "查看事件";
+"Meeting_input_address" = "请输入场所";
+"Meeting_input_time" = "请输入时间";
+"Meeting_open_location" = "请开启定位";
+"Meeting_important" = "重要";
+"Meeting_address_changed" = "场所指定";
+"Meeting_event_day" = "事件当天";
+"Meeting_hour" = "时";
+
+
+/***************Calendar*****************/
+/*view schedle detail*/
+"Calendar_confirm_ConfirmOrder" = "确认预定";
+"Calendar_confirm_DetailTitle"  = "事件详情";
+"Calendar_Time" = "时间";
+"Calendar_placeHolderTime" = "时间";
+
+"Calendar_confirm_Edit"               = "编辑";
+"Calendar_confirm_TakeOutCertificate" = "领取盖有公章的证明书";
+
+"Calendar_confirm_WholeDay"    = "整天" ;
+"Calendar_confirm_Alternate"   = "候补";
+"Calendar_confirm_Copy"        = "复制";
+"Calendar_confirm_Tel"         = "电话";
+"Calendar_confirm_Detail"      = "备注";
+"Calendar_confirm_DeleteOrder" = "删除预定";
+"Calendar_input_title"         = "请输入标题";
+"Calendar_Edit_Event"          = "编辑事件";
+/*scheduleByWeek*/
+"Calendar_scheduleByWeek_Week"     = "周";
+"Calendar_scheduleByWeek_Month"    = "月";
+"CALENDAR_SCHEDULEBYWEEK_Day"      = "日";
+"Calendar_scheduleByWeek_Time"     = "时间";
+"Calendar_scheduleByWeek_NoOrder"  = "没有预定";
+"Calendar_scheduleByWeek_Add"      = "新增";
+"Calendar_scheduleByWeek_Today"    = "今天";
+"Calendar_scheduleByWeek_Yesterday" = "昨天";
+"Calendar_scheduleByWeek_TimeMode" = "M月d日 EEEEE";
+"Calendar_scheduleByWeek_Sunday"      = "日";
+"Calendar_scheduleByWeek_Monday"      = "一";
+"Calendar_scheduleByWeek_Tuesday"     = "二";
+"Calendar_scheduleByWeek_Wednesday"   = "三";
+"Calendar_scheduleByWeek_Thursday"    = "四";
+"Calendar_scheduleByWeek_Friday"      = "五";
+"Calendar_scheduleByWeek_Saturday"    = "六";
+"Calendar_never_remind"               = "不提醒";
+"Calendar_before_event_begin"         = "事件开始前";
+"Calendar_minutes_before"             = "分钟前";
+"Calendar_hours_before"               = "小时前";
+"Calendar_days_before"                = "天前";
+"Calendar_weeks_before"               = "周前";
+"Calendar_never_repeat"               = "不重复";
+"Calendar_repeat_everyday"            = "每天";
+"Calendar_repeat_everyweek"           = "每周";
+"Calendar_repeat_everymonth"          = "每月";
+"Calenadr_repeat_everyyear"           = "每年";
+"Calendar_delete_current"             = "删除当前事件";
+"Calendar_delete_current_after"       = "删除此条及之后重复事件";
+"Calendar_edit_current_meeting"       = "编辑当前会议";
+"Calendar_edit_all_meeting"           = "编辑所有会议";
+"Calendar_minute"                     = "分钟";
+"Calendar_hour"                       = "小时";
+"Calendar_change"                     = "切换";
+"Calendar_myCalendar"                 = "我的日程";
+
+/*add schedule 1**/
+
+"Calendar_add_AddOrder"      = "新建事件";
+"Calendar_add_Save"          = "保存";
+"Calendar_add_Cancle"        = "取消";
+"Calendar_add_Title"         = "预定的标题";
+"Calendar_add_Important"     = "重要";
+"Calendar_add_Place"         = "场所";
+"Calendar_add_OrderWholeDay" = "全天";//"一天的预定";
+"Calendar_add_ChooseTime"    = "时间";
+"Calendar_add_Repeat"        = "重复";
+"Calendar_add_Notification"  = "提醒";
+"Calendar_add_Tel"           = "电话";
+"Calendar_add_Url"           = "URL";
+"Calendar_add_Detail"        = "详情";
+"Calendar_others_hadarranged" = "*此时间段中有%d名成员已有其他事件安排";
+"Calendar_select_meetingroom" = "请选择可用会议室";
+"Calendar_other_place" = "请选择会议室以外的场所";
+"Calendar_event_detail" = "冲突事件详情";
+"Calendar_no_meeting_room" = "该时间段没有可以利用的会议室";
+"Calendar_no_meeting_room_other" = "该时间段请选择会议室以外的场所";
+"Calendar_no_data"             =  "无事件";
+"Calendar_copy"                = "复制成功";
+"Calendar_SelecteAlternateData" = "选择候补时间";
+"Calendar_Create_Sender_Success" = "会议发送成功";
+/*add schedule 2*/
+
+"Calendar_timePicker_ChooseTime"        = "日期选择";
+"Calendar_timePicker_Date2"             = "日期";
+"Calendar_timePicker_StartTime"         = "开始时间";
+"Calendar_timePicker_EndTime"           = "结束时间";
+"Calendar_timePicker_AddAlternateData"  = "选择候补时间";
+"Calendar_timePicker_CopyAlternateData" = "复制候补时间";
+
+/*schedule by month*/
+"Calendar_scheduleByMonth_Search" = "检索";
+"Calendar_scheduleByMonth_Cancle" = "取消";
+
+/*view schedule detail1*/
+"Calendar_viewScheduleDetail_Fail"       = "失败";
+"Calendar_viewScheduleDetail_FailDetail" = "无法连接到服务器，请重新登录";
+
+
+/*view schedule detail3*/
+"Calender_viewScheduleDeleteAlterview_Alerttile"   = "真的要删除吗";
+"Calender_viewScheduleDeleteAlterview_AlertDetail" = "正在编辑的内容不会被保存";
+"Calender_viewScheduleDeleteAlterview_No"          = "否";
+"Calender_viewScheduleDeleteAlterview_YES"         = "是";
+
+"Calendar_selectEditType" = "请选择编辑类型";
+"Calendar_onlytype"       = "只编辑此条事件";
+"Calendar_alltype"        = "编辑此条及之后的所有事件";
+"Calendar_myCalendar"     = "我的日程";
+
+
+/**************** MeClass ****************************/
+"UserInfo_Circle" = "同事圈";           // USERINFO_CIRCLE
+"UserInfo_MyGallery" = "我的相册";      // USERINFO_MYGALLERY
+"UserInfo_MyFavorite" = "我的收藏";     // USERINFO_MYFAVORITE
+"UserInfo_Comments" = "评论与提及";      // USERINFO_COMMENTS
+"UserInfo_Setting" = "设置";           // USERINFO_SETTING
+"Prompt" = "提示";                              //PROMPT
+"Effective_After_Re-login" = "需要重新登录生效";  //EFFECTIVE_AFTER_RELOGIN
+"Language_ChangeTitle" = "您要将WorkHub的语言更改为%@吗？";
+
+// 个人信息详情
+"UserInfo_Phone" = "手机";            // USERINFO_PHONE
+"UserInfo_HomePhone" = "固定电话";     // USERINFO_HOMEPHONE
+"UserInfo_Mail" = "邮箱";             // USERINFO_MAIL
+"UserInfo_Department" = "部门";       // USERINFO_DEPARTMENT
+"UserInfo_Position" = "职位";         // USERINFO_POSITION
+"Unset" = "未设置";                   // UNSET
+"Vice_Director" = "副主任";           // VICE_DIRECTOR
+
+// 添加头像
+"Gallery" = "相册";      // GALLERY
+"Camera" = "拍照";       // CAMERA
+"Cancel" = "取消";       // CANCEL
+"Save" = "保存";         // SAVE
+
+// 设置页面
+"Setting_SignOut" = "退出当前账号";   // SIGNOUT
+"Setting_NewMessage" = "新消息通知";  // SETTING_NEWMESSAGE
+"Setting_Cache" = "清除缓存";       // SETTING_CLEARCACHE
+"Setting_Gesture" = "修改手势密码";   // SETTING_GESTURE
+"Setting_FeedBack" = "意见反馈";     // SETTING_FEEDBACK
+"Setting_About" = "关于软件";           // SETTING_ABOUT
+"Setting_Multilingual" = "多语言环境";   // Setting_Multilingual
+
+// 多国语言
+"Language_System" = "跟随系统";
+"Language_SpChinese" = "简体中文";
+"Language_English" = "英文";
+"Language_Japanese" = "日文";
+"Prompt" = "提示";                              //PROMPT
+"Effective_After_Re-login" = "需要重新登录生效";  //EFFECTIVE_AFTER_RELOGIN
+
+// 修改密码
+"Password_Title" = "密码设置";  // PASSWORD_SETTING
+"Now_Password" = "输入当前密码";    // NOWPASSWORD
+"Certain" = "确定";            // CERTAIN
+"PasswordWrong" = "密码错误，请重新输入"; //PASSWORDWRONG
+"ChangeSuccess" = "修改成功";   // CHANGESUCCESS
+"Password_Least" = "密码最少个数为6位"; // PASSWORD_LEAST
+"Password_UnMatching" = "密码不匹配";    // PASSWORD_UNMATCHING
+"Password_New" = "新密码";     // PASSWORD_NEW
+"Password_Determine" = "密码确认"; // PASSWORD_DETERMINE
+"PassWord_Twice" = "请再输入一次密码"; // PASSWORD_TWICE
+
+
+
+// 注销
+"Certain_SignOut" = "确定注销吗"; // CERTAIN_SIGNOUT
+"YES" = "是";        // SETYES
+"NO" = "否";         // SETNO
+
+// 新消息通知
+"Voice" = "声音";         // VOICE
+"Shock" = "震动";         // SHOCK
+
+// 意见反馈
+"Send" = "发送";          // SEND
+"SendError" = "发送失败";   // SENDERROR
+"WRITECONTENT" = "请输入内容";    // WRITECONTENT
+"THAKSFORBACK" = "感谢您的反馈";   // THANKSFORBACK
+"Input_problem" = "请简要描述您的问题和意见";
+
+"Feedback_choosePic" = "选择图片";
+"Feedback_pro" = "问题和意见";
+"Feedback_chooseType" = "选择类型";
+"Feedback_commit" = "提交";         // COMMIT
+
+// 补充意见反馈
+"SelectType" = "请选择项目类型";   // SELECTTYPE
+"WriteAdvice" = "请输入问题和意见"; // WRITEADVICE
+"Advice" = "问题和意见"; // ADVICE
+"SelectPhoto" = "选择图片"; // SELECTPHOTO
+"ChatView" = "聊天界面"; // CHATVIEW
+
+// 关于软件
+"Check_Update" = "检查更新";        // CHECK_UPDATE
+"score" = "去评分";                 // TOSCORE
+"Check_New" = "您的软件已是最新版本"; // CHECKNEW
+"Check_Down" = "您有新版本%@";       // CHECKDOWN
+"Check_Down2" = "您有新版本";       // CHECKDOWN2
+"Ignore" = "忽略";                // IGONORE
+"Update" = "更新";                // UPDATE
+"Store_Error" = "无法打开Store，无法下载目标程序";    // STORE_ERROR
+"FindNewVersion" = "发现新版本";
+"UpdateNow" = "立即更新";
+"UpdateLater" = "稍后更新";
+
+/****************  第三方库  ****************************/
+// MJPhotoToolbar
+"SaveError" = "保存失败";                   // SAVEERROR
+"SavePhotoSuccess" = "成功保存到相册";       // SAVEPHOTOSUCCESS
+
+// QBImagePicker
+"CameraRoll" = "相机胶卷";
+"Preview"    = "预览";
+"Finish"     = "完成";// FINISH
+"Back"       = "返回";
+
+// 上拉 下拉
+"NoMore" = "没有更多内容了";                   // NOMORE
+"Click_More" = "点击加载更多";                // CLICK_MORE
+"Click_Null" = "已经加载完成";               // CLICK_NULL
+"Click_Loading" = "正在加载中...";                // CLICK_LOADING
+"Push_Loading" = "下拉可以刷新";              //PUSH_LOADING
+"Loose_Loading" = "松开立即刷新";                 //LOOSE_LOADING
+"Loading" = "正在刷新数据中";                     //LOADING
+"Last_Loading" = "最后更新";                     //LAST_LOADING
+"Norecord" = "无记录";                          //NORECORD
+
+/****************  聊天之前遗漏的  ****************************/
+// 10-15
+"Cancel_Mark" = "取消标注";                        // CANCEL_MARK
+"Make_Mark" = "标记重点";                          // MAKE_MARK
+"Pick_Photo" = "从相册选择";                       // PICK_PHOTO
+"Save_Photo" = "保存到相册？";                     // SAVE_PHOTO
+"No_Save"    = "不保存";                          // NO_SAVE
+"Chat_Set"   = "聊天设置";                        // CHAT_SET
+"No_Message" = "消息免打扰";                      // NO_MESSAGE
+"Delete_Message" = "清空消息记录";                // DELETE_MESSAGE
+"Quit_Delete" = "删除并退出";                     // QUIT_DELETE
+"File_BanDownload" = "禁止下载，因为不支持打开该类型的附件";  // FILE_BANDOWNLOAD
+"File_ClickDownload" = "点击下载";                       // FILE_CLICKDOWNLOAD
+"File_FailDonwload" = "下载失败，请重试";                   // FILE_FAILDOWNLOAD
+"Schedule_Time"     = "时间 ：";                         // SCHEDULE_TIME
+"Schedule_Place"    = "地点 ：";                        // SCHEDULE_PLACE
+"Task_Type"         = "状态 ：";                         // TASK_TYPE
+"Task_Level"        = "优先级 ：";                       // TASK_LEVEL
+"Leave"             = "请假 ：";                        // LEAVE
+"Refuse"            = "否决";                           // REFUSE
+"Look"              = "一览";                           // LOOK
+"ChangeDevice"      = "当前账号已在其他设备上登录";         // CHANGEDEVICE
+"UnSupport"         = "不支持此格式文件";                  // UNSUPPORT
+"NewMessageAttention"     = "新消息提醒";
+"OpenNotify"        = "开启通知";
+"CloseNotify"       = "关闭通知";
+
+
+"Chat_atMe"               = "[有人@我]";
+"Chat_at"                 = "[@我]";
+"Chat_selectPerson"       = "选择群成员";
+"Chat_inputHabit_setting" = "输入习惯设置";
+"Chat_breakLine"          = "换行";
+"Chat_dont_disturb"       = "消息免打扰";
+"Chat_atAll"              = "全体成员";
+"Chat_draft"              = "[草稿]";
+// 应用系统消息
+
+"im_comment"               = "%@在%@留下评论";
+"im_meetingAttend"         = "%@确认参加";
+"im_meetingAttendDefinite" = "%@，%@确认参加";
+"im_meetingRefuseAttend"   = "%@拒绝参加";
+"im_delete"                = "%@删除了%@";
+"im_taskEditStatus"        = "%@修改了%@的状态";
+"im_approvePass"           = "%@通过了%@";
+"im_approveBack"           = "%@打回了%@";
+"im_approveRefuse"         = "%@拒绝了%@";
+"im_approveTranspond"      = "%@转交了%@";
+"im_remindSchedule"        = "%@将在%@开始";
+"im_remindTask"            = "%@将在%@结束";
+"im_remindTaskV2"          = "%@将在%@结束";
+//"im_createTaskV2"          = "创建任务";
+//"im_taskV2Update"          = "修改了任务内容";
+//"im_taskV2ChangeStatus"    = "%@修改了%@的状态";
+//"im_taskV2ChangeDoneStatus"   = "修改任务状态为已完成";
+//"im_taskV2ChangeDoingStatus"  = "修改任务状态为待处理";
+
+
+
+"im_chatcard_undone"          = "未完成";
+"im_chatcard_done"            = "已完成";
+"im_chatcard_systemmessage"   = "系统消息";
+"im_chatcard_transform"       = "转交";
+"im_chatcard_attend"          = "已参加";
+"im_chatcard_notattend"       = "已拒绝";
+
+//新版小卡片
+"im_charcard_remind"              ="将于%@开始";
+"im_chatcard_meeting_attend"      ="确认参加";
+"im_chatcard_meeting_notattend"   ="拒绝参加";
+"im_chatcard_meeting_cancel"      ="会议已取消,%@";
+"im_chatcard_meeting_edit"        ="修改了会议内容";
+"im_chatcard_approve_pass"        ="通过审批";
+//"im_chatcard_approve_back"        ="打回审批,%@";
+//"im_chatcard_approve_refuse"      ="不通过,%@";
+"im_chatcard_approve_back"        ="打回审批,审批意见:%@";
+"IM_CHATCARD_APPROVE_NOINFO"	  ="无";
+"im_chatcard_approve_refuse"      ="否决审批,审批意见:%@";
+"im_chatcard_approve_transpond"   ="转交给%@,审批意见:%@";
+"im_chatcard_task_edittodone"     ="修改任务状态为已完成";
+"im_chatcard_task_edittoundone"   ="修改任务状态为待处理";
+"im_chatcard_task_editcontent"    ="修改了任务内容";
+"im_chatcard_task_delete"         ="任务不存在";
+
+//新版日程
+"newcalendar_inputeventtitle"     ="填写事件标题";
+"newcalendar_onlymecansee"        ="仅自己可见";
+"newcalendar_currentlocation"     ="当前位置";
+"newcalendar_seeotherevent"       ="查看他人日程";
+"newcalendar_backtomyevent"       ="返回我的日程";
+"newcalendar_addlocation"         =" 添加坐标";
+"newcalendar_deletelocation"      ="删除坐标";
+
+//新版任务
+"newtask_contantwordsintask"      ="包含 %@ 字样的任务";
+"newtask_contantattendarintask"   =" %@为参与者的任务";
+
+//新版会议
+"Newmeeting_cancelreason"        ="取消原因";
+"Newmeeting_inputreason"         ="请输入取消原因";
+
+
+// 1-19
+"search_contact"           = "联系人";
+"search_history"           = "聊天记录";
+"search_moreContact"       = "查看更多联系人";
+
+/*********************应用评论翻译**************************/
+"appcomment_refuse_attend"              = "拒绝参加";
+"appcomment_meeting_attend"             = "确定参加";
+"appcomment_unkonw_info"				= "修改了状态";
+"appcomment_meeting_cancel"				= "会议取消,%@";
+"appcomment_approve_pass"               = "通过了 %@";
+"appcomment_approve_back_definite"      = "打回了 %@。 %@";
+"appcomment_approve_refuse_definite"    = "拒绝了 %@。 %@";
+"appcomment_approve_transpond_definite" = "转交了 %@。 %@";
+"appcomment_task_edit_status_definite"  = "修改任务状态为%@";
+
+"appcomment_newapprove_create"          = "创建审批";
+"appcomment_newapprove_edit"            = "编辑审批";
+"appcomment_newapprove_transpondto"     = "转交给%@,审批意见:%@";
+"appcomment_newapprove_pass"            = "通过审批";
+"appcomment_newapprove_back"            = "打回审批,审批意见:%@";
+"appcomment_newapprove_refuse"          = "否决审批,审批意见:%@";
+
+"appcomment_createTask"                 = "创建任务";
+"appcomment_taskUpdate"                 = "修改了任务内容";
+"appcomment_taskChangeStatus"           = "修改了%@的状态";
+
+"Apply_all"                             = "全部审批";
+"Apply_needapply"                       = "待我审批";
+"Apply_sends"                           = "我发出的";
+"Apply_cc"                              = "抄送给我";
+"Apply_done"                            = "审批完成";
+"Apply_choose_applykind"                = "选择审批类型";
+"Apply_input_leavecontent"              = "请输入请假内容";
+"Apply_input_moneycontent"              = "请输入报销内容";
+"Apply_more"                            = "更多";
+"APPLY_SEARCH_CONTAIN_TITLE"			= "包含'%@'字样的申请";
+"APPLY_SEARCH_CONTAIN_NAME"				= "审批人包含'%@'字样的申请";
+
+/*********************二维码**************************/
+"QR_scan"         = "扫描二维码";
+"QR_description"  = "将二维码放入框内，既可自动扫描";
+"QR_web_login"    = "网页登录确认";
+"QR_cancel_login" = "取消登录";
+"QR_Camera_Unavailable_info" = "请在iPhone的“设置”-“隐私”-“相机”功能中，开启应用的相机访问权限";
+
+/*********************关于Launchr**************************/
+"About_launchr_protocol"       = "用户协议";
+"About_launchr_Policy"         = "Privacy Policy";
+"About_launchr_version"        = "当前版本";
+"About_launchr_latest_version" = "最新版本";

@@ -1,0 +1,35 @@
+{
+  "images" : [
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 194,
+          "height" : 1
+        },
+        "cap-insets" : {
+          "bottom" : 529,
+          "top" : 471,
+          "right" : 141,
+          "left" : 181
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "img_login_bg.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b756d551-b4a7-3942-afef-845222c18b5c",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b756d551-b4a7-3942-afef-845222c18b5c" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b756d551-b4a7-3942-afef-845222c18b5c" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B89944B5-57A8-4224-8380-96AC83ABF293",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b756d551-b4a7-3942-afef-845222c18b5c" : "Launchr.iOS151222\/"
+    "b756d551-b4a7-3942-afef-845222c18b5c++505" : "Launchr\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "launcher",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/launcher.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/orc.mintcode.com\/svn\/Launchr.iOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b756d551-b4a7-3942-afef-845222c18b5c"
+    }
+  ]
+}

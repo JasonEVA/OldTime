@@ -1,0 +1,105 @@
+//
+//  PrefixHeader.pch
+//  HMDoctor
+//
+//  Created by yinquan on 16/4/9.
+//  Copyright © 2016年 yinquan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define kIOSDeviceTokenKey      @"deviceToken"
+#define SESESSIONTYPELIST      @"SESESSIONTYPELIST"
+#define SESESSIONTYPEVIEWISSHOWHEAD      @"SESESSIONTYPEVIEWISSHOWHEAD"
+#define SESSIONSTATUS   @"sessionRefreshing"
+#define HMPATIENTCLEANALLUNREDESMESSAGESUCCESS   @"cleanPatientAllUnreadMessageSuccess"
+#define HMWORKCLEANALLUNREDESMESSAGESUCCESS   @"cleanWorkAllUnreadMessageSuccess"
+
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+
+#define DeviceHomePageImg_Width 300.0/375.0*ScreenWidth
+#define DeviceHomePageImg_Height 260.0/667.0*ScreenHeight
+
+#define OBJWidth(orgwidth) orgwidth/375.0*ScreenWidth
+#define ObjWidth(kWidth) kWidth/375.0*ScreenWidth
+#define ObjHeight(kHeight)  kHeight / 667.0 * ScreenHeight
+
+#define kPickerViewHeight @(180)
+
+//自定义事件
+//进入主VC
+#define UMSDK_isOn  1 //0
+#define UMcustomEvent_EnterWorkingDeskVc       @"enterWorkingDeskVc"     //进入工作台界面
+#define UMCustomEvent_EnterPatientVc           @"enterPatientVc"         //进入患者界面
+#define UMCustomEvent_EnetrWorkingGroupVc      @"enterWorkingGroupVc"    //进入工作组界面
+#define UMCustomEvent_EnterToolVc              @"enterToolVc"            //进入工具界面
+#define UMCustomEvent_EnterMeVc                @"enterMeVc"              //进入我的界面
+
+//工作台部分
+#define UMCustomEvent_EnterWorkDesk_Alert           @"enterWorkingDeskAlert"             //工作台 － 预警
+#define UMCustomEvent_EnterWorkDesk_CreateDoc       @"enterWorkingDeskCreateDoc"         //工作台 - 建档
+#define UMCustomEvent_EnterWorkDesk_Assessment      @"enterWorkingDeskAssessment"        //工作台 － 评估
+#define UMCustomEvent_EnterWorkDesk_Survery         @"enterWorkingDeskSurvery"           //工作台 － 随访
+#define UMCustomEvent_EnterWorkDesk_Appointment     @"enterWorkingDeskAppointment"       //工作台 － 约诊
+#define UMCustomEvent_EnterWorkDesk_Cooperation     @"enterWorkingDeskCooperation"       //工作台 － 协同任务
+#define UMCustomEvent_EnterWorkDesk_HealthPlane     @"enterWorkingDeskHealthPlane"       //工作台 － 健康计划
+#define UMCustomEvent_EnterWorkDesk_HealthReport    @"enterWorkingDeskHealthReport"      //工作台 － 健康报告
+#define UMCustomEvent_EnterWorkDesk_CustomMission   @"enterWorkingDeskCustomMission"     //工作台 － 自定义任务
+#define UMCustomEvent_EnterWorkDesk_Check           @"enterWorkingDeskCheck"             //工作台 － 查房
+//患者部分
+#define UMCustomEvent_EnterPatientChatVc       @"enterPatientChatVc"     //患者 － 进入患者聊天页面
+
+//工作组部分
+#define UMCustomEvent_EnterWorkingGroup_singleChat  @"enterWorkingGroupSingleChat" //工作组 － 单聊
+#define UMCustomEvent_EnterWorkingGroup_GroupChat   @"enterWorkingGroupGroupChat"  //工作组 － 群聊
+#define UMCustomEvent_EnvetWorkingGroup_Cooperation @"enterWorkingGroupCooperation"//工作组 － 协同任务
+
+//
+
+
+#import "MJExtension.h"
+#import "ZJKViewInc.h"
+#import "Masonry.h"
+#import "UserInfo.h"
+
+#import "CommonFuncs.h"
+
+#import "UIImage+EX.h"
+#import "UIView+EX.h"
+#import "UIFont+Util.h"
+#import "AlertUtil.h"
+#import "UIColor+Common.h"
+#import "NSAttributedString+EX.h"
+
+#import "PathHelper.h"
+#import "TaskManager.h"
+#import "InitializeHelper.h"
+#import "HMDoctorEnum.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "HMViewControllerManager.h"
+#import "NSObject+JsonExtension.h"
+#import "NSDate+StringFromToday.h"
+
+#import "NSDate+DateTools.h"
+
+#import "AvatarUtil.h"
+#import "StaffPrivilegeHelper.h"
+
+#import "RemoteNoticationHelper.h"
+#import "NSURL+QueryToDictionary.h"
+//用户统计部分
+#ifndef UNITTestTarget
+#import <UMMobClick/MobClick.h>
+#endif //UNITTestTarget
+#import "ActionStatusManager.h"
+
+// 日志
+#import "ATLog.h"
+
+#import "HealthPlanUtil.h"
+
+#endif /* PrefixHeader_pch */
